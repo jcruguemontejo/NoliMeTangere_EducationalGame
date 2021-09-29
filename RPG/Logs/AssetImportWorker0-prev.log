@@ -1,0 +1,1806 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.1237; Version 2004; 64bit' Language: 'en' Physical Memory: 8001 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ASUS/Desktop/RPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59463
+Successfully changed project path to: C:/Users/ASUS/Desktop/RPG
+C:/Users/ASUS/Desktop/RPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Desktop/RPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003501 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 3.715600 ms (FindLiveObjects: 0.485600 ms CreateObjectMapping: 0.098300 ms MarkObjects: 3.031600 ms  DeleteObjects: 0.097900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/Core/Grid.prefab
+  artifactKey: Guid(eb2b7e314075b234780fb9971f5aec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Grid.prefab using Guid(eb2b7e314075b234780fb9971f5aec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c44f3703c5d86e595924212dde367') in 0.067945 seconds 
+  Import took 0.072579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game/Scene Management/LocationPortal.prefab
+  artifactKey: Guid(3f7c54cb052b0ba41838d4de672c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scene Management/LocationPortal.prefab using Guid(3f7c54cb052b0ba41838d4de672c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6ff439d220a8457df6c21b551579ba') in 0.007780 seconds 
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game/Core/Player.prefab
+  artifactKey: Guid(f2f5a68f9f2b4e545a49e6147aa0a0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Player.prefab using Guid(f2f5a68f9f2b4e545a49e6147aa0a0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3799cd5f1ef39036db72ba5361c72b') in 0.184053 seconds 
+  Import took 0.189378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Game/Core/CoreObjectsLoader.prefab
+  artifactKey: Guid(ae0c24774cb515640af845f10a5701d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/CoreObjectsLoader.prefab using Guid(ae0c24774cb515640af845f10a5701d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e330acc80ec03c8eb73b5c338bfd902c') in 0.034748 seconds 
+  Import took 0.039618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Game/Scene Management/Portal.prefab
+  artifactKey: Guid(ecd6836bb6ada4648ae5c594250d8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scene Management/Portal.prefab using Guid(ecd6836bb6ada4648ae5c594250d8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ac012d485046285bf99ba6af8f030') in 0.008620 seconds 
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game/Core/CoreObjects.prefab
+  artifactKey: Guid(84c63c10754173b4780cc7fe05d76462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/CoreObjects.prefab using Guid(84c63c10754173b4780cc7fe05d76462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45faeb9ff623d4a1385fb447a4f894') in 0.031570 seconds 
+  Import took 0.037170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Game/Scene Management/SceneTrigger.prefab
+  artifactKey: Guid(7278efc2e853ee84293b65bc7987c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scene Management/SceneTrigger.prefab using Guid(7278efc2e853ee84293b65bc7987c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e73031f73a42859ad68ba727db891') in 0.012970 seconds 
+  Import took 0.017892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.849790 seconds.
+  path: Assets/Tiles/Background.prefab
+  artifactKey: Guid(1fb6a648d7e8d644b8223386b88ad033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background.prefab using Guid(1fb6a648d7e8d644b8223386b88ad033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319d371a2db525e31017eaa7720bf748') in 0.006881 seconds 
+  Import took 0.011400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tiles/basic_colors_0.asset
+  artifactKey: Guid(943a45862f231294088e5b5d397b19dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/basic_colors_0.asset using Guid(943a45862f231294088e5b5d397b19dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7f2a65d62f007452f8248ccd51d60') in 0.089805 seconds 
+  Import took 0.093687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tiles/Inner_0.asset
+  artifactKey: Guid(d9624896cce397240a1e4daea8641adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_0.asset using Guid(d9624896cce397240a1e4daea8641adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69536a7222f34facb7b83a40317f3212') in 0.015637 seconds 
+  Import took 0.020601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tiles/basic_colors_3.asset
+  artifactKey: Guid(f1d25621c70dea24ab332af8897ce0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/basic_colors_3.asset using Guid(f1d25621c70dea24ab332af8897ce0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fb8c45af89ddd19bc865ec93b0688c') in 0.014489 seconds 
+  Import took 0.020231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tiles/basic_colors_2.asset
+  artifactKey: Guid(68476a7de36647f4eae9f97cdd72d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/basic_colors_2.asset using Guid(68476a7de36647f4eae9f97cdd72d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af500f58c1d7839826baf67ef0fcfa62') in 0.011119 seconds 
+  Import took 0.015951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tiles/Inner_3.asset
+  artifactKey: Guid(af414a3ad67d1524fa43d16e8c3ee55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_3.asset using Guid(af414a3ad67d1524fa43d16e8c3ee55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72357198748436d94917ebbaaeffdc9') in 0.010391 seconds 
+  Import took 0.015332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tiles/Inner_2.asset
+  artifactKey: Guid(8b91f871c54cb234b9b8e25ab8f7be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_2.asset using Guid(8b91f871c54cb234b9b8e25ab8f7be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0deedb643e68bd73fd95e29747fa7f') in 0.017394 seconds 
+  Import took 0.023177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tiles/Basic Colors.prefab
+  artifactKey: Guid(f8ad9060f068f79408fb8e785d960189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Basic Colors.prefab using Guid(f8ad9060f068f79408fb8e785d960189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969721f793b447aa9111e384269adb71') in 0.007006 seconds 
+  Import took 0.012069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tiles/Indoor.prefab
+  artifactKey: Guid(e04f8e640fd52f0418482037a7cc1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Indoor.prefab using Guid(e04f8e640fd52f0418482037a7cc1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5c77562b7dafbe2828671c872bcf25') in 0.009015 seconds 
+  Import took 0.014238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tiles/basic_colors_1.asset
+  artifactKey: Guid(487f0326caba90c45b4735b7808e92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/basic_colors_1.asset using Guid(487f0326caba90c45b4735b7808e92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f333b3a96939df226764d811bdce4012') in 0.014459 seconds 
+  Import took 0.019823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tiles/Inner_1.asset
+  artifactKey: Guid(b26e894974792504085eaac571cfaebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_1.asset using Guid(b26e894974792504085eaac571cfaebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74805225f33598b913954e3eafeab63') in 0.012813 seconds 
+  Import took 0.018437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.748804 seconds.
+  path: Assets/Tiles/Inner_4.asset
+  artifactKey: Guid(7c59ab30b6b24f64cad835e8ed7f8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_4.asset using Guid(7c59ab30b6b24f64cad835e8ed7f8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2077a16f07fa80979fff56e7e026be30') in 0.011972 seconds 
+  Import took 0.017016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tiles/Inner_5.asset
+  artifactKey: Guid(f01010d9ccbce354cbe796951ed2a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_5.asset using Guid(f01010d9ccbce354cbe796951ed2a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb024bcf07078bdd7f7443f21cfc6f20') in 0.012575 seconds 
+  Import took 0.018251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057745 seconds.
+  path: Assets/Tiles/Inner_6.asset
+  artifactKey: Guid(ba56f211dd29e0643a26a8db6909e1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_6.asset using Guid(ba56f211dd29e0643a26a8db6909e1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60066c7185884e34e74126ddc082c663') in 0.017160 seconds 
+  Import took 0.022001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tiles/Inner_7.asset
+  artifactKey: Guid(1b41672b550eedd468a6a6bb51d6bb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_7.asset using Guid(1b41672b550eedd468a6a6bb51d6bb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a71532afbf036a16a948de88d93815f') in 0.013135 seconds 
+  Import took 0.017177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.230448 seconds.
+  path: Assets/Tiles/Inner_8.asset
+  artifactKey: Guid(8da1477600b9b0049ac7586d265a4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_8.asset using Guid(8da1477600b9b0049ac7586d265a4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aad10544b99465394215246fc4d9e22') in 0.062260 seconds 
+  Import took 0.067127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tiles/Inner_11.asset
+  artifactKey: Guid(f38b06cd4fb4a1144a7e0a09d5e3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_11.asset using Guid(f38b06cd4fb4a1144a7e0a09d5e3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7136bd6f8f53797a1ed4e5aef0db0e7') in 0.012453 seconds 
+  Import took 0.017373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Tiles/Inner_13.asset
+  artifactKey: Guid(8e54da634a7bf6a438079ac2ac5cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_13.asset using Guid(8e54da634a7bf6a438079ac2ac5cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9638af3b60c00fb6cdb68c81bb3f386d') in 0.013630 seconds 
+  Import took 0.018353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Tiles/Inner_15.asset
+  artifactKey: Guid(033a7d2016720f6478f542224411b3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_15.asset using Guid(033a7d2016720f6478f542224411b3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dce02e55e121963fb481f1949d2b1bf') in 0.017778 seconds 
+  Import took 0.024258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tiles/Inner_10.asset
+  artifactKey: Guid(5472c05701a8b3645b310052c83daa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_10.asset using Guid(5472c05701a8b3645b310052c83daa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3281b415e38963cb40873f33ae0827') in 0.012894 seconds 
+  Import took 0.018430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001951 seconds.
+  path: Assets/Tiles/Inner_14.asset
+  artifactKey: Guid(ddd9795ab0ad83147b68de661e07d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_14.asset using Guid(ddd9795ab0ad83147b68de661e07d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1113a61e8885c62ddc80a9d3b3037') in 0.020883 seconds 
+  Import took 0.026459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Tiles/Inner_9.asset
+  artifactKey: Guid(b88098fbfcbb48d4086284be4f398b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_9.asset using Guid(b88098fbfcbb48d4086284be4f398b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039b87143a0b1287e62614cb1c3faaf7') in 0.014668 seconds 
+  Import took 0.021277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tiles/Inner_12.asset
+  artifactKey: Guid(8b6b765005f32024bb08257edf1782e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_12.asset using Guid(8b6b765005f32024bb08257edf1782e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c636a72ddfb47796e609e5cafa1872') in 0.075722 seconds 
+  Import took 0.082229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080529 seconds.
+  path: Assets/Tiles/Inner_16.asset
+  artifactKey: Guid(56e18105c4e11e94baf6ba9e4f1b6d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_16.asset using Guid(56e18105c4e11e94baf6ba9e4f1b6d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b022d4585ed3ba26ba145cda9f34bb4') in 0.024052 seconds 
+  Import took 0.030490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Tiles/Inner_18.asset
+  artifactKey: Guid(ef02938d1e95282419917425650237e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_18.asset using Guid(ef02938d1e95282419917425650237e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd6fe24f9f432ad131c915d9c6a1fb6') in 0.019193 seconds 
+  Import took 0.026935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Tiles/Inner_19.asset
+  artifactKey: Guid(fa77c7a962ac3ab4585e69461e78f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_19.asset using Guid(fa77c7a962ac3ab4585e69461e78f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ab469839bbc8d74f8e2bf791c618af') in 0.016205 seconds 
+  Import took 0.022910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Tiles/Inner_22.asset
+  artifactKey: Guid(0df7fada33863644084a9a89cdd17082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_22.asset using Guid(0df7fada33863644084a9a89cdd17082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d3b27f991acd9e76554423532a98d1') in 0.021989 seconds 
+  Import took 0.032689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tiles/Inner_21.asset
+  artifactKey: Guid(82c331824d1f5da4381ce53dd1c3ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_21.asset using Guid(82c331824d1f5da4381ce53dd1c3ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10174299bb73a3087ddbefd98a86d400') in 0.034116 seconds 
+  Import took 0.047142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/Tiles/Inner_23.asset
+  artifactKey: Guid(17104b2ef9572784a81955732bc6434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_23.asset using Guid(17104b2ef9572784a81955732bc6434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb37c4dabf56eabe9820cdfc8e0a74d') in 0.013605 seconds 
+  Import took 0.020847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Tiles/Inner_17.asset
+  artifactKey: Guid(b69791895daabc04391321b272114cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_17.asset using Guid(b69791895daabc04391321b272114cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd43debfce01d9e221bd255ffb1133ad') in 0.012547 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tiles/Inner_20.asset
+  artifactKey: Guid(c0d0499e62a4f6242b98daf75d66bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_20.asset using Guid(c0d0499e62a4f6242b98daf75d66bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b2659907e47395782c16bfa47dd346') in 0.012553 seconds 
+  Import took 0.017996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077944 seconds.
+  path: Assets/Tiles/Inner_24.asset
+  artifactKey: Guid(cae0d32dda6163a4f923837af5a46f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_24.asset using Guid(cae0d32dda6163a4f923837af5a46f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e856e2be3f273517fbe42b97aeb70699') in 0.027934 seconds 
+  Import took 0.034716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Tiles/Inner_26.asset
+  artifactKey: Guid(7561850716d83314ba738dd400f0390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_26.asset using Guid(7561850716d83314ba738dd400f0390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ea8866980cc0554a025a40af707b51') in 0.027577 seconds 
+  Import took 0.043901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Tiles/Inner_28.asset
+  artifactKey: Guid(eb083d7959d4de443b876963b6168f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_28.asset using Guid(eb083d7959d4de443b876963b6168f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d60eccd6e08b609884f0e48c245263') in 0.031042 seconds 
+  Import took 0.045022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Tiles/Inner_27.asset
+  artifactKey: Guid(c37c8bd92bc6e5e43930361e02e452f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_27.asset using Guid(c37c8bd92bc6e5e43930361e02e452f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e25be8c9ef490c1e215dfe1b5e1c804') in 0.060479 seconds 
+  Import took 0.079129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/Tiles/Inner_24.asset
+  artifactKey: Guid(cae0d32dda6163a4f923837af5a46f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_24.asset using Guid(cae0d32dda6163a4f923837af5a46f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e856e2be3f273517fbe42b97aeb70699') in 0.038342 seconds 
+  Import took 0.072630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Tiles/Inner_25.asset
+  artifactKey: Guid(aebee022e3f539640b2f99e79d1fbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_25.asset using Guid(aebee022e3f539640b2f99e79d1fbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3714a7921281218df21c5adb409fec4') in 0.032896 seconds 
+  Import took 0.043307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Tiles/Inner_29.asset
+  artifactKey: Guid(b450da1c86b591549a313fdd14eeae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_29.asset using Guid(b450da1c86b591549a313fdd14eeae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509bdeff80cdde38604b5b14cd7757f') in 0.031964 seconds 
+  Import took 0.044643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657853 seconds.
+  path: Assets/Tiles/Inner_30.asset
+  artifactKey: Guid(eceeeebfb40bc734189d3820c0aa8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_30.asset using Guid(eceeeebfb40bc734189d3820c0aa8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1fbfeed7b82a240a6f595a3b798d0a') in 0.014040 seconds 
+  Import took 0.020200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tiles/Inner_31.asset
+  artifactKey: Guid(a9b70a0ab808e454ebcedd22f5652319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_31.asset using Guid(a9b70a0ab808e454ebcedd22f5652319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a649720664c1ad68737ba90cf232aee2') in 0.013151 seconds 
+  Import took 0.018370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tiles/Inner_65.asset
+  artifactKey: Guid(1e702630abfa93e45ba5f96fa5a05971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_65.asset using Guid(1e702630abfa93e45ba5f96fa5a05971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6f1ab8a3688ef32073e3c38d579747') in 0.013938 seconds 
+  Import took 0.020407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tiles/Inner_66.asset
+  artifactKey: Guid(485ea0bd999201a4aa4a76cba7f8b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_66.asset using Guid(485ea0bd999201a4aa4a76cba7f8b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72335282fe29438eb9659da9f498379') in 0.016953 seconds 
+  Import took 0.023127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tiles/Inner_119.asset
+  artifactKey: Guid(173f406fed185f24db2fd84b17dadd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_119.asset using Guid(173f406fed185f24db2fd84b17dadd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209c1ec34106329c7bc3afb7838abfb5') in 0.015941 seconds 
+  Import took 0.022998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/Tiles/Inner_127.asset
+  artifactKey: Guid(c338ac029044b1f4eb02652a6a515ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_127.asset using Guid(c338ac029044b1f4eb02652a6a515ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c730911ed2b71d841cebaf3164569038') in 0.012465 seconds 
+  Import took 0.018985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Tiles/Inner_123.asset
+  artifactKey: Guid(3accb04eac3750d4da202d0c1be5d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_123.asset using Guid(3accb04eac3750d4da202d0c1be5d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b2017cd8c8c371227b8eec9ba96ce7') in 0.012665 seconds 
+  Import took 0.019106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tiles/Inner_122.asset
+  artifactKey: Guid(8cd961ab78a5ac64db27ff3801ab2724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_122.asset using Guid(8cd961ab78a5ac64db27ff3801ab2724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2bd9dc9dc5057648e00a8d0d908083') in 0.013166 seconds 
+  Import took 0.018766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tiles/Inner_64.asset
+  artifactKey: Guid(869448bb32b49274ebc259b99824e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_64.asset using Guid(869448bb32b49274ebc259b99824e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15b37414f5bc552b1d020006e98978') in 0.015585 seconds 
+  Import took 0.022753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Tiles/Overworld_138.asset
+  artifactKey: Guid(af98500cf3b3934429acd8a62804630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_138.asset using Guid(af98500cf3b3934429acd8a62804630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5925d1a558bde6d0ea0e93c5c4d001') in 0.015125 seconds 
+  Import took 0.020162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Tiles/Overworld_136.asset
+  artifactKey: Guid(0cf1c30d32ea2104ba752a2cabd786c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_136.asset using Guid(0cf1c30d32ea2104ba752a2cabd786c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8201888fa73a176fbc6e38176e3120') in 0.015865 seconds 
+  Import took 0.021151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tiles/Overworld_644.asset
+  artifactKey: Guid(0d2386b01a5f9f84b8421f39c58d1f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_644.asset using Guid(0d2386b01a5f9f84b8421f39c58d1f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a3cdaf126da73329310ce33ddeb075') in 0.021543 seconds 
+  Import took 0.026979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tiles/Overworld_645.asset
+  artifactKey: Guid(b14d18de58eec9948a0557e3d574cdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_645.asset using Guid(b14d18de58eec9948a0557e3d574cdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2556117fe08837ada57e476d6b479872') in 0.012139 seconds 
+  Import took 0.017721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tiles/Overworld_643.asset
+  artifactKey: Guid(d3cfcef5ae5efb64badc1d816173c0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_643.asset using Guid(d3cfcef5ae5efb64badc1d816173c0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc02f2dadd79947b4743a46e4932199') in 0.014032 seconds 
+  Import took 0.018852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Tiles/Overworld_650.asset
+  artifactKey: Guid(1e6addd0761bcac4ca2f1798213d02de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_650.asset using Guid(1e6addd0761bcac4ca2f1798213d02de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903786a43bfada76c1e830902f45823e') in 0.016379 seconds 
+  Import took 0.022886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Tiles/Overworld_1021.asset
+  artifactKey: Guid(0f93d3a8296d6034488fa718a6b56319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1021.asset using Guid(0f93d3a8296d6034488fa718a6b56319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2767f1a5a0fc40761a47692275ddd27') in 0.012167 seconds 
+  Import took 0.017680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tiles/Overworld_1017.asset
+  artifactKey: Guid(5efdfb14092889d4d862d42bb7ab9442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1017.asset using Guid(5efdfb14092889d4d862d42bb7ab9442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf23112006ad203ce439d304cc0bb15') in 0.012744 seconds 
+  Import took 0.018463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Tiles/tileset_90.asset
+  artifactKey: Guid(b98a3307592d41842bf7c1e896074e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_90.asset using Guid(b98a3307592d41842bf7c1e896074e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6691f9a4d338194706e75a7972464b4b') in 0.011527 seconds 
+  Import took 0.016569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Tiles/Overworld_1013.asset
+  artifactKey: Guid(5603fd6da51fa8340ab6dae959e13b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1013.asset using Guid(5603fd6da51fa8340ab6dae959e13b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36bad8588f3dd70def3315d82670d0a') in 0.014489 seconds 
+  Import took 0.019634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Tiles/Overworld_1018.asset
+  artifactKey: Guid(e01d7daa1a4291541babc36aa9690889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1018.asset using Guid(e01d7daa1a4291541babc36aa9690889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da9a604a9b579f4d26439f9589712ac') in 0.013232 seconds 
+  Import took 0.019207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tiles/Overworld_137.asset
+  artifactKey: Guid(6495ceb16950b3847830b48a63045caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_137.asset using Guid(6495ceb16950b3847830b48a63045caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3189c2d35b040375d10ba80aca7487e') in 0.018000 seconds 
+  Import took 0.023504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Tiles/tileset_92.asset
+  artifactKey: Guid(bd2ab451fb9053a49852b24709401266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_92.asset using Guid(bd2ab451fb9053a49852b24709401266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f794efef6b1012c128dd00e3d380798') in 0.010458 seconds 
+  Import took 0.015879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Tiles/Inner_125.asset
+  artifactKey: Guid(8bf3ceeeada46e747af2cc8a469d91d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_125.asset using Guid(8bf3ceeeada46e747af2cc8a469d91d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751dd61eec0df9bda755652d84a251b2') in 0.015917 seconds 
+  Import took 0.022303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Tiles/Inner_63.asset
+  artifactKey: Guid(98c91ebba0972db429b997dd2ae95aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_63.asset using Guid(98c91ebba0972db429b997dd2ae95aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483bbc6f282371d16eeeec16e54a534e') in 0.010680 seconds 
+  Import took 0.016569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tiles/Inner_67.asset
+  artifactKey: Guid(bbe961ef708524a48a01933f72961e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_67.asset using Guid(bbe961ef708524a48a01933f72961e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42e516dab1bfbc6b1dcb3f5468ae25d') in 0.012763 seconds 
+  Import took 0.018710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tiles/Overworld_1012.asset
+  artifactKey: Guid(18ff4e5008c366648983900cf52cb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1012.asset using Guid(18ff4e5008c366648983900cf52cb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549186fbbaa196a3354f1feec2605adf') in 0.019249 seconds 
+  Import took 0.024139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tiles/Overworld_134.asset
+  artifactKey: Guid(3c38419f652247340a94959dd88d91f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_134.asset using Guid(3c38419f652247340a94959dd88d91f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb4066ae756649804cb03ebab04058b') in 0.012924 seconds 
+  Import took 0.018274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tiles/Overworld_131.asset
+  artifactKey: Guid(dc5fb7c471bb6f449930c195098d248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_131.asset using Guid(dc5fb7c471bb6f449930c195098d248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abf2fcf86cb925ab44b5cccb1f1e22e') in 0.018060 seconds 
+  Import took 0.023089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tiles/Overworld_139.asset
+  artifactKey: Guid(2b8ec1d48b1bda346bcfd9f2168b0d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_139.asset using Guid(2b8ec1d48b1bda346bcfd9f2168b0d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f26af9a5eb52f0f5c2c50f5129d747') in 0.013779 seconds 
+  Import took 0.019107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tiles/Overworld_1011.asset
+  artifactKey: Guid(843e2d16579911543a7e30952fd01f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1011.asset using Guid(843e2d16579911543a7e30952fd01f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e070109029c22ee0c21d27ea57657c') in 0.022031 seconds 
+  Import took 0.027924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tiles/Overworld_649.asset
+  artifactKey: Guid(1bf53d3525668004288c8d2aab8f8867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_649.asset using Guid(1bf53d3525668004288c8d2aab8f8867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40b30a382023d2c8328f58a0166b8d2') in 0.014169 seconds 
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tiles/Overworld_1019.asset
+  artifactKey: Guid(03ed26e2563010d4fa8e2ab32c6ec375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1019.asset using Guid(03ed26e2563010d4fa8e2ab32c6ec375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1138bbf328341a90174ba12f56c17dc7') in 0.015676 seconds 
+  Import took 0.021830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Tiles/Inner_118.asset
+  artifactKey: Guid(eacc393008704294d954f02b08b0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_118.asset using Guid(eacc393008704294d954f02b08b0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3849bb0988e9abe4c3bfe21156943fb5') in 0.013919 seconds 
+  Import took 0.019616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tiles/Overworld_651.asset
+  artifactKey: Guid(a71f1f3c950f5a04cb3f3bd38568db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_651.asset using Guid(a71f1f3c950f5a04cb3f3bd38568db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70177be17c605fb93acf73eb23c73049') in 0.017612 seconds 
+  Import took 0.023588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Tiles/Inner_60.asset
+  artifactKey: Guid(7b8eff20972e45148aef506b80b9e45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_60.asset using Guid(7b8eff20972e45148aef506b80b9e45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002601db777b2bb952dbf53941c544f1') in 0.015498 seconds 
+  Import took 0.022032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tiles/Overworld_1014.asset
+  artifactKey: Guid(0d4cbea0a10939846957b165dacfa79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1014.asset using Guid(0d4cbea0a10939846957b165dacfa79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8a4df85ce3325b3b3fef120c7238ab') in 0.017517 seconds 
+  Import took 0.023260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Tiles/Inner_61.asset
+  artifactKey: Guid(548fb9026327ae647a53eb5146e65fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_61.asset using Guid(548fb9026327ae647a53eb5146e65fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20798b75e1499340e1a3eea27a555b98') in 0.013788 seconds 
+  Import took 0.019727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/Tiles/Inner_62.asset
+  artifactKey: Guid(fca5c32c7793f014f91ffe9560c6bfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_62.asset using Guid(fca5c32c7793f014f91ffe9560c6bfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ab60264db78b275aa2caaed45a3ba9') in 0.015313 seconds 
+  Import took 0.020902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tiles/Overworld_1016.asset
+  artifactKey: Guid(71181728527610a40bcf89ad91ea9401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1016.asset using Guid(71181728527610a40bcf89ad91ea9401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f59b031f56e95e77626bbfe574d00d') in 0.015235 seconds 
+  Import took 0.020362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tiles/Overworld_132.asset
+  artifactKey: Guid(40277e80c4d791548a43613183e00c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_132.asset using Guid(40277e80c4d791548a43613183e00c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716cc938360abc87b4c8331d95316e8b') in 0.014764 seconds 
+  Import took 0.022610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/Tiles/Inner_32.asset
+  artifactKey: Guid(a123aa18209b1864bad12bd125602973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_32.asset using Guid(a123aa18209b1864bad12bd125602973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0022ebc0f7c32c208bb1213ecedc5bb6') in 0.014268 seconds 
+  Import took 0.021095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tiles/Overworld_135.asset
+  artifactKey: Guid(f2e5cb912545acf4b8ada579f493a1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_135.asset using Guid(f2e5cb912545acf4b8ada579f493a1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5c5219c79430bdc748b09ea274df02') in 0.017981 seconds 
+  Import took 0.023765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tiles/Inner_124.asset
+  artifactKey: Guid(8da029e22b5e1ff4e989a2b2223bc7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_124.asset using Guid(8da029e22b5e1ff4e989a2b2223bc7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b932f3588585cae3b31963aa9e345e12') in 0.012061 seconds 
+  Import took 0.017317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tiles/Overworld_1015.asset
+  artifactKey: Guid(9d29d5a16bcadcf4db0df0f8aba58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1015.asset using Guid(9d29d5a16bcadcf4db0df0f8aba58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a7bc784ea078b5c9bb4814847116f3') in 0.020261 seconds 
+  Import took 0.026009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Tiles/Overworld_647.asset
+  artifactKey: Guid(f92039c7dc10c0e449a617e800c2f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_647.asset using Guid(f92039c7dc10c0e449a617e800c2f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8526bd2d5662fbe718cfea3863935049') in 0.013554 seconds 
+  Import took 0.019290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tiles/Overworld_648.asset
+  artifactKey: Guid(aedf303a947f9d542a29ef6a2454b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_648.asset using Guid(aedf303a947f9d542a29ef6a2454b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86113c6aa8b42cf7a16846fe6887c69f') in 0.021417 seconds 
+  Import took 0.026110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Tiles/Overworld_133.asset
+  artifactKey: Guid(42662214bb815c341937348d02eac13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_133.asset using Guid(42662214bb815c341937348d02eac13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ce28c65344c58e05627986c7eb30a9') in 0.014554 seconds 
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Tiles/Overworld_653.asset
+  artifactKey: Guid(5c46ef13fbfaf8d4bb71c5e763535fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_653.asset using Guid(5c46ef13fbfaf8d4bb71c5e763535fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e36fe22e5bc86686560834046e62152') in 0.021555 seconds 
+  Import took 0.028676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Tiles/Overworld_652.asset
+  artifactKey: Guid(3c703fe6e925983489367d8f4c71b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_652.asset using Guid(3c703fe6e925983489367d8f4c71b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db3623df8785d4efc85bef556e3686f') in 0.015782 seconds 
+  Import took 0.022848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tiles/tileset_97.asset
+  artifactKey: Guid(f59f66e4ee0e4e64491f8b366cce93f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_97.asset using Guid(f59f66e4ee0e4e64491f8b366cce93f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30c5ff5eed238a171c6b88f6a1d70e1') in 0.022909 seconds 
+  Import took 0.029803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Tiles/Inner_117.asset
+  artifactKey: Guid(0c561f01bbc0c3a4db461cbc7881117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_117.asset using Guid(0c561f01bbc0c3a4db461cbc7881117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f770746cf1227d47581d250c4888338') in 0.015889 seconds 
+  Import took 0.021443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tiles/tileset_94.asset
+  artifactKey: Guid(a63bb52232b6e6d4e90375bc00e84256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_94.asset using Guid(a63bb52232b6e6d4e90375bc00e84256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab33533a803d201e72de73aaae363dd') in 0.024032 seconds 
+  Import took 0.030478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Tiles/Overworld_129.asset
+  artifactKey: Guid(fab7bbc7aa3d03740aa712f14d74170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_129.asset using Guid(fab7bbc7aa3d03740aa712f14d74170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b567689a3718e5aa7a18c3573af836') in 0.018758 seconds 
+  Import took 0.025504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Tiles/tileset_95.asset
+  artifactKey: Guid(8cfc82ee1d24c7e46b68e52aa4a83921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_95.asset using Guid(8cfc82ee1d24c7e46b68e52aa4a83921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab60ec8a08f8b7bd68d7ca5c032a1ef1') in 0.016244 seconds 
+  Import took 0.023238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Tiles/Inner_68.asset
+  artifactKey: Guid(f7ad6feec3856e74391781924f31bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_68.asset using Guid(f7ad6feec3856e74391781924f31bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f991ac98b79e80d0b42a75fc38d146') in 0.017056 seconds 
+  Import took 0.025111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Tiles/Overworld_1020.asset
+  artifactKey: Guid(d94f082fda21ec8478378cc86828cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_1020.asset using Guid(d94f082fda21ec8478378cc86828cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f0c3f473fc95e1d253b31891adb15b') in 0.016169 seconds 
+  Import took 0.023037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tiles/Inner_69.asset
+  artifactKey: Guid(fdfeab03bba1c6246ba3671eb414191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_69.asset using Guid(fdfeab03bba1c6246ba3671eb414191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2351fb0380e68afd27a2e179fbb645') in 0.015529 seconds 
+  Import took 0.021313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Tiles/Inner_120.asset
+  artifactKey: Guid(17733d76491057d48b4dd2df8fb43fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_120.asset using Guid(17733d76491057d48b4dd2df8fb43fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f2717e4a1977d8dc1ad4680e5b670a') in 0.018088 seconds 
+  Import took 0.023787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tiles/Inner_126.asset
+  artifactKey: Guid(08e3d61598babe04ca594541bd407723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_126.asset using Guid(08e3d61598babe04ca594541bd407723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af566a982d30d023a05a75976f598486') in 0.012838 seconds 
+  Import took 0.018575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Tiles/tileset_93.asset
+  artifactKey: Guid(39ff3894f5f75054db7da4039eac7198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_93.asset using Guid(39ff3894f5f75054db7da4039eac7198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfed0b9daae9230a7725e30140cfe51') in 0.017819 seconds 
+  Import took 0.023602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tiles/Overworld_130.asset
+  artifactKey: Guid(9b35b3e0759b5f54b883359134b94fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_130.asset using Guid(9b35b3e0759b5f54b883359134b94fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0cf36fbb45e130addfd434e1e210db') in 0.016023 seconds 
+  Import took 0.021176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Tiles/tileset_91.asset
+  artifactKey: Guid(287b56b0cc3e1e743b6d97e378b681d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_91.asset using Guid(287b56b0cc3e1e743b6d97e378b681d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31781b79c2485c00f500270fa700cfd9') in 0.013326 seconds 
+  Import took 0.020660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Tiles/Inner_33.asset
+  artifactKey: Guid(634f656393ec4a143832878097921e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_33.asset using Guid(634f656393ec4a143832878097921e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc8a52bec54a06991784f7a2adc0311') in 0.014534 seconds 
+  Import took 0.020815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tiles/Inner_59.asset
+  artifactKey: Guid(4d53111ab2997c04c939898c1b29e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_59.asset using Guid(4d53111ab2997c04c939898c1b29e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb2d3bd7085be70da15c1ab0d44e4a1') in 0.012675 seconds 
+  Import took 0.018053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tiles/Inner_121.asset
+  artifactKey: Guid(ccb8ce3674ea1cc46ae169c0f14b525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_121.asset using Guid(ccb8ce3674ea1cc46ae169c0f14b525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdd87665cbbd46785571df5c8d3d6ee') in 0.014104 seconds 
+  Import took 0.019783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tiles/tileset_96.asset
+  artifactKey: Guid(0ff8cc88ba7161548ba8a271ce4d82c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_96.asset using Guid(0ff8cc88ba7161548ba8a271ce4d82c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1c133e3c7eb695f609fe8086de4eb4') in 0.016841 seconds 
+  Import took 0.023373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Tiles/Overworld_646.asset
+  artifactKey: Guid(a033e219306f2384e9083fd81fdef552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_646.asset using Guid(a033e219306f2384e9083fd81fdef552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68861431eef73047df2c27ebc8811179') in 0.020021 seconds 
+  Import took 0.025857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.888427 seconds.
+  path: Assets/Tiles/tileset_76.asset
+  artifactKey: Guid(3c13d4ee87a43b4408df82ef6e880bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_76.asset using Guid(3c13d4ee87a43b4408df82ef6e880bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985e55068ca1aee313511ae718413a36') in 0.074131 seconds 
+  Import took 0.079316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tiles/tileset_78.asset
+  artifactKey: Guid(851a063a2e1458f4186379585b507033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_78.asset using Guid(851a063a2e1458f4186379585b507033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599afefc5c67ffd9993a630322ba14c4') in 0.011564 seconds 
+  Import took 0.016127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tiles/tileset_80.asset
+  artifactKey: Guid(b487b91b2d1168646bbd81cf550cb466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_80.asset using Guid(b487b91b2d1168646bbd81cf550cb466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7cefb2ababa78b0485493e59c06987') in 0.012022 seconds 
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Tiles/tileset_86.asset
+  artifactKey: Guid(70716476e91949548a68845d50ac72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_86.asset using Guid(70716476e91949548a68845d50ac72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de5702ff194c86ceac9d4f7135b9deb') in 0.011283 seconds 
+  Import took 0.016419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Tiles/tileset_37.asset
+  artifactKey: Guid(ba89447c4f07c494e9701644ea9d7156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_37.asset using Guid(ba89447c4f07c494e9701644ea9d7156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75761ac9b9680d1654cad2fcfddceabe') in 0.018630 seconds 
+  Import took 0.023391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Tiles/tileset_40.asset
+  artifactKey: Guid(889f0a37fd1b763428ea150a71c93ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_40.asset using Guid(889f0a37fd1b763428ea150a71c93ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27498b78b6c7132774e4ad6cc5e72f2e') in 0.010828 seconds 
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tiles/tileset_38.asset
+  artifactKey: Guid(5dbc88b77cfcfd14ca3d2044cfda30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_38.asset using Guid(5dbc88b77cfcfd14ca3d2044cfda30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b43619fd89a4d9af3199020dce97348') in 0.011923 seconds 
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tiles/Overworld_995.asset
+  artifactKey: Guid(d80df57420f31d54a8e814b071d413f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_995.asset using Guid(d80df57420f31d54a8e814b071d413f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1094b5f8b8c18698002d4e25669366') in 0.013612 seconds 
+  Import took 0.021031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tiles/Overworld_725.asset
+  artifactKey: Guid(23196086a2d0fbb4a85f14a2c16c932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_725.asset using Guid(23196086a2d0fbb4a85f14a2c16c932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834ca851070f50df17ec35afd04c12b2') in 0.013670 seconds 
+  Import took 0.018643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tiles/Overworld_990.asset
+  artifactKey: Guid(3a8f3217f3a2bbc408404e44d22db30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_990.asset using Guid(3a8f3217f3a2bbc408404e44d22db30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a835d564445138c3fa911228857f7c1b') in 0.015998 seconds 
+  Import took 0.020995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tiles/tileset_85.asset
+  artifactKey: Guid(feb750a9616763c40a4f18f4d6c4ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_85.asset using Guid(feb750a9616763c40a4f18f4d6c4ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd509de8dcb5d212a6ba29183f9789aea') in 0.011545 seconds 
+  Import took 0.016607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tiles/Overworld_260.asset
+  artifactKey: Guid(3e8ad822c9700434296743e7b14cd8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_260.asset using Guid(3e8ad822c9700434296743e7b14cd8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ed03a73f5136dafd0d8dc8f53ed14f') in 0.014732 seconds 
+  Import took 0.020829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tiles/tileset_79.asset
+  artifactKey: Guid(2ff26f566278457409b1f09dd8a5fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_79.asset using Guid(2ff26f566278457409b1f09dd8a5fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8533ed0399caafb2067c92b29a0fbdb7') in 0.011992 seconds 
+  Import took 0.017331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Tiles/Overworld_729.asset
+  artifactKey: Guid(31b21770265461048bba7f7dee569f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_729.asset using Guid(31b21770265461048bba7f7dee569f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9431410db6355ea143cadf9a2854ecf') in 0.012859 seconds 
+  Import took 0.018071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Tiles/Overworld_37.asset
+  artifactKey: Guid(1a1aff2ebde454b45ab493f958a51cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_37.asset using Guid(1a1aff2ebde454b45ab493f958a51cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acee955aa1e86ec51d8827ea6eae5eb2') in 0.018329 seconds 
+  Import took 0.023951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Tiles/Overworld_44.asset
+  artifactKey: Guid(0eab7687410932c4f9dc8fc9dd3bdd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_44.asset using Guid(0eab7687410932c4f9dc8fc9dd3bdd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdc6047427beb5e6a46a47916ac76ad') in 0.012453 seconds 
+  Import took 0.017298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tiles/Overworld_257.asset
+  artifactKey: Guid(9e35b6dd5618f2a49b932fac793cf59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_257.asset using Guid(9e35b6dd5618f2a49b932fac793cf59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcd7724c3b4fa53bdc5d1a9d7c131b2') in 0.013851 seconds 
+  Import took 0.018892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tiles/Inner_173.asset
+  artifactKey: Guid(89c7959d4b20f3e44b49bb4c4e3ddf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_173.asset using Guid(89c7959d4b20f3e44b49bb4c4e3ddf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da9d0051c642c5955c5b0b66f040d9') in 0.015784 seconds 
+  Import took 0.021863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tiles/Inner_175.asset
+  artifactKey: Guid(ed89b55f21fef384e947ef444a0be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_175.asset using Guid(ed89b55f21fef384e947ef444a0be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf59a08a6ec28664206d16150328e34') in 0.012665 seconds 
+  Import took 0.017673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tiles/Inner_176.asset
+  artifactKey: Guid(c8a5807b4e4d8c94c84b8edbe2978ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_176.asset using Guid(c8a5807b4e4d8c94c84b8edbe2978ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b545517cc8a6eb6fcce286e5a984c2d8') in 0.016681 seconds 
+  Import took 0.022134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Tiles/Inner_71.asset
+  artifactKey: Guid(740eb768bcf10074398f2d1329f3d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_71.asset using Guid(740eb768bcf10074398f2d1329f3d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc64bb98425d4de513b9860f11d4f954') in 0.043417 seconds 
+  Import took 0.051684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/Tiles/tileset_36.asset
+  artifactKey: Guid(781f72550a0427142bc0ae625c38de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_36.asset using Guid(781f72550a0427142bc0ae625c38de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468ec209b5a6b60b8a9c867e6a99f96f') in 0.010499 seconds 
+  Import took 0.016033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tiles/Overworld_43.asset
+  artifactKey: Guid(30ddd08e534f74b4ea289f6269a4dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_43.asset using Guid(30ddd08e534f74b4ea289f6269a4dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435830876697c66a3b1b0473561cbfdc') in 0.013501 seconds 
+  Import took 0.018850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Tiles/Overworld_478.asset
+  artifactKey: Guid(dc878499a41fb8341ad008666e6e509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_478.asset using Guid(dc878499a41fb8341ad008666e6e509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad874a07ea1e49042252a91d7357b465') in 0.019559 seconds 
+  Import took 0.025609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Tiles/Overworld_735.asset
+  artifactKey: Guid(20ee15aa64cba524b963a0620fe5a81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_735.asset using Guid(20ee15aa64cba524b963a0620fe5a81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf77e50b2350b413936d0911535ed6') in 0.014245 seconds 
+  Import took 0.020124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Tiles/tileset_82.asset
+  artifactKey: Guid(3a3dbe42fd2a4c9449c6628a81a2b0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_82.asset using Guid(3a3dbe42fd2a4c9449c6628a81a2b0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589f655352300acd3be97e06af649e7d') in 0.014550 seconds 
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Tiles/Inner_177.asset
+  artifactKey: Guid(3b9e389690cad0844b118304335c7b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_177.asset using Guid(3b9e389690cad0844b118304335c7b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f014057b704d214c983937d22061b0') in 0.015685 seconds 
+  Import took 0.021106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tiles/Overworld_863.asset
+  artifactKey: Guid(7710009aece39274090777de5a0f9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_863.asset using Guid(7710009aece39274090777de5a0f9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adba2374d813eeea947f79f3e5353aaf') in 0.016210 seconds 
+  Import took 0.022489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Tiles/Overworld_856.asset
+  artifactKey: Guid(75e1e440877e65b4b95858a961fea61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_856.asset using Guid(75e1e440877e65b4b95858a961fea61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b5660f9ea7f3b61b1c6b8277d4ea32') in 0.015619 seconds 
+  Import took 0.021045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Tiles/Overworld_264.asset
+  artifactKey: Guid(e9a5982ce8e2a954a91957c7b911b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_264.asset using Guid(e9a5982ce8e2a954a91957c7b911b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfe20442cdddf4626bf99338c10bdf3') in 0.013451 seconds 
+  Import took 0.019156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Tiles/Overworld_994.asset
+  artifactKey: Guid(a03bcc77fe79e834087ebede0d1bba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_994.asset using Guid(a03bcc77fe79e834087ebede0d1bba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27e188a9d377fb83e9e18dfe51a296b') in 0.016865 seconds 
+  Import took 0.021760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tiles/Overworld_859.asset
+  artifactKey: Guid(03394b40d2bb9644697bdc342bb7db6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_859.asset using Guid(03394b40d2bb9644697bdc342bb7db6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbcd600a95004693c3c67cb318629e3') in 0.013953 seconds 
+  Import took 0.019148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Tiles/tileset_46.asset
+  artifactKey: Guid(b2348189c6e2f5347ac41585237131a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_46.asset using Guid(b2348189c6e2f5347ac41585237131a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84528a9ceefc841f4158ec6c0cd86a42') in 0.014670 seconds 
+  Import took 0.020658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tiles/Overworld_855.asset
+  artifactKey: Guid(d0ea9598a7017f54ab517dc2111381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_855.asset using Guid(d0ea9598a7017f54ab517dc2111381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a802c14dc11b4b717d6ddb5eb02f6812') in 0.011759 seconds 
+  Import took 0.017126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tiles/Overworld_860.asset
+  artifactKey: Guid(636092a47b62a4e478bff3392e65843d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_860.asset using Guid(636092a47b62a4e478bff3392e65843d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29d370e3fb1650e929558a2d11d0ae3') in 0.013785 seconds 
+  Import took 0.019184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Tiles/Overworld_265.asset
+  artifactKey: Guid(18403d54991d0bd4cbc5bf1c29d0f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_265.asset using Guid(18403d54991d0bd4cbc5bf1c29d0f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f4e43a8319210c610e736050149086') in 0.016196 seconds 
+  Import took 0.021603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Tiles/Overworld_999.asset
+  artifactKey: Guid(38cd3cf3c032c3b4abcf05dc9a35bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_999.asset using Guid(38cd3cf3c032c3b4abcf05dc9a35bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5289d27c673469579d9d526f88d8d575') in 0.016801 seconds 
+  Import took 0.022458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Tiles/Overworld_484.asset
+  artifactKey: Guid(200ada956ad9b41498a310cd8856e962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_484.asset using Guid(200ada956ad9b41498a310cd8856e962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b5b2a3b4bd07fa33356fa5fa66d216') in 0.012315 seconds 
+  Import took 0.018445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tiles/Overworld_42.asset
+  artifactKey: Guid(b52335ceb8d0f354bba7be84fabaee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_42.asset using Guid(b52335ceb8d0f354bba7be84fabaee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d32248ee66227d076370306fc283d25') in 0.016173 seconds 
+  Import took 0.021435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tiles/Overworld_732.asset
+  artifactKey: Guid(c1266d4781007b04c868a6fccc78f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_732.asset using Guid(c1266d4781007b04c868a6fccc78f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6b111d10067c26890c405187107a31') in 0.014311 seconds 
+  Import took 0.020113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tiles/Overworld_485.asset
+  artifactKey: Guid(3137e767b0f4aeb4b96258107833f435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_485.asset using Guid(3137e767b0f4aeb4b96258107833f435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d37d71e2afe1b531c238bac2053ffc') in 0.014014 seconds 
+  Import took 0.019462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Tiles/tileset_42.asset
+  artifactKey: Guid(819b328857f661b4a9caa746411c7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_42.asset using Guid(819b328857f661b4a9caa746411c7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524ab9540b24e6693428191aa7e459d6') in 0.016432 seconds 
+  Import took 0.022371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Tiles/Overworld_989.asset
+  artifactKey: Guid(b9b4272b5575b9a46aabbb1dfc6fbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_989.asset using Guid(b9b4272b5575b9a46aabbb1dfc6fbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965f36915b47beb800964958f85dc643') in 0.013870 seconds 
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tiles/Inner_172.asset
+  artifactKey: Guid(2cd222c5886f5ca469896c1aabb3c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_172.asset using Guid(2cd222c5886f5ca469896c1aabb3c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020b3ccd0608b15998542c379d0b8297') in 0.019980 seconds 
+  Import took 0.025431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tiles/tileset_83.asset
+  artifactKey: Guid(f0541c4e42758b34792b91d0de9450fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_83.asset using Guid(f0541c4e42758b34792b91d0de9450fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411c3a2cab4efc2bf4be599a2c4e0130') in 0.010787 seconds 
+  Import took 0.016190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tiles/Inner_180.asset
+  artifactKey: Guid(ae6bcb83dcf7d724eae3f5ef44274b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_180.asset using Guid(ae6bcb83dcf7d724eae3f5ef44274b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3bfa97d4c6b6741f0e0d7992e57f0d') in 0.020390 seconds 
+  Import took 0.026643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Tiles/Overworld_482.asset
+  artifactKey: Guid(67ff4ca245996ea4888acc08b8776099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_482.asset using Guid(67ff4ca245996ea4888acc08b8776099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc7737a567463af7d2c79484d5281d') in 0.014198 seconds 
+  Import took 0.019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tiles/Overworld_992.asset
+  artifactKey: Guid(6618e0373b3cb304db9d73fe2c5c6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_992.asset using Guid(6618e0373b3cb304db9d73fe2c5c6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5096fc8179f5881018d54c71f342fcde') in 0.016860 seconds 
+  Import took 0.022331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Tiles/Overworld_862.asset
+  artifactKey: Guid(fdf377bb597801a4fb0f249e75eed17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_862.asset using Guid(fdf377bb597801a4fb0f249e75eed17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254736309009d90e2294bbc1c0bc79f7') in 0.036882 seconds 
+  Import took 0.044374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tiles/Overworld_258.asset
+  artifactKey: Guid(5c4b8e1cad6585241856598d71134995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_258.asset using Guid(5c4b8e1cad6585241856598d71134995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc5fffdfcb24bdd801d2ee54d1853c4') in 0.037147 seconds 
+  Import took 0.046703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tiles/Overworld_256.asset
+  artifactKey: Guid(202b01183b2b38b4eb41a9bd92745efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_256.asset using Guid(202b01183b2b38b4eb41a9bd92745efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbb73d7cce91a36492a1a50a6539bda') in 0.041427 seconds 
+  Import took 0.046590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001993 seconds.
+  path: Assets/Tiles/Overworld_726.asset
+  artifactKey: Guid(5ab4fc043a789554bb44c3e2f23f0d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_726.asset using Guid(5ab4fc043a789554bb44c3e2f23f0d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c9885d3b554570119788495342aa1e') in 0.130635 seconds 
+  Import took 0.138263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Tiles/Overworld_39.asset
+  artifactKey: Guid(92344c5ffe494084283b7923b6f83ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_39.asset using Guid(92344c5ffe494084283b7923b6f83ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db2d04dd128cd943cbc7c4d1602a561') in 0.037442 seconds 
+  Import took 0.056657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Tiles/Overworld_993.asset
+  artifactKey: Guid(854283ef4a5df1d47819ef045a84ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_993.asset using Guid(854283ef4a5df1d47819ef045a84ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295f663c5ed3fc318ea088e20bc1d86c') in 0.053945 seconds 
+  Import took 0.062646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tiles/Overworld_479.asset
+  artifactKey: Guid(3d207470ba18e3343a1c93b86df27bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_479.asset using Guid(3d207470ba18e3343a1c93b86df27bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3bdb501ceb1adc711f007bbbffeb94') in 0.062798 seconds 
+  Import took 0.071366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Tiles/Overworld_45.asset
+  artifactKey: Guid(182e23a1e643fa844a8d6d4c0750a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_45.asset using Guid(182e23a1e643fa844a8d6d4c0750a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6666558a5dda8e4dc657185df54b70') in 0.043358 seconds 
+  Import took 0.054288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tiles/tileset_39.asset
+  artifactKey: Guid(9998942e822ab354483ca9f465ff578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_39.asset using Guid(9998942e822ab354483ca9f465ff578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd513c34dcf4651de4c443b9dfc94a1') in 0.014005 seconds 
+  Import took 0.019504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tiles/tileset_44.asset
+  artifactKey: Guid(9a4145e3249e3a241a840a815f162512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_44.asset using Guid(9a4145e3249e3a241a840a815f162512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d45c6b6542aae26136716c67f030b22') in 0.018387 seconds 
+  Import took 0.028162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Tiles/Overworld_734.asset
+  artifactKey: Guid(7e0d4643f518cde468d90ad00d6cbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_734.asset using Guid(7e0d4643f518cde468d90ad00d6cbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a500cff2aefc66247923a97ce3bf95a') in 0.016561 seconds 
+  Import took 0.023529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tiles/Overworld_861.asset
+  artifactKey: Guid(efe1e4301f5779344b64b9470ca57f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_861.asset using Guid(efe1e4301f5779344b64b9470ca57f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6450cc7884e18d014272b2dc92b11c') in 0.024826 seconds 
+  Import took 0.030630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Tiles/Overworld_864.asset
+  artifactKey: Guid(994c8ac11edd582438d5671d8b8b20b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_864.asset using Guid(994c8ac11edd582438d5671d8b8b20b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce7859d6de28e335fd62093c6685d29') in 0.016271 seconds 
+  Import took 0.022648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tiles/tileset_43.asset
+  artifactKey: Guid(bc3468d4ff5459e46ab745ab24f5b564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_43.asset using Guid(bc3468d4ff5459e46ab745ab24f5b564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6075d6f1348cfa01edb1e696216d4cc') in 0.029014 seconds 
+  Import took 0.035304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/Tiles/Overworld_865.asset
+  artifactKey: Guid(7797a07548994564298e84bed320a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_865.asset using Guid(7797a07548994564298e84bed320a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734625de33f6615e13072a1c2757d66c') in 0.026815 seconds 
+  Import took 0.033434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Tiles/Overworld_481.asset
+  artifactKey: Guid(14b36d404b1c0dd4f9a38324c69b01d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_481.asset using Guid(14b36d404b1c0dd4f9a38324c69b01d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd5148accb18bff66aca73d729b2847') in 0.018760 seconds 
+  Import took 0.038559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Tiles/Overworld_41.asset
+  artifactKey: Guid(eff6f22e46737ec479544bbcbe9f6704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_41.asset using Guid(eff6f22e46737ec479544bbcbe9f6704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540f71e0e2e39b3af65edd9802f690b') in 0.016057 seconds 
+  Import took 0.024325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tiles/Overworld_46.asset
+  artifactKey: Guid(9cb382393f8cfc24d8834e05f74ff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_46.asset using Guid(9cb382393f8cfc24d8834e05f74ff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffa322f5b0ca6c50fe7512a6781d9de') in 0.024974 seconds 
+  Import took 0.031407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/Overworld_998.asset
+  artifactKey: Guid(216b93d23b47b524bbced79861aabbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_998.asset using Guid(216b93d23b47b524bbced79861aabbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4f1917795a1a7bf98037f975b7c6f5') in 0.012934 seconds 
+  Import took 0.020183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tiles/Overworld_476.asset
+  artifactKey: Guid(d692c60b4e7675c41be7eb76628432f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_476.asset using Guid(d692c60b4e7675c41be7eb76628432f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3117c188fd9b5092bc758b67bf1e95e0') in 0.018873 seconds 
+  Import took 0.024021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Tiles/Inner_178.asset
+  artifactKey: Guid(eec9fc0656ee6764dad1436902a3c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_178.asset using Guid(eec9fc0656ee6764dad1436902a3c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2248d011e8de47110fbde409e0c0e8') in 0.013625 seconds 
+  Import took 0.019077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiles/Overworld_858.asset
+  artifactKey: Guid(ce5c1bb6874e36e4381357f02b5623ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_858.asset using Guid(ce5c1bb6874e36e4381357f02b5623ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb1cbe58b92386c5d0e21d7930eb985') in 0.021360 seconds 
+  Import took 0.026846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tiles/Inner_181.asset
+  artifactKey: Guid(ae3233be2ea0e10409d325b5632accc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_181.asset using Guid(ae3233be2ea0e10409d325b5632accc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f891927943be4e89a50dffe69f6aa30') in 0.012597 seconds 
+  Import took 0.019396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Tiles/Overworld_996.asset
+  artifactKey: Guid(8fb4d220d54bb2745b554346cc49cbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_996.asset using Guid(8fb4d220d54bb2745b554346cc49cbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44311d51031bb3064d1ef748b185f1') in 0.021372 seconds 
+  Import took 0.027375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tiles/Overworld_259.asset
+  artifactKey: Guid(9a98d8f2d0c149c48acd9a5e2dd45cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_259.asset using Guid(9a98d8f2d0c149c48acd9a5e2dd45cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bcf2a98558e93878190beec577a996') in 0.014587 seconds 
+  Import took 0.021494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Tiles/Overworld_255.asset
+  artifactKey: Guid(5bc1c617c3b9abf47b4d9e7237602b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_255.asset using Guid(5bc1c617c3b9abf47b4d9e7237602b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4168188654a8763f342784fe97d31d06') in 0.019283 seconds 
+  Import took 0.025274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tiles/tileset_81.asset
+  artifactKey: Guid(0915ad827fe80b04d8f163bddd6c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_81.asset using Guid(0915ad827fe80b04d8f163bddd6c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664d1be9e417612e74c30fb49c1247a1') in 0.011554 seconds 
+  Import took 0.016955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Tiles/Overworld_475.asset
+  artifactKey: Guid(18096b6fc5a76384c95af94b08bc1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_475.asset using Guid(18096b6fc5a76384c95af94b08bc1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69881e2255fffa8e98d844debbbcca1') in 0.015605 seconds 
+  Import took 0.020793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tiles/Overworld_483.asset
+  artifactKey: Guid(871c2c65ad8b8ee4bab477194ad29964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_483.asset using Guid(871c2c65ad8b8ee4bab477194ad29964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881a4ab4d5e11e28adf36e75e30e086b') in 0.020658 seconds 
+  Import took 0.027879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tiles/Overworld_263.asset
+  artifactKey: Guid(223d95ec58636894db9b54abe95d848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_263.asset using Guid(223d95ec58636894db9b54abe95d848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b88cb586c9eefd37fe42fe14c48a7c') in 0.015841 seconds 
+  Import took 0.020974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Tiles/Overworld_480.asset
+  artifactKey: Guid(2eed1dffc475c4941b2251fa49ffaaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_480.asset using Guid(2eed1dffc475c4941b2251fa49ffaaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95874fcee191da494f9aaff6444409eb') in 0.014037 seconds 
+  Import took 0.020382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Tiles/Inner_171.asset
+  artifactKey: Guid(b9576793b961f5f41a6dbcdf648bcfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_171.asset using Guid(b9576793b961f5f41a6dbcdf648bcfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc02454ee940e7933b9ddfae9d7b3f9c') in 0.014068 seconds 
+  Import took 0.019559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tiles/Overworld_262.asset
+  artifactKey: Guid(50d850cd7aff1b145a8a4a31d5b95a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_262.asset using Guid(50d850cd7aff1b145a8a4a31d5b95a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bef1465395bed9b40da4e7e009d28b1') in 0.014536 seconds 
+  Import took 0.020472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Tiles/Overworld_997.asset
+  artifactKey: Guid(fa46d0f3d0bdf6d47bcc72b998a905c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_997.asset using Guid(fa46d0f3d0bdf6d47bcc72b998a905c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c23f02e6195043a4268dacc2a95dd5') in 0.016140 seconds 
+  Import took 0.021043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/Tiles/Inner_174.asset
+  artifactKey: Guid(7bacd4f9063714845b50299225586886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_174.asset using Guid(7bacd4f9063714845b50299225586886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b57a89841673c68bc64f3fd8edece') in 0.011307 seconds 
+  Import took 0.018082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tiles/tileset_84.asset
+  artifactKey: Guid(c11bf2890e0e3db4bbed24aad193ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_84.asset using Guid(c11bf2890e0e3db4bbed24aad193ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf1c3dd096e3e420430e8c2ea9242c4') in 0.011106 seconds 
+  Import took 0.016549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Tiles/Overworld_477.asset
+  artifactKey: Guid(d07a809c91f976045a98a5cff6cc1850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_477.asset using Guid(d07a809c91f976045a98a5cff6cc1850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07248dc329ddbaa6d5eb3dad6583377f') in 0.020361 seconds 
+  Import took 0.025627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tiles/Overworld_40.asset
+  artifactKey: Guid(7b731407a39fe3640a3f844e6183074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_40.asset using Guid(7b731407a39fe3640a3f844e6183074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f623e76d32c6477721d15cbf95745e') in 0.015970 seconds 
+  Import took 0.021633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000945 seconds.
+  path: Assets/Tiles/Overworld_38.asset
+  artifactKey: Guid(54e31ba78e73ffb489a72cbd34b8b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_38.asset using Guid(54e31ba78e73ffb489a72cbd34b8b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f737cb8f9968aab446d28092ba6b0') in 0.023632 seconds 
+  Import took 0.029410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Tiles/Overworld_731.asset
+  artifactKey: Guid(1ec2a3dd740e3ed4c9b2902ea190d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_731.asset using Guid(1ec2a3dd740e3ed4c9b2902ea190d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc3015976759706834f13a6afa434b1') in 0.015774 seconds 
+  Import took 0.023121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Tiles/Overworld_47.asset
+  artifactKey: Guid(8e701647bce00a947945f8de4bf7cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_47.asset using Guid(8e701647bce00a947945f8de4bf7cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1664602f18628b7a168cd4c0d9741a3') in 0.037823 seconds 
+  Import took 0.045461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Tiles/Overworld_991.asset
+  artifactKey: Guid(3abab0d02b177064f86942312c420b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_991.asset using Guid(3abab0d02b177064f86942312c420b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29704003f5ec0c6aba8d7b8fca5094f8') in 0.013941 seconds 
+  Import took 0.019679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tiles/Inner_179.asset
+  artifactKey: Guid(d1d4731f34c4b7b45a06154c10117f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_179.asset using Guid(d1d4731f34c4b7b45a06154c10117f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a962ab5bb78d22f3ef216e2830ab1f0c') in 0.014691 seconds 
+  Import took 0.020282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Tiles/tileset_77.asset
+  artifactKey: Guid(dd348355ca4c0c740ac32945a4712864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_77.asset using Guid(dd348355ca4c0c740ac32945a4712864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e68462b8d61ce0788336f4a014e0d8d') in 0.015883 seconds 
+  Import took 0.021158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tiles/Overworld_730.asset
+  artifactKey: Guid(ba4dfabc635a9be4a8d54b0e7d8f8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_730.asset using Guid(ba4dfabc635a9be4a8d54b0e7d8f8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f722bafe400ce5ba003cc102bf11019') in 0.023294 seconds 
+  Import took 0.028867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Tiles/Overworld_733.asset
+  artifactKey: Guid(f62740de31b2262469a53dea243dee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_733.asset using Guid(f62740de31b2262469a53dea243dee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b122e7846a9209c0b0b5c3a0b57782fb') in 0.023365 seconds 
+  Import took 0.029011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Tiles/Overworld_857.asset
+  artifactKey: Guid(c9423e3b3eb18ad4eaa171de61d8ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_857.asset using Guid(c9423e3b3eb18ad4eaa171de61d8ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c065febec9ce662c017534d8176c7b5') in 0.041405 seconds 
+  Import took 0.047472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tiles/tileset_41.asset
+  artifactKey: Guid(446aef36194d6a94fad59bcb929d6a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_41.asset using Guid(446aef36194d6a94fad59bcb929d6a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a0362617da2016c45ed8cb364fccca') in 0.015588 seconds 
+  Import took 0.020631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tiles/Inner_70.asset
+  artifactKey: Guid(b8f1f1824be06d64c8d4be6aecd53a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Inner_70.asset using Guid(b8f1f1824be06d64c8d4be6aecd53a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b40cfe66b62b443e27f25658665e74') in 0.020973 seconds 
+  Import took 0.027092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Tiles/Overworld_728.asset
+  artifactKey: Guid(19107a0f84d43d24798ff5b1556ec642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_728.asset using Guid(19107a0f84d43d24798ff5b1556ec642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03522ebe1950e669159f057d376f42ed') in 0.015224 seconds 
+  Import took 0.020786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tiles/tileset_45.asset
+  artifactKey: Guid(3b3450a534cefaa47b121f13b1860819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/tileset_45.asset using Guid(3b3450a534cefaa47b121f13b1860819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52085a55d4ac270c26c70c933614ebe7') in 0.019882 seconds 
+  Import took 0.026260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Tiles/Overworld_261.asset
+  artifactKey: Guid(074fc89eacd988147a19f0c65d3e49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_261.asset using Guid(074fc89eacd988147a19f0c65d3e49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e11f2618007782e7abebf998bd3f02c') in 0.015748 seconds 
+  Import took 0.021921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Tiles/Overworld_727.asset
+  artifactKey: Guid(e91ac8da5b3b0ef47bdccadae8d2f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Overworld_727.asset using Guid(e91ac8da5b3b0ef47bdccadae8d2f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0a044eb4b26ed644f1ed90464a894c') in 0.019814 seconds 
+  Import took 0.027724 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.8 MB.
+System memory in use after: 57.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2710.
+Total: 4.763500 ms (FindLiveObjects: 0.551500 ms CreateObjectMapping: 0.139200 ms MarkObjects: 4.039700 ms  DeleteObjects: 0.031200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
