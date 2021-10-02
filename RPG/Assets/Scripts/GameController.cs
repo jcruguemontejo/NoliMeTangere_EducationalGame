@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
 
+    QuizManager qManager;
+
     GameState gameState;
     GameState stateBeforePaused;
 
@@ -68,6 +70,18 @@ public class GameController : MonoBehaviour
     {
         gameState = GameState.Cutscene;
         StartCoroutine(qm.triggerNPC(playerController));
+    }
+
+    public void startQuiz(GameObject quiz)
+    {
+        gameState = GameState.Quizmode;
+        quiz.SetActive(true);
+    }
+
+    public void endQuiz(GameObject quiz)
+    {
+        gameState = GameState.Freeroam;
+        quiz.SetActive(false);
     }
 
     public void setCurScene(SceneDetails curScene)

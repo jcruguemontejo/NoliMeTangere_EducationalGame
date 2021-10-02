@@ -9,12 +9,15 @@ public class QuizMaster : MonoBehaviour
     [SerializeField] Dialogue dialogue;
     [SerializeField] GameObject exclamationMark;
     [SerializeField] GameObject fov;
+    [SerializeField] GameObject quiz;
 
     Character character;
+
 
     private void Awake()
     {
         character = GetComponent<Character>();
+
     }
 
     private void Start()
@@ -37,6 +40,7 @@ public class QuizMaster : MonoBehaviour
         StartCoroutine(DialogueManager.instance.ShowDialogue(dialogue, name, () => 
         {
             Debug.Log("Start Quiz");
+            GameController.Instance.startQuiz(quiz);
         }));
     }
 
