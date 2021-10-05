@@ -21,6 +21,8 @@ public class QuizManager : MonoBehaviour
     int totalItems = 0;
     public int score = 0;
 
+    public QuizMaster quizMaster;
+
     private void Awake()
     {
         totalItems = QnA.Count;
@@ -33,6 +35,7 @@ public class QuizManager : MonoBehaviour
     {
         GameController.Instance.endQuiz(QuizHolder);
         quizMasterFov.SetActive(false);
+        quizMaster.quizDone(true);
     }
 
     void quizOver()

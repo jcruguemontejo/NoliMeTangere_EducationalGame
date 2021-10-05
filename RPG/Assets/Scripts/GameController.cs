@@ -8,8 +8,6 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
 
-    QuizManager qManager;
-
     GameState gameState;
     GameState stateBeforePaused;
 
@@ -59,6 +57,16 @@ public class GameController : MonoBehaviour
         if(gameState == GameState.Freeroam)
         {
             playerController.HandleUpdate();
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                SavingSystem.i.Save("NMT_EG_2");
+            }
+
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                SavingSystem.i.Load("NMT_EG_2");
+            }
         }
         else if (gameState == GameState.Dialogue)
         {

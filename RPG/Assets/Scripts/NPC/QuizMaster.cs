@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuizMaster : MonoBehaviour
+public class QuizMaster : MonoBehaviour, ISavable
 {
     [SerializeField] new string name;
     [SerializeField] Dialogue dialogue;
     [SerializeField] GameObject exclamationMark;
-    [SerializeField] GameObject fov;
+    [SerializeField] GameObject quizMasterFov;
     [SerializeField] GameObject quiz;
 
     Character character;
 
+    public bool isQuizFinish = false;
+
+    public static QuizMaster Instance { get; private set; }
 
     private void Awake()
     {
         character = GetComponent<Character>();
-
     }
 
     private void Start()
@@ -59,6 +61,25 @@ public class QuizMaster : MonoBehaviour
             angle = 180f;
         }
 
-        fov.transform.eulerAngles = new Vector3(0f, 0f, angle);
+        quizMasterFov.transform.eulerAngles = new Vector3(0f, 0f, angle);
+    }
+
+    public void quizDone(bool isDone)
+    {
+        isQuizFinish = isDone;
+    }
+
+    public object CaptureState()
+    {
+        return isQuizFinish;
+    }
+
+    public void RestoreState(object state)
+    {
+        isQuizFinish = (bool)state;
+        if (isQuizFinish)
+        {
+            quizMasterFov.gameObject.SetActive(false);
+        }
     }
 }

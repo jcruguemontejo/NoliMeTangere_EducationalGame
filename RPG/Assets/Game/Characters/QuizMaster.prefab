@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 99488947792683209}
   - component: {fileID: 99488947792683214}
   - component: {fileID: 99488947792683215}
+  - component: {fileID: 4833391204933880275}
   m_Layer: 7
   m_Name: QuizMaster
   m_TagString: Untagged
@@ -494,8 +495,22 @@ MonoBehaviour:
     lines:
     - 'Iho, paumanhin na pero may ilang katanungan lang ako saiyo iho. '
   exclamationMark: {fileID: 99488947212189365}
-  fov: {fileID: 99488948489994868}
+  quizMasterFov: {fileID: 99488948489994868}
   quiz: {fileID: 5560554783571909179}
+  isQuizFinish: 0
+--- !u!114 &4833391204933880275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99488947792683212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4881f89f8b930e34489bbb86116ccd4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 
 --- !u!1 &99488948489994868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5560554784289152926}
   - component: {fileID: 5560554784289152925}
+  - component: {fileID: 8004440896523438030}
   m_Layer: 0
   m_Name: QuizManager
   m_TagString: Untagged
@@ -2241,3 +2257,17 @@ MonoBehaviour:
   QuizOver: {fileID: 5560554783375198650}
   quizMasterFov: {fileID: 99488948489994868}
   score: 0
+  quizMaster: {fileID: 99488947792683215}
+--- !u!114 &8004440896523438030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5560554784289152927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4881f89f8b930e34489bbb86116ccd4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 
