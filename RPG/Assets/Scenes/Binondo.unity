@@ -11858,6 +11858,103 @@ PolygonCollider2D:
       - {x: -28.923248, y: -20.011902}
       - {x: 16.922379, y: -19.891485}
       - {x: 17.01527, y: 6.2619023}
+--- !u!1001 &1488039532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683212, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: m_Name
+      value: QuizMaster (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683214, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: defualtFaceDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833391204933880275, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: uniqueId
+      value: f40c8d3a-ebe4-4644-bbad-2befde28b099
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: Sino ang nagsulat ng nobelang Noli Me Tangere??
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: Antonio Luna
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: Andres Bonifacio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: Crisostomo Ibarra
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: Jose Rizal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
 --- !u!1 &1673959556
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637635706425437614
-    m_Hash: 1065953301
+      ticks: 637694504184580914
+    m_Hash: 1883278514
   m_LockFileStatus:
     m_FilePath: C:/Users/ASUS/Desktop/Capstone Project/NME_EG/RPG/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637635706425997694
-    m_Hash: 4059965621
+      ticks: 637694504184600965
+    m_Hash: 2435565679
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

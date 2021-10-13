@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,8 @@ public class SceneDetails : MonoBehaviour
     
     public bool isLoaded { get; private set; }
 
+    List<SavableEntity> savableEntity;
+
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Player")
         {
@@ -16,16 +19,15 @@ public class SceneDetails : MonoBehaviour
             LoadScene();
             GameController.Instance.setCurScene(this);
 
-            // Load Connected Scences
             foreach (var scene in connectedScenes)
             {
                 scene.LoadScene();
             }
 
-            // Unload Scenes not connected
-            if (GameController.Instance.prevScene != null)
+            var prevScene = GameController.Instance.prevScene;
+            if (prevScene != null)
             {
-                var prevLodedScenes = GameController.Instance.prevScene.connectedScenes;
+                var prevLodedScenes = prevScene.connectedScenes;
                 foreach(var scene in prevLodedScenes)
                 {
                     if(!connectedScenes.Contains(scene) && scene != this)
@@ -33,6 +35,12 @@ public class SceneDetails : MonoBehaviour
                         scene.unloadScene();
                     }
                 }
+
+                if (!connectedScenes.Contains(prevScene))
+                {
+                    prevScene.unloadScene();
+                }
+                    
             }
         }
     }
@@ -40,9 +48,14 @@ public class SceneDetails : MonoBehaviour
     {
         if(!isLoaded)
         {
-            SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
+            var operation = SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
             isLoaded = true;
-            
+
+            operation.completed += (AsyncOperation op) =>
+            {
+                savableEntity = GetSavableEntities();
+                SavingSystem.i.RestoreEntityStates(savableEntity);
+            };
         }
     }
 
@@ -50,10 +63,19 @@ public class SceneDetails : MonoBehaviour
     {
         if (isLoaded)
         {
+            SavingSystem.i.CaptureEntityStates(savableEntity);
+
             SceneManager.UnloadSceneAsync(gameObject.name);
             isLoaded = false;
-
         }
+    }
+
+    List<SavableEntity> GetSavableEntities()
+    {
+
+        var currScene = SceneManager.GetSceneByName(gameObject.name);
+        var savableEntities = FindObjectsOfType<SavableEntity>().Where(x => x.gameObject.scene == currScene).ToList();
+        return savableEntities;
     }
 }
 

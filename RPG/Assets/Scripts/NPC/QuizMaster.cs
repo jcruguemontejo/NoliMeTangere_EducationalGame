@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,9 @@ public class QuizMaster : MonoBehaviour, ISavable
 
     Character character;
 
-    public bool isQuizFinish = false;
+    bool isQuizDone = false;
+    int score = 0;
+    int quizItems = 0;
 
     public static QuizMaster Instance { get; private set; }
 
@@ -64,22 +67,43 @@ public class QuizMaster : MonoBehaviour, ISavable
         quizMasterFov.transform.eulerAngles = new Vector3(0f, 0f, angle);
     }
 
-    public void quizDone(bool isDone)
+    public void quizDone(bool isDone, int score, int totalItems)
     {
-        isQuizFinish = isDone;
+        isQuizDone = isDone;
+        this.score = score;
+        quizItems = totalItems;
     }
 
     public object CaptureState()
     {
-        return isQuizFinish;
+        var saveData = new QuizSaveData()
+        {
+            quizFinish = isQuizDone,
+            quizScore = score,
+            totalQuizItems = quizItems
+        };
+        return saveData;
     }
 
     public void RestoreState(object state)
     {
-        isQuizFinish = (bool)state;
-        if (isQuizFinish)
+        var saveData = (QuizSaveData)state;
+
+        score = saveData.quizScore;
+        quizItems = saveData.totalQuizItems;
+        isQuizDone = saveData.quizFinish;
+        if (isQuizDone)
         {
             quizMasterFov.gameObject.SetActive(false);
         }
+        Debug.Log(score+" / "+quizItems+" "+isQuizDone);
     }
+}
+
+[Serializable]
+public class QuizSaveData
+{
+    public bool quizFinish = false;
+    public int quizScore;
+    public int totalQuizItems;
 }
