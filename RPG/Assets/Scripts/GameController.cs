@@ -15,11 +15,14 @@ public class GameController : MonoBehaviour
 
     public SceneDetails prevScene {get; private set; }
 
+    PauseMenuControl pauseMenuControl;
+
     public static GameController Instance { get; private set; }
 
     private void Awake()
     {
         Instance = this;
+        pauseMenuControl = GetComponent<PauseMenuControl>();
     }
 
     private void Start()
@@ -58,6 +61,12 @@ public class GameController : MonoBehaviour
         {
             playerController.HandleUpdate();
 
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                pauseMenuControl.openPauseMenu();
+                pauseGame(true);
+            }
+
             if (Input.GetKeyDown(KeyCode.E))
             {
                 SavingSystem.i.Save("NMT_EG_2");
@@ -71,6 +80,10 @@ public class GameController : MonoBehaviour
         else if (gameState == GameState.Dialogue)
         {
             DialogueManager.instance.HandleUpdate();
+        }
+        else if (gameState == GameState.Paused)
+        {
+            pauseMenuControl.HandleUpdate();
         }
     }
 
@@ -91,6 +104,12 @@ public class GameController : MonoBehaviour
         gameState = GameState.Freeroam;
         quiz.SetActive(false);
     }
+
+    //public void closePauseMenu()
+    //{
+    //    pauseMenuControl.closePauseMenu();
+    //    pauseGame(false);
+    //}
 
     public void setCurScene(SceneDetails curScene)
     {
