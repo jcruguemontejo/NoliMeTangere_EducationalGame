@@ -81,10 +81,6 @@ public class GameController : MonoBehaviour
         {
             DialogueManager.instance.HandleUpdate();
         }
-        else if (gameState == GameState.Paused)
-        {
-            pauseMenuControl.HandleUpdate();
-        }
     }
 
     public void onEnterQuizMasterView(QuizMaster qm)
@@ -104,12 +100,6 @@ public class GameController : MonoBehaviour
         gameState = GameState.Freeroam;
         quiz.SetActive(false);
     }
-
-    //public void closePauseMenu()
-    //{
-    //    pauseMenuControl.closePauseMenu();
-    //    pauseGame(false);
-    //}
 
     public void setCurScene(SceneDetails curScene)
     {

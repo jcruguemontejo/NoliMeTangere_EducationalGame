@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuControl : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] GameObject btnPause;
     List<Button> pauseMenuBtn;
 
     private void Awake()
@@ -17,15 +19,17 @@ public class PauseMenuControl : MonoBehaviour
     public void openPauseMenu()
     {
         pauseMenu.SetActive(true);
+        btnPause.SetActive(false);
     }
     public void closePauseMenu()
     {
         pauseMenu.SetActive(false);
+        btnPause.SetActive(true);
         GameController.Instance.pauseGame(false);
     }
 
-    public void HandleUpdate()
+    public void goToMainMenu()
     {
-
+        SceneManager.LoadScene(0);
     }
 }
