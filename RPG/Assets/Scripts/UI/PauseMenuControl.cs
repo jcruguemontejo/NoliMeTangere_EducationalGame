@@ -9,6 +9,7 @@ public class PauseMenuControl : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject btnPause;
+    [SerializeField] GameObject coreGameObject;
     List<Button> pauseMenuBtn;
 
     private void Awake()
@@ -31,5 +32,11 @@ public class PauseMenuControl : MonoBehaviour
     public void goToMainMenu()
     {
         SceneManager.LoadScene(0);
+        Destroy(coreGameObject);
+    }
+
+    public void saveGame()
+    {
+
     }
 }

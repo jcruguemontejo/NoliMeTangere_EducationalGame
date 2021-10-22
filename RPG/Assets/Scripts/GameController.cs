@@ -61,16 +61,16 @@ public class GameController : MonoBehaviour
         {
             playerController.HandleUpdate();
 
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                pauseMenuControl.openPauseMenu();
-                pauseGame(true);
-            }
+            //if (Input.GetKeyDown(KeyCode.Return))
+            //{
+            //    pauseMenuControl.openPauseMenu();
+            //    pauseGame(true);
+            //}
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                SavingSystem.i.Save("NMT_EG_2");
-            }
+            //if (Input.GetKeyDown(KeyCode.E))
+            //{
+            //    SavingSystem.i.Save("NMT_EG_2");
+            //}
 
             if (Input.GetKeyDown(KeyCode.L))
             {
@@ -81,6 +81,16 @@ public class GameController : MonoBehaviour
         {
             DialogueManager.instance.HandleUpdate();
         }
+    }
+
+    public void saveGame()
+    {
+        SavingSystem.i.Save("NMT_EG");
+    }
+
+    public void loadGame()
+    {
+        SavingSystem.i.Load("NMT_EG");
     }
 
     public void onEnterQuizMasterView(QuizMaster qm)

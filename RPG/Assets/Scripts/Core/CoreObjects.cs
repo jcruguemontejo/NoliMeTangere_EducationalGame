@@ -8,13 +8,4 @@ public class CoreObjects : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
-
-    void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    {
-        if (scene.buildIndex == 0)
-        {
-            Destroy(gameObject);
-            Debug.Log("I am inside the if statement");
-        }
-    }
 }

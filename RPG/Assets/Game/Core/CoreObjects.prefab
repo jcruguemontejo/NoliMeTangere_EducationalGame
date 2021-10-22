@@ -284,7 +284,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1139739209185639716}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1949904069536598198}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: saveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1852780096009204214
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1048642066171217133}
   btnPause: {fileID: 3755943572203560469}
+  coreGameObject: {fileID: 4672659209645551520}
 --- !u!114 &951547151251635873
 MonoBehaviour:
   m_ObjectHideFlags: 0
