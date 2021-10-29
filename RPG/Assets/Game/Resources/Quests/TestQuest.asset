@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a77895b376177499896125b7c5a493, type: 3}
+  m_Name: TestQuest
+  m_EditorClassIdentifier: 
+  title: 
+  description: 
+  characterName: Crisostomo Ibarra
+  startDialogue:
+    lines:
+    - Pwede mo bang kausapin ang taong nasa may bahay?
+  inProgressDialogue:
+    lines:
+    - Andoon siya malapit sa mga bahay sa may gilid.
+  completedDialogue:
+    lines:
+    - Salamat iho
+  doneTalking: 0
+  targetCharacter: {fileID: 0}

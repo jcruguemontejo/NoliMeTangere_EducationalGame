@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    public void StartGame()
+    public void StartNewGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void LoadSavedGame()
+    {
+        Debug.Log("Load Saved Game");   
     }
 }

@@ -37,6 +37,6 @@ public class PauseMenuControl : MonoBehaviour
 
     public void saveGame()
     {
-
+        GameController.Instance.saveGame();
     }
 }

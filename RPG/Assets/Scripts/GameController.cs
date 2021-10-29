@@ -27,19 +27,18 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        DialogueManager.instance.onShowDialogue += () =>
+        DialogueManager.Instance.onShowDialogue += () =>
         {
             gameState = GameState.Dialogue;
         };
 
-        DialogueManager.instance.onCloseDialogue += () =>
+        DialogueManager.Instance.onCloseDialogue += () =>
         {
             if(gameState == GameState.Dialogue)
             {
                 gameState = GameState.Freeroam;
             }
         };
-
     }
 
     public void pauseGame(bool pause)
@@ -74,12 +73,12 @@ public class GameController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.L))
             {
-                SavingSystem.i.Load("NMT_EG_2");
+                SavingSystem.i.Load("NMT_EG");
             }
         }
         else if (gameState == GameState.Dialogue)
         {
-            DialogueManager.instance.HandleUpdate();
+            DialogueManager.Instance.HandleUpdate();
         }
     }
 

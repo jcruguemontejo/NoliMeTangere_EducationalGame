@@ -37,7 +37,7 @@ public class QuizManager : MonoBehaviour
     {
         GameController.Instance.endQuiz(QuizHolder);
         quizMasterFov.SetActive(false);
-        quizMaster.quizDone(true, score, totalItems);
+        quizMaster.quizDone(true/*, score, totalItems*/);
     }
 
     void quizOver()

@@ -285,8 +285,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1949904069536598198}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+      - m_Target: {fileID: 7341803457102283708}
+        m_TargetAssemblyTypeName: PauseMenuControl, Assembly-CSharp
         m_MethodName: saveGame
         m_Mode: 1
         m_Arguments:

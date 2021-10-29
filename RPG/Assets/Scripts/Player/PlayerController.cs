@@ -2,15 +2,26 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour, ISavable
 {
     private Vector2 input;
     private Character character;
-   
+    
+    //int miniScore = 0;
+    //int majorScore = 0;
+    //int miniTotalItems = 0;
+    //int majorTotalItems = 0;
+    //int scene;
+
+    public static PlayerController Instance { get; set; }
+
     private void Awake()
     {
         character = GetComponent<Character>();
+        //scene = SceneManager.GetActiveScene().buildIndex;
+
     }
 
     public void HandleUpdate()
@@ -32,11 +43,11 @@ public class PlayerController : MonoBehaviour, ISavable
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Interact();
+            StartCoroutine(Interact());
         }
     }
 
-    void Interact()
+    IEnumerator Interact()
     {
         var facingDir = new Vector3(character.anim.moveX, character.anim.moveY);
         var interactPos = transform.position + facingDir;
@@ -44,7 +55,7 @@ public class PlayerController : MonoBehaviour, ISavable
         var collider = Physics2D.OverlapCircle(interactPos, 0.3f, GameLayers.i.interactableLayer);
         if (collider != null)
         {
-            collider.GetComponent<Interactable>()?.Interact(transform);
+            yield return collider.GetComponent<Interactable>()?.Interact(transform);
         }
     }
 
@@ -65,9 +76,34 @@ public class PlayerController : MonoBehaviour, ISavable
         }
     }
 
+    //public void setQuizData(int score, bool isMiniQuiz, int items)
+    //{
+    //    if (isMiniQuiz)
+    //    {
+    //        miniScore += score;
+    //        miniTotalItems += items;
+    //    }
+    //    else
+    //    {
+    //        majorScore = score;
+    //        majorTotalItems = items;
+    //    }
+    //}
+
     public object CaptureState()
     {
-        float[] position = new float[] { transform.position.x, transform.position.y };
+        //var saveData = new ImportantSaveData()
+        //{
+        //position = new float[] { transform.position.x, transform.position.y },
+        //miniQuizScore = miniScore,
+        //miniQuizItems = miniTotalItems,
+        //majorQuizScore = majorScore,
+        //majorQuizItems = majorTotalItems,
+        //sceneIndex = scene
+        //};
+        float[] position = new float[]
+        {transform.position.x, transform.position.y};
+
         return position;
     }
 
@@ -75,9 +111,33 @@ public class PlayerController : MonoBehaviour, ISavable
     {
         var position = (float[])state;
         transform.position = new Vector3(position[0], position[1]);
+
+        //var saveData = (ImportantSaveData)state;
+
+        //miniScore = saveData.miniQuizScore;
+        //miniTotalItems = saveData.miniQuizItems;
+        //majorScore = saveData.majorQuizScore;
+        //majorTotalItems = saveData.majorQuizItems;
+        //transform.position = new Vector3(saveData.position[0], saveData.position[1]);
+        //SceneManager.LoadSceneAsync(saveData.sceneIndex);
+
+        //Debug.Log("Mini Quiz" + miniScore + " / " + miniTotalItems);
+        //Debug.Log("Major Quiz" + majorScore + " / " + majorTotalItems);
     }
 
 
     public Character Char => character;
 
+}
+
+[Serializable]
+public class ImportantSaveData
+{
+    //public int miniQuizScore;
+    //public int majorQuizScore;
+    //public int miniQuizItems;
+    //public int majorQuizItems;
+    //public int sceneIndex;
+    //public float[] position;
+    
 }
