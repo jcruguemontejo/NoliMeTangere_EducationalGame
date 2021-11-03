@@ -21,6 +21,7 @@ public class NPCController : MonoBehaviour, Interactable
     private void Awake()
     {
         character = GetComponent<Character>();
+
     }
 
     public IEnumerator Interact(Transform initiator)
@@ -34,21 +35,25 @@ public class NPCController : MonoBehaviour, Interactable
             {
                 //Start Quest
                 activeQuest = new Quest(questToStart);
-                yield return activeQuest.StartQuest();
+                yield return activeQuest.StartQuest(name);
                 questToStart = null;
             }
             else if (activeQuest != null)
             {
                 yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.onProgressDialogue, name);
                 
-                if (true)
-                {
-
-                }
             }
-            else
+            else if (questToComplete == null && activeQuest == null)
             {
                 yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
+            }
+            else if (questToComplete != null)
+            {
+                var quest = new Quest(questToComplete);
+                yield return quest.CompleteQuest(name);
+                questToComplete = null;
+
+                Debug.Log($"{questToComplete.Title} completed");
             }
 
             idleTimer = 0f; 

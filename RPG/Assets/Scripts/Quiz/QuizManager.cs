@@ -7,7 +7,7 @@ public class QuizManager : MonoBehaviour
 {
     public List<QnA> QnA;
     public GameObject[] choices;
-    public bool isMiniQuiz;
+    public bool isMiniQuiz = false;
 
     public int currQuestion;
 
@@ -38,6 +38,8 @@ public class QuizManager : MonoBehaviour
         GameController.Instance.endQuiz(QuizHolder);
         quizMasterFov.SetActive(false);
         quizMaster.quizDone(true/*, score, totalItems*/);
+        GameController.Instance.quizResult(isMiniQuiz, score, totalItems);
+        GameController.Instance.saveGame();
     }
 
     void quizOver()

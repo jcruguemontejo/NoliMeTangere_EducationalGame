@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a77895b376177499896125b7c5a493, type: 3}
   m_Name: TestQuest
   m_EditorClassIdentifier: 
-  title: 
+  title: Kausapin si Crisostomo Ibarra
   description: 
   characterName: Crisostomo Ibarra
   startDialogue:
@@ -22,7 +22,6 @@ MonoBehaviour:
     lines:
     - Andoon siya malapit sa mga bahay sa may gilid.
   completedDialogue:
-    lines:
-    - Salamat iho
+    lines: []
   doneTalking: 0
   targetCharacter: {fileID: 0}

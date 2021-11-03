@@ -13,16 +13,16 @@ public class Quest
         Base = questBase;
     }
 
-    public IEnumerator StartQuest()
+    public IEnumerator StartQuest(string name)
     {
         Status = QuestStatus.Started;
-        yield return DialogueManager.Instance.ShowDialogue(Base.onStartDialogue, Base.onCharName);
+        yield return DialogueManager.Instance.ShowDialogue(Base.onStartDialogue, name);
     }
 
-    public IEnumerator CompleteQuest()
+    public IEnumerator CompleteQuest(string name)
     {
         Status = QuestStatus.Completed;
-        yield return DialogueManager.Instance.ShowDialogue(Base.onCompleteDialogue, Base.onCharName);
+        yield return DialogueManager.Instance.ShowDialogue(Base.onCompleteDialogue, name);
     }
 }
 

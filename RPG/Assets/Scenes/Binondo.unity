@@ -519,6 +519,10 @@ PrefabInstance:
       propertyPath: uniqueId
       value: 9ade547b-90f6-4d91-a870-bccdc2f2b0e2
       objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: isMiniQuiz
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
 --- !u!1 &1007946078
@@ -11862,83 +11866,111 @@ PolygonCollider2D:
       - {x: -28.923248, y: -20.011902}
       - {x: 16.922379, y: -19.891485}
       - {x: 17.01527, y: 6.2619023}
---- !u!1001 &1143652691
+--- !u!1001 &1474181344
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
-      propertyPath: questToStart
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
-      propertyPath: timeBetweenPattern
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
-      propertyPath: movePattern.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
-      propertyPath: movePattern.Array.data[0].x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
-      propertyPath: movePattern.Array.data[1].x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: 10.5
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8
+      value: -0.8
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683189, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 153799119434189343, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+    - target: {fileID: 99488947792683212, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
       propertyPath: m_Name
-      value: NPC (1)
+      value: QuizMaster (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683214, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: defualtFaceDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 99488947792683215, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: isMiniQuiz
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833391204933880275, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: uniqueId
+      value: 15bba547-011c-4f51-a52c-981279d012b3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: isMiniQuiz
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: Sino ang nagsulat ng nobelang Noli Me Tangere??
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: Antonio Luna
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: Andres Bonifacio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: Crisostomo Ibarra
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: Jose Rizal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
 --- !u!1001 &1488039532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16508,6 +16540,10 @@ PrefabInstance:
       propertyPath: questToStart
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ff002d00175361458031433f4749ff0, type: 2}
     - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
       propertyPath: movePattern.Array.data[0].x
       value: 3

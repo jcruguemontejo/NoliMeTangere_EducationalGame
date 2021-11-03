@@ -8,8 +8,12 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
 
+    [SerializeField] GameObject startMenuPanel;
+    [SerializeField] GameObject btnPause;
+
     GameState gameState;
     GameState stateBeforePaused;
+
 
     public SceneDetails currentScene {get; private set; }
 
@@ -23,6 +27,7 @@ public class GameController : MonoBehaviour
     {
         Instance = this;
         pauseMenuControl = GetComponent<PauseMenuControl>();
+        gameState = GameState.Paused;
     }
 
     private void Start()
@@ -39,6 +44,20 @@ public class GameController : MonoBehaviour
                 gameState = GameState.Freeroam;
             }
         };
+    }
+    public void newGame()
+    {
+        startMenuPanel.SetActive(false);
+        gameState = GameState.Freeroam;
+        btnPause.SetActive(true);
+    }
+
+    public void loadGame()
+    {
+        SavingSystem.i.Load("NMT_EG");
+        gameState = GameState.Freeroam;
+        startMenuPanel.SetActive(false);
+        btnPause.SetActive(true);
     }
 
     public void pauseGame(bool pause)
@@ -76,20 +95,11 @@ public class GameController : MonoBehaviour
                 SavingSystem.i.Load("NMT_EG");
             }
         }
-        else if (gameState == GameState.Dialogue)
-        {
-            DialogueManager.Instance.HandleUpdate();
-        }
     }
 
     public void saveGame()
     {
         SavingSystem.i.Save("NMT_EG");
-    }
-
-    public void loadGame()
-    {
-        SavingSystem.i.Load("NMT_EG");
     }
 
     public void onEnterQuizMasterView(QuizMaster qm)
@@ -114,5 +124,12 @@ public class GameController : MonoBehaviour
     {
         prevScene = currentScene;
         currentScene = curScene;
+    }
+
+    public void quizResult(bool isMiniQuiz, int score, int totalItems)
+    {
+        Debug.Log("Game Controller Test");
+        Debug.Log(isMiniQuiz+" "+score+" / "+totalItems);
+        playerController.quizResultScore(isMiniQuiz, score, totalItems);
     }
 }

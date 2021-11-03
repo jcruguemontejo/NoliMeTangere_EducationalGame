@@ -13,9 +13,6 @@ public class QuestBase : ScriptableObject
     [SerializeField] Dialogue inProgressDialogue;
     [SerializeField] Dialogue completedDialogue;
 
-    [SerializeField] bool doneTalking;
-    [SerializeField] GameObject targetCharacter;
-
     public string Title => title;
     public string Description => description;
 
@@ -27,5 +24,4 @@ public class QuestBase : ScriptableObject
 
     public Dialogue onCompleteDialogue => completedDialogue;
 
-    public bool talkComplete => doneTalking;
 }

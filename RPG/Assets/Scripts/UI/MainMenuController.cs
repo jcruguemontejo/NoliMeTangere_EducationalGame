@@ -10,8 +10,4 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void LoadSavedGame()
-    {
-        Debug.Log("Load Saved Game");   
-    }
 }

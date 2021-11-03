@@ -46,11 +46,6 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(typeDialogue(dialogue.Lines[0]));
     }
 
-    public void HandleUpdate()
-    {
-        
-    }
-
     public IEnumerator typeDialogue(string line)
     {
         dialogueText.text = "";

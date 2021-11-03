@@ -8,12 +8,12 @@ public class PlayerController : MonoBehaviour, ISavable
 {
     private Vector2 input;
     private Character character;
-    
-    //int miniScore = 0;
-    //int majorScore = 0;
-    //int miniTotalItems = 0;
-    //int majorTotalItems = 0;
-    //int scene;
+
+    int miniScore = 0;
+    int majorScore = 0;
+    int miniTotalItems = 0;
+    int majorTotalItems = 0;
+    int scene;
 
     public static PlayerController Instance { get; set; }
 
@@ -76,53 +76,55 @@ public class PlayerController : MonoBehaviour, ISavable
         }
     }
 
-    //public void setQuizData(int score, bool isMiniQuiz, int items)
-    //{
-    //    if (isMiniQuiz)
-    //    {
-    //        miniScore += score;
-    //        miniTotalItems += items;
-    //    }
-    //    else
-    //    {
-    //        majorScore = score;
-    //        majorTotalItems = items;
-    //    }
-    //}
+    public void testPlayerController()
+    {
+        Debug.Log("Player Controller Test");
+    }
+
+    public void quizResultScore(bool isMiniQuiz, int score, int items)
+    {
+        if (isMiniQuiz)
+        {
+            miniScore += score;
+            miniTotalItems += items;
+            Debug.Log("Mini Quiz Score: " + miniScore + " / " + miniTotalItems);
+        }
+        else
+        {
+            majorScore = score;
+            majorTotalItems = items;
+            Debug.Log("Major Quiz Score: " + majorScore + " / " + majorTotalItems);
+        }
+    }
 
     public object CaptureState()
     {
-        //var saveData = new ImportantSaveData()
-        //{
-        //position = new float[] { transform.position.x, transform.position.y },
-        //miniQuizScore = miniScore,
-        //miniQuizItems = miniTotalItems,
-        //majorQuizScore = majorScore,
-        //majorQuizItems = majorTotalItems,
-        //sceneIndex = scene
-        //};
-        float[] position = new float[]
-        {transform.position.x, transform.position.y};
+        var saveData = new ImportantSaveData()
+        {
+            position = new float[] { transform.position.x, transform.position.y },
+            miniQuizScore = miniScore,
+            miniQuizItems = miniTotalItems,
+            majorQuizScore = majorScore,
+            majorQuizItems = majorTotalItems,
+            //sceneIndex = scene
+        };
 
-        return position;
+        return saveData;
     }
 
     public void RestoreState(object state)
     {
-        var position = (float[])state;
-        transform.position = new Vector3(position[0], position[1]);
+        var saveData = (ImportantSaveData)state;
 
-        //var saveData = (ImportantSaveData)state;
-
-        //miniScore = saveData.miniQuizScore;
-        //miniTotalItems = saveData.miniQuizItems;
-        //majorScore = saveData.majorQuizScore;
-        //majorTotalItems = saveData.majorQuizItems;
-        //transform.position = new Vector3(saveData.position[0], saveData.position[1]);
+        miniScore = saveData.miniQuizScore;
+        miniTotalItems = saveData.miniQuizItems;
+        majorScore = saveData.majorQuizScore;
+        majorTotalItems = saveData.majorQuizItems;
+        transform.position = new Vector3(saveData.position[0], saveData.position[1]);
         //SceneManager.LoadSceneAsync(saveData.sceneIndex);
 
-        //Debug.Log("Mini Quiz" + miniScore + " / " + miniTotalItems);
-        //Debug.Log("Major Quiz" + majorScore + " / " + majorTotalItems);
+        Debug.Log("Mini Quiz" + miniScore + " / " + miniTotalItems);
+        Debug.Log("Major Quiz" + majorScore + " / " + majorTotalItems);
     }
 
 
@@ -133,11 +135,11 @@ public class PlayerController : MonoBehaviour, ISavable
 [Serializable]
 public class ImportantSaveData
 {
-    //public int miniQuizScore;
-    //public int majorQuizScore;
-    //public int miniQuizItems;
-    //public int majorQuizItems;
+    public int miniQuizScore;
+    public int majorQuizScore;
+    public int miniQuizItems;
+    public int majorQuizItems;
     //public int sceneIndex;
-    //public float[] position;
-    
+    public float[] position;
+
 }
