@@ -31,30 +31,30 @@ public class NPCController : MonoBehaviour, Interactable
             state = NPCState.Dialogue;
             character.lookDirection(initiator.position);
 
-            if (questToStart != null)
-            {
-                //Start Quest
-                activeQuest = new Quest(questToStart);
-                yield return activeQuest.StartQuest(name);
-                questToStart = null;
-            }
-            else if (activeQuest != null)
-            {
-                yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.onProgressDialogue, name);
+            //if (questToStart != null)
+            //{
+            //    //Start Quest
+            //    activeQuest = new Quest(questToStart);
+            //    yield return activeQuest.StartQuest(name);
+            //    questToStart = null;
+            //}
+            //else if (activeQuest != null)
+            //{
+            //    yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.onProgressDialogue, name);
                 
-            }
-            else if (questToComplete == null && activeQuest == null)
-            {
+            //}
+            //else if (questToComplete == null && activeQuest == null)
+            //{
                 yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
-            }
-            else if (questToComplete != null)
-            {
-                var quest = new Quest(questToComplete);
-                yield return quest.CompleteQuest(name);
-                questToComplete = null;
+            //}
+            //else if (questToComplete != null)
+            //{
+            //    var quest = new Quest(questToComplete);
+            //    yield return quest.CompleteQuest(name);
+            //    questToComplete = null;
 
-                Debug.Log($"{questToComplete.Title} completed");
-            }
+            //    Debug.Log($"{questToComplete.Title} completed");
+            //}
 
             idleTimer = 0f; 
             state = NPCState.Idle;

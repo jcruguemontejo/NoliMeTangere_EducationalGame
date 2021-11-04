@@ -10,6 +10,8 @@ public class PauseMenuControl : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject btnPause;
     [SerializeField] GameObject coreGameObject;
+    [SerializeField] GameObject gameController;
+
     List<Button> pauseMenuBtn;
 
     private void Awake()
