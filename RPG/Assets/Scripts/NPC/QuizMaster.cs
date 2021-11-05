@@ -109,31 +109,3 @@ public class QuizMaster : MonoBehaviour, Interactable, ISavable
         }
     }
 }
-
-/*, int score, int totalItems*/
-
-//PlayerController.Instance.setQuizData(score, isMiniQuiz, totalItems);
-
-//quizMasterFov.transform.eulerAngles = new Vector3(0f, 0f, angle);
-//    }
-
-//    public void quizDone(bool isDone)
-//{
-//    isQuizFinish = isDone;
-//}
-
-//public object CaptureState()
-//{
-//    return isQuizFinish;
-//}
-
-//public void RestoreState(object state)
-//{
-//    isQuizFinish = (bool)state;
-//    if (isQuizFinish)
-//    {
-//        quizMasterFov.gameObject.SetActive(false);
-//    }
-//}
-
-

@@ -26,8 +26,10 @@ public class PlayerController : MonoBehaviour, ISavable
     {
         if (!character.isMoving)
         {
-            input.x = Input.GetAxisRaw("Horizontal");
-            input.y = Input.GetAxisRaw("Vertical");
+            input.x = SimpleInput.GetAxisRaw("Horizontal");
+            input.y = SimpleInput.GetAxisRaw("Vertical");
+            //input.x = Input.GetAxisRaw("Horizontal");
+            //input.y = Input.GetAxisRaw("Vertical");
 
             if (input.x != 0) input.y = 0;
 
@@ -43,6 +45,11 @@ public class PlayerController : MonoBehaviour, ISavable
         {
             StartCoroutine(Interact());
         }
+    }
+
+    public void startInteraction()
+    {
+        StartCoroutine(Interact());
     }
 
     IEnumerator Interact()

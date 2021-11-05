@@ -11,7 +11,7 @@ public class PauseMenuControl : MonoBehaviour
     [SerializeField] GameObject btnPause;
     [SerializeField] GameObject coreGameObject;
     [SerializeField] GameObject gameController;
-
+    [SerializeField] GameObject virtualController;
     List<Button> pauseMenuBtn;
 
     private void Awake()
@@ -23,11 +23,14 @@ public class PauseMenuControl : MonoBehaviour
     {
         pauseMenu.SetActive(true);
         btnPause.SetActive(false);
+        virtualController.SetActive(false);
+
     }
     public void closePauseMenu()
     {
         pauseMenu.SetActive(false);
         btnPause.SetActive(true);
+        virtualController.SetActive(true);
         GameController.Instance.pauseGame(false);
     }
 

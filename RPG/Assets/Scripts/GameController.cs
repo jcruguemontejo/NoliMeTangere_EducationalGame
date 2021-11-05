@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject startMenuPanel;
     [SerializeField] GameObject btnPause;
 
+    [SerializeField] GameObject virtualController;
+
     GameState gameState;
     GameState stateBeforePaused;
 
@@ -44,12 +46,16 @@ public class GameController : MonoBehaviour
                 gameState = GameState.Freeroam;
             }
         };
+
+        virtualController.SetActive(false);
     }
+
     public void newGame()
     {
         startMenuPanel.SetActive(false);
         gameState = GameState.Freeroam;
         btnPause.SetActive(true);
+        virtualController.SetActive(true);
     }
 
     public void loadGame()
@@ -58,6 +64,7 @@ public class GameController : MonoBehaviour
         gameState = GameState.Freeroam;
         startMenuPanel.SetActive(false);
         btnPause.SetActive(true);
+        virtualController.SetActive(true);
     }
 
     public void pauseGame(bool pause)
@@ -78,22 +85,6 @@ public class GameController : MonoBehaviour
         if(gameState == GameState.Freeroam)
         {
             playerController.HandleUpdate();
-
-            //if (Input.GetKeyDown(KeyCode.Return))
-            //{
-            //    pauseMenuControl.openPauseMenu();
-            //    pauseGame(true);
-            //}
-
-            //if (Input.GetKeyDown(KeyCode.E))
-            //{
-            //    SavingSystem.i.Save("NMT_EG_2");
-            //}
-
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                SavingSystem.i.Load("NMT_EG");
-            }
         }
     }
 

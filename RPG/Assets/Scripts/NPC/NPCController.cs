@@ -6,8 +6,6 @@ public class NPCController : MonoBehaviour, Interactable
 {
     [SerializeField] new string name;
     [SerializeField] Dialogue dialogue;
-    [SerializeField] QuestBase questToStart;
-    [SerializeField] QuestBase questToComplete;
     [SerializeField] List<Vector2> movePattern;
     [SerializeField] float timeBetweenPattern;
 
@@ -21,7 +19,6 @@ public class NPCController : MonoBehaviour, Interactable
     private void Awake()
     {
         character = GetComponent<Character>();
-
     }
 
     public IEnumerator Interact(Transform initiator)
@@ -30,32 +27,7 @@ public class NPCController : MonoBehaviour, Interactable
         {
             state = NPCState.Dialogue;
             character.lookDirection(initiator.position);
-
-            //if (questToStart != null)
-            //{
-            //    //Start Quest
-            //    activeQuest = new Quest(questToStart);
-            //    yield return activeQuest.StartQuest(name);
-            //    questToStart = null;
-            //}
-            //else if (activeQuest != null)
-            //{
-            //    yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.onProgressDialogue, name);
-                
-            //}
-            //else if (questToComplete == null && activeQuest == null)
-            //{
-                yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
-            //}
-            //else if (questToComplete != null)
-            //{
-            //    var quest = new Quest(questToComplete);
-            //    yield return quest.CompleteQuest(name);
-            //    questToComplete = null;
-
-            //    Debug.Log($"{questToComplete.Title} completed");
-            //}
-
+            yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
             idleTimer = 0f; 
             state = NPCState.Idle;
         } 
