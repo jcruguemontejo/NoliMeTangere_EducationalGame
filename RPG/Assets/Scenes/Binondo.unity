@@ -16441,8 +16441,6 @@ MonoBehaviour:
     - Ako si Juan...
     - Kamusta na ang iyong mga paglalakbay? Naway ligtas ka palagi.
     - Sana ay hindi ka mapanuman. Mauuna na muna ako saiyo.
-  questToStart: {fileID: 11400000, guid: 8ff002d00175361458031433f4749ff0, type: 2}
-  questToComplete: {fileID: 0}
   movePattern:
   - {x: 0, y: 2}
   - {x: 2, y: 0}
@@ -16577,12 +16575,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8ff002d00175361458031433f4749ff0, type: 2}
     - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+      propertyPath: dialogue.lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
       propertyPath: movePattern.Array.data[0].x
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
       propertyPath: movePattern.Array.data[1].x
       value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+      propertyPath: dialogue.lines.Array.data[2]
+      value: Kung gusto mo puwede kang sumama sa akin meron akong pupuntahan lang
+        na pagsasalo
+      objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
+      propertyPath: dialogue.lines.Array.data[3]
+      value: Kung wala kang ibang kailangan gawin iho.
       objectReference: {fileID: 0}
     - target: {fileID: 153799119434189315, guid: 27387edbfceec2347b2d00fe62519c7d, type: 3}
       propertyPath: m_RootOrder

@@ -14,14 +14,19 @@ public class DialogueManager : MonoBehaviour
     public event Action onShowDialogue;
     public event Action onCloseDialogue;
 
-    List<string> dialogues;
-    string charName;
+    [SerializeField] private bool isClicked;
+    [SerializeField] Button interactButton;
 
     public static DialogueManager Instance { get; private set; }
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void Start()
+    {
+        interactButton.onClick.AddListener(() => { isClicked = true; });
     }
 
     public bool isShowing { get; private set; }
@@ -34,13 +39,15 @@ public class DialogueManager : MonoBehaviour
         isShowing = true;
         dialogueName.text = name;
         dialogueBox.SetActive(true);
+        isClicked = false;
         
         if (isShowing)
         {
             foreach (var line in dialogue.Lines)
             {
                 yield return typeDialogue(line);
-                yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
+                yield return new WaitUntil(() => isClicked);
+                isClicked = false;
             }
             dialogueBox.SetActive(false);
             isShowing = false;
@@ -48,6 +55,17 @@ public class DialogueManager : MonoBehaviour
         }
         StartCoroutine(typeDialogue(dialogue.Lines[0]));
     }
+
+    public IEnumerator typeDialogue(string line)
+    {
+        dialogueText.text = "";
+        foreach(var letter in line.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(1f / lettersPerSecond);
+        }
+    }
+}
 
     //public void startDialogue(Dialogue dialogue, string name)
     //{
@@ -82,14 +100,3 @@ public class DialogueManager : MonoBehaviour
     //    }
     //}
 
-
-    public IEnumerator typeDialogue(string line)
-    {
-        dialogueText.text = "";
-        foreach(var letter in line.ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(1f / lettersPerSecond);
-        }
-    }
-}
