@@ -1,5 +1,29 @@
 sceneSetups:
-- path: Assets/Scenes/Binondo.unity
+- path: Assets/Scenes/Part1.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/FINAL BINONDO.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/FOREST.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/PROVINCE PART.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/SEMENTERYO.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/CITY.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/construction site.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
