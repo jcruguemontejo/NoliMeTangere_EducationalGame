@@ -374,7 +374,7 @@ SpriteRenderer:
   m_SortingLayerID: -898040453
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8922328891513336043, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  m_Sprite: {fileID: 1108119625566426760, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -402,7 +402,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1.25, y: 1.9375}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2262,7 +2262,6 @@ MonoBehaviour:
   quizMasterFov: {fileID: 99488948489994868}
   score: 0
   quizMaster: {fileID: 99488947792683215}
-  playerController: {fileID: 0}
 --- !u!114 &8004440896523438030
 MonoBehaviour:
   m_ObjectHideFlags: 0

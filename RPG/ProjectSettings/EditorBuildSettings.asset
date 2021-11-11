@@ -9,18 +9,63 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 0e1b1619a542c3d4e9444fd7225f4b91
   - enabled: 1
+    path: Assets/Scenes/Part1/A Part1.unity
+    guid: 107f9c712d5609440bd45d9b20b40eec
+  - enabled: 0
     path: Assets/Scenes/Gameplay.unity
     guid: 47eba584741af1b4a9fe8020be9dafcc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Binondo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/San Diego.unity
     guid: a903e776460c780439350e84ebf55360
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Town 2.unity
     guid: 994d8a58e8ce15b4bac776c9782ec970
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InsideHouse.unity
     guid: 72709a453bf13e447a0c375bae3e4bbb
+  - enabled: 0
+    path: Assets/Scenes/CITY.unity
+    guid: 75b30bb33ceb37d479d5c96c6c339e62
+  - enabled: 0
+    path: Assets/Scenes/FINAL BINONDO.unity
+    guid: 9f50666221490cb4e92e997dbc76986a
+  - enabled: 0
+    path: Assets/Scenes/Connection Province and City.unity
+    guid: 9bf81e00583548d45b07620cd242ee1b
+  - enabled: 0
+    path: Assets/Scenes/FOREST.unity
+    guid: a1652a377af5ba04f9e04bc53a71a8ff
+  - enabled: 0
+    path: Assets/Scenes/Province.unity
+    guid: cf4856af15296fa478920882d2a59972
+  - enabled: 0
+    path: Assets/Scenes/SEMENTERYO.unity
+    guid: 77117af3b9f36b641ab180b2483159ca
+  - enabled: 0
+    path: Assets/Scenes/construction site.unity
+    guid: 7ba250fc02ae4864d868cefd08f6381e
+  - enabled: 1
+    path: Assets/Scenes/Part1/CITY 1.unity
+    guid: c3f0dc6c1e560a24db3e9f366625ddae
+  - enabled: 1
+    path: Assets/Scenes/Part1/Connection Province and City 1.unity
+    guid: 33a25be23f1c9a647abed4ddb9988339
+  - enabled: 1
+    path: Assets/Scenes/Part1/construction site 1.unity
+    guid: 444e80bd5c13f844994e1e16f1e4b0ac
+  - enabled: 1
+    path: Assets/Scenes/Part1/FINAL BINONDO 1.unity
+    guid: 9f1d334e5027a724aa4fb725fa02c017
+  - enabled: 1
+    path: Assets/Scenes/Part1/FOREST 1.unity
+    guid: 0bb17bbe5459ead47986b1567e595639
+  - enabled: 1
+    path: Assets/Scenes/Part1/Province 1.unity
+    guid: 77c07e95c8fc3264da3ade227e11be17
+  - enabled: 1
+    path: Assets/Scenes/Part1/SEMENTERYO 1.unity
+    guid: 96517b9ef1c84f44b9190069b9816db1
   m_configObjects: {}

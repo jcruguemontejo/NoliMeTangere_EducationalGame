@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -898040453
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8922328891513336043, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  m_Sprite: {fileID: 2352705955097512697, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &153799119434189313
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 1.8125}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -146,15 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8043873834ec4b419258d9e78b289f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Crisostomo Ibarra
+  name: 
   dialogue:
-    lines:
-    - Iho, parang nawawala ka ata, bago ka lang ba dito sa Binondo?
-    - Paumanhin ka na nakalimutan kong mag pa kilala. Ako nga pala si Crisostomo
-      Ibarra.
-  movePattern:
-  - {x: -3, y: 0}
-  - {x: 3, y: 0}
+    lines: []
+  movePattern: []
   timeBetweenPattern: 2
 --- !u!114 &153799119434189317
 MonoBehaviour:
@@ -168,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f04db500b8fc3934298dc77746fcf0f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
 --- !u!114 &153799119434189316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,24 +176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2d12af72913ec4c965deaa95044445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkDownSprites:
-  - {fileID: -8922328891513336043, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 5527661196443274707, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -2495014906627460004, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 5610367206947713552, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  walkUpSprites:
-  - {fileID: 307091595780809877, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -2126968859773451732, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5535047699543943917, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -4526993761146232485, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  walkRightSprites:
-  - {fileID: 2230936588577103941, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -9111473675286820144, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5627484699997550656, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5051899674784280284, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  walkLeftSprites:
-  - {fileID: 4614894318121576524, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 7369579285134121275, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -1211714280344312584, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 6842672397523141539, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  walkDownSprites: []
+  walkUpSprites: []
+  walkRightSprites: []
+  walkLeftSprites: []
   defualtFaceDirection: 1
