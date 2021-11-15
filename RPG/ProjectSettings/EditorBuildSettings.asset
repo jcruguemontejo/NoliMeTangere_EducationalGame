@@ -11,40 +11,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part1/A Part1.unity
     guid: 107f9c712d5609440bd45d9b20b40eec
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 47eba584741af1b4a9fe8020be9dafcc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Binondo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/San Diego.unity
     guid: a903e776460c780439350e84ebf55360
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Town 2.unity
     guid: 994d8a58e8ce15b4bac776c9782ec970
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/InsideHouse.unity
     guid: 72709a453bf13e447a0c375bae3e4bbb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CITY.unity
     guid: 75b30bb33ceb37d479d5c96c6c339e62
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FINAL BINONDO.unity
     guid: 9f50666221490cb4e92e997dbc76986a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Connection Province and City.unity
     guid: 9bf81e00583548d45b07620cd242ee1b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FOREST.unity
     guid: a1652a377af5ba04f9e04bc53a71a8ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Province.unity
     guid: cf4856af15296fa478920882d2a59972
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SEMENTERYO.unity
     guid: 77117af3b9f36b641ab180b2483159ca
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/construction site.unity
     guid: 7ba250fc02ae4864d868cefd08f6381e
   - enabled: 1
