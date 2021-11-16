@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -898040453
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6600118581943582110, guid: 01a115d26e9858f4ebeaeedb65ffef6f, type: 3}
+  m_Sprite: {fileID: -4727655547103786819, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,25 +114,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
-  - {fileID: 7152930139536384079, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -5725962078152895296, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -8401692288953904933, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 7888922196035610388, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
+  - {fileID: 512413992926136813, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -3497614105582243819, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -2719876401351504009, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: 4321318540761423421, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   walkUpSprites:
-  - {fileID: -4445699719359273135, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 1892806461834874077, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -8627026541424588849, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -6780520195603233165, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
+  - {fileID: 3301571562404178357, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: 2111136842738410273, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -7737008929516952226, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -1335413495085800109, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   walkRightSprites:
-  - {fileID: -3303779423006393323, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -790699523677361007, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 8470420716495695676, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 6167071470516247665, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
+  - {fileID: -8777327185355750148, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: 6585660850989184173, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: 8330946997226059682, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -2108618673292710229, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   walkLeftSprites:
-  - {fileID: -1038918931832879880, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 2690600881683387669, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: 6634202828824015816, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
-  - {fileID: -5008138227279614530, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
+  - {fileID: 2930445680006199479, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -4366389810377942749, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -6117838846967302193, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
+  - {fileID: -6944362163544058611, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   defualtFaceDirection: 1
 --- !u!114 &2066593080754228238
 MonoBehaviour:

@@ -1,0 +1,2532 @@
+fileFormatVersion: 2
+guid: ce82c1c9d36220c49bbf6b12039643a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2166143543297934832
+    second: NPC FORMAL Revise_0
+  - first:
+      213: 3491834603391861847
+    second: NPC FORMAL Revise_1
+  - first:
+      213: 8282865876431035215
+    second: NPC FORMAL Revise_2
+  - first:
+      213: 185460090006632366
+    second: NPC FORMAL Revise_3
+  - first:
+      213: 3597053144034015346
+    second: NPC FORMAL Revise_4
+  - first:
+      213: -2392069042917091224
+    second: NPC FORMAL Revise_5
+  - first:
+      213: -6005278103655464711
+    second: NPC FORMAL Revise_6
+  - first:
+      213: -7187037633035695317
+    second: NPC FORMAL Revise_7
+  - first:
+      213: -8288478538161940100
+    second: NPC FORMAL Revise_8
+  - first:
+      213: 1550641055505766856
+    second: NPC FORMAL Revise_9
+  - first:
+      213: 6628754846230940485
+    second: NPC FORMAL Revise_10
+  - first:
+      213: 7126532091472901119
+    second: NPC FORMAL Revise_11
+  - first:
+      213: 1767113781174872174
+    second: NPC FORMAL Revise_12
+  - first:
+      213: 1524202964604596201
+    second: NPC FORMAL Revise_13
+  - first:
+      213: -8041099012301834847
+    second: NPC FORMAL Revise_14
+  - first:
+      213: 2134572127204691471
+    second: NPC FORMAL Revise_15
+  - first:
+      213: -9080480848407631737
+    second: NPC FORMAL Revise_16
+  - first:
+      213: -2370686060307766552
+    second: NPC FORMAL Revise_17
+  - first:
+      213: -3352915382345917572
+    second: NPC FORMAL Revise_18
+  - first:
+      213: 3319731129976247966
+    second: NPC FORMAL Revise_19
+  - first:
+      213: -8362758649939307659
+    second: NPC FORMAL Revise_20
+  - first:
+      213: 8264642358808717735
+    second: NPC FORMAL Revise_21
+  - first:
+      213: 3382545119535661138
+    second: NPC FORMAL Revise_22
+  - first:
+      213: -2392610929511303876
+    second: NPC FORMAL Revise_23
+  - first:
+      213: -5131037132627722682
+    second: NPC FORMAL Revise_24
+  - first:
+      213: -4754257450170222330
+    second: NPC FORMAL Revise_25
+  - first:
+      213: -8159153292205272504
+    second: NPC FORMAL Revise_26
+  - first:
+      213: 1677495120711063495
+    second: NPC FORMAL Revise_27
+  - first:
+      213: 4756672797003677790
+    second: NPC FORMAL Revise_28
+  - first:
+      213: -4678740620530098112
+    second: NPC FORMAL Revise_29
+  - first:
+      213: 2944101927216812114
+    second: NPC FORMAL Revise_30
+  - first:
+      213: -1120394139026749638
+    second: NPC FORMAL Revise_31
+  - first:
+      213: 5636716529018070418
+    second: NPC FORMAL Revise_32
+  - first:
+      213: 1124877257614172601
+    second: NPC FORMAL Revise_33
+  - first:
+      213: 5152565377055044114
+    second: NPC FORMAL Revise_34
+  - first:
+      213: 4459885478695669530
+    second: NPC FORMAL Revise_35
+  - first:
+      213: 3027707910844455266
+    second: NPC FORMAL Revise_36
+  - first:
+      213: 1183754404143337943
+    second: NPC FORMAL Revise_37
+  - first:
+      213: -4799590435815250373
+    second: NPC FORMAL Revise_38
+  - first:
+      213: -6499381095566562459
+    second: NPC FORMAL Revise_39
+  - first:
+      213: -7403523475588206110
+    second: NPC FORMAL Revise_40
+  - first:
+      213: -3069513799983422150
+    second: NPC FORMAL Revise_41
+  - first:
+      213: -7675786553367362338
+    second: NPC FORMAL Revise_42
+  - first:
+      213: 2895051081570278990
+    second: NPC FORMAL Revise_43
+  - first:
+      213: 4676630589190426445
+    second: NPC FORMAL Revise_44
+  - first:
+      213: -5707257723012347986
+    second: NPC FORMAL Revise_45
+  - first:
+      213: -4581835166659257563
+    second: NPC FORMAL Revise_46
+  - first:
+      213: -1500520915503328995
+    second: NPC FORMAL Revise_47
+  - first:
+      213: 7608384641544350423
+    second: NPC FORMAL Revise_48
+  - first:
+      213: -4287476418178750894
+    second: NPC FORMAL Revise_49
+  - first:
+      213: 6016122052425098712
+    second: NPC FORMAL Revise_50
+  - first:
+      213: -160195575945905442
+    second: NPC FORMAL Revise_51
+  - first:
+      213: 1210940763432482149
+    second: NPC FORMAL Revise_52
+  - first:
+      213: -6310274293471593268
+    second: NPC FORMAL Revise_53
+  - first:
+      213: -8505418595248313769
+    second: NPC FORMAL Revise_54
+  - first:
+      213: 886003370185057108
+    second: NPC FORMAL Revise_55
+  - first:
+      213: -223770152939102100
+    second: NPC FORMAL Revise_56
+  - first:
+      213: -8496611177550780044
+    second: NPC FORMAL Revise_57
+  - first:
+      213: 2634527446081595717
+    second: NPC FORMAL Revise_58
+  - first:
+      213: -8207312618447730449
+    second: NPC FORMAL Revise_59
+  - first:
+      213: 8470401635234849298
+    second: NPC FORMAL Revise_60
+  - first:
+      213: -1796333857242102559
+    second: NPC FORMAL Revise_61
+  - first:
+      213: 6848882830768808905
+    second: NPC FORMAL Revise_62
+  - first:
+      213: 2015306020127904715
+    second: NPC FORMAL Revise_63
+  - first:
+      213: -4809039234387613076
+    second: NPC FORMAL Revise_64
+  - first:
+      213: 822812991555805970
+    second: NPC FORMAL Revise_65
+  - first:
+      213: 4632421921240185398
+    second: NPC FORMAL Revise_66
+  - first:
+      213: 6418044595215827989
+    second: NPC FORMAL Revise_67
+  - first:
+      213: 8984993679241449470
+    second: NPC FORMAL Revise_68
+  - first:
+      213: 4152679611697073197
+    second: NPC FORMAL Revise_69
+  - first:
+      213: -2687886998445900068
+    second: NPC FORMAL Revise_70
+  - first:
+      213: -2489487981999167345
+    second: NPC FORMAL Revise_71
+  - first:
+      213: 6403107035891684615
+    second: NPC FORMAL Revise_72
+  - first:
+      213: -7016436435090210127
+    second: NPC FORMAL Revise_73
+  - first:
+      213: -4888801388296698336
+    second: NPC FORMAL Revise_74
+  - first:
+      213: 2578263263262979480
+    second: NPC FORMAL Revise_75
+  - first:
+      213: 2016035980936599421
+    second: NPC FORMAL Revise_76
+  - first:
+      213: -4301088855113400850
+    second: NPC FORMAL Revise_77
+  - first:
+      213: -1876083249536163515
+    second: NPC FORMAL Revise_78
+  - first:
+      213: -9064707627363806205
+    second: NPC FORMAL Revise_79
+  - first:
+      213: 665372181698488764
+    second: NPC FORMAL Revise_80
+  - first:
+      213: -4616155520941689861
+    second: NPC FORMAL Revise_81
+  - first:
+      213: -3417101232311552942
+    second: NPC FORMAL Revise_82
+  - first:
+      213: -7475899733020410292
+    second: NPC FORMAL Revise_83
+  - first:
+      213: 4534393817768495525
+    second: NPC FORMAL Revise_84
+  - first:
+      213: 4269498244555739433
+    second: NPC FORMAL Revise_85
+  - first:
+      213: -5992288110084138521
+    second: NPC FORMAL Revise_86
+  - first:
+      213: 6066175334435511781
+    second: NPC FORMAL Revise_87
+  - first:
+      213: -3968200859997433636
+    second: NPC FORMAL Revise_88
+  - first:
+      213: 4507066595937989256
+    second: NPC FORMAL Revise_89
+  - first:
+      213: 596917501491413148
+    second: NPC FORMAL Revise_90
+  - first:
+      213: 3709818096128417572
+    second: NPC FORMAL Revise_91
+  - first:
+      213: 6117910787157505297
+    second: NPC FORMAL Revise_92
+  - first:
+      213: -994832131208724057
+    second: NPC FORMAL Revise_93
+  - first:
+      213: -8314817527566628907
+    second: NPC FORMAL Revise_94
+  - first:
+      213: -8951493236296610419
+    second: NPC FORMAL Revise_95
+  - first:
+      213: 1408070151073020285
+    second: NPC FORMAL Revise_96
+  - first:
+      213: 8424114282747311162
+    second: NPC FORMAL Revise_97
+  - first:
+      213: -5325957265238958867
+    second: NPC FORMAL Revise_98
+  - first:
+      213: -1309386607963942271
+    second: NPC FORMAL Revise_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f587ce6310bf0e10800000000000000
+      internalID: 2166143543297934832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754c69d321d757030800000000000000
+      internalID: 3491834603391861847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b50ee41a6a2f270800000000000000
+      internalID: 8282865876431035215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea77bd028f2e29200800000000000000
+      internalID: 185460090006632366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2787958c6cc4be130800000000000000
+      internalID: 3597053144034015346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868d7b211e9adced0800000000000000
+      internalID: -2392069042917091224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f04f2ec167f8aca0800000000000000
+      internalID: -6005278103655464711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b0b8fe953824c90800000000000000
+      internalID: -7187037633035695317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79986c0fa869fc80800000000000000
+      internalID: -8288478538161940100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9de8703dbf48510800000000000000
+      internalID: 1550641055505766856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b8eb879611efb50800000000000000
+      internalID: 6628754846230940485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f9a0ed2786e260800000000000000
+      internalID: 7126532091472901119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6820a41f9c068810800000000000000
+      internalID: 1767113781174872174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efaade458e072510800000000000000
+      internalID: 1524202964604596201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a531084d07486090800000000000000
+      internalID: -8041099012301834847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_15
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e4c7d4a068f9d10800000000000000
+      internalID: 2134572127204691471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788ece067c6abf180800000000000000
+      internalID: -9080480848407631737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2a26da691a91fd0800000000000000
+      internalID: -2370686060307766552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b1459693d0871d0800000000000000
+      internalID: -3352915382345917572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965a00cfdd021e20800000000000000
+      internalID: 3319731129976247966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573da00d05381fb80800000000000000
+      internalID: -8362758649939307659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a078ff68e1b270800000000000000
+      internalID: 8264642358808717735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25087ae5dd631fe20800000000000000
+      internalID: 3382545119535661138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f2c4490dbbced0800000000000000
+      internalID: -2392610929511303876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eb26cc9e4eac8b0800000000000000
+      internalID: -5131037132627722682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60979d7c90c750eb0800000000000000
+      internalID: -4754257450170222330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842552e4f4dd4ce80800000000000000
+      internalID: -8159153292205272504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c71f6eace8a74710800000000000000
+      internalID: 1677495120711063495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_28
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e500b2af4b8130240800000000000000
+      internalID: 4756672797003677790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ec15d136c11fb0800000000000000
+      internalID: -4678740620530098112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2501d42ba1d8bd820800000000000000
+      internalID: 2944101927216812114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3781e6777f8370f0800000000000000
+      internalID: -1120394139026749638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e1bb81d3a93e40800000000000000
+      internalID: 5636716529018070418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_33
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1220ce7ed5c9f00800000000000000
+      internalID: 1124877257614172601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_34
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212b75539e6918740800000000000000
+      internalID: 5152565377055044114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_35
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f0490a632b4ed30800000000000000
+      internalID: 4459885478695669530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269168dad44940a20800000000000000
+      internalID: 3027707910844455266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_37
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d19448db5a8d6010800000000000000
+      internalID: 1183754404143337943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_38
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36aedd8ded646db0800000000000000
+      internalID: -4799590435815250373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 95
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56badda245f8dc5a0800000000000000
+      internalID: -6499381095566562459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1bc4fdf96614990800000000000000
+      internalID: -7403523475588206110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_41
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3524de3675e665d0800000000000000
+      internalID: -3069513799983422150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed481da3cc02a7590800000000000000
+      internalID: -7675786553367362338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e5b9bbe994d2820800000000000000
+      internalID: 2895051081570278990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fcb663ebab6e040800000000000000
+      internalID: 4676630589190426445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea78e3ad65fbbc0b0800000000000000
+      internalID: -5707257723012347986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_46
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bd1e7013d0a60c0800000000000000
+      internalID: -4581835166659257563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11516d6d241d2be0800000000000000
+      internalID: -1500520915503328995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_48
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dae9c14589669960800000000000000
+      internalID: 7608384641544350423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2566797e9e2df74c0800000000000000
+      internalID: -4287476418178750894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_50
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d52134c12f8d7350800000000000000
+      internalID: 6016122052425098712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_51
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edab721f8fed6cdf0800000000000000
+      internalID: -160195575945905442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_52
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565fe6065302ec010800000000000000
+      internalID: 1210940763432482149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_53
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccb85e96f66d68a0800000000000000
+      internalID: -6310274293471593268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_54
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae83ce9dea6f980800000000000000
+      internalID: -8505418595248313769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_55
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453eda5fe57bb4c00800000000000000
+      internalID: 886003370185057108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_56
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60eab24b3205ecf0800000000000000
+      internalID: -223770152939102100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_57
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479e877a629f51a80800000000000000
+      internalID: -8496611177550780044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_58
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e5bef0c8bf8420800000000000000
+      internalID: 2634527446081595717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_59
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 64
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe887d068a4c91e80800000000000000
+      internalID: -8207312618447730449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212af0db869ec8570800000000000000
+      internalID: 8470401635234849298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_61
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4c31dcfd32217e0800000000000000
+      internalID: -1796333857242102559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_62
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32f3cc5ae1c0f50800000000000000
+      internalID: 6848882830768808905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_63
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc31e63d52ec7fb10800000000000000
+      internalID: 2015306020127904715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_64
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ae863bb4cd24db0800000000000000
+      internalID: -4809039234387613076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a24e6e083b6b00800000000000000
+      internalID: 822812991555805970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_66
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63af049913ba94040800000000000000
+      internalID: 4632421921240185398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514847a1e89711950800000000000000
+      internalID: 6418044595215827989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_68
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff0150952c11bc70800000000000000
+      internalID: 8984993679241449470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0631ea1841a930800000000000000
+      internalID: 4152679611697073197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_70
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdebd351405b2bad0800000000000000
+      internalID: -2687886998445900068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_71
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e558cedf837dd0800000000000000
+      internalID: -2489487981999167345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_72
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705d02d8ce76cd850800000000000000
+      internalID: 6403107035891684615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_73
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b20759ac3c90ae90800000000000000
+      internalID: -7016436435090210127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_74
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02683211a0d772cb0800000000000000
+      internalID: -4888801388296698336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_75
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895ba3817c4d7c320800000000000000
+      internalID: 2578263263262979480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_76
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77d1221b066afb10800000000000000
+      internalID: 2016035980936599421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_77
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedf29379767f44c0800000000000000
+      internalID: -4301088855113400850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_78
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54126567930d6f5e0800000000000000
+      internalID: -1876083249536163515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_79
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d4369070b33280800000000000000
+      internalID: -9064707627363806205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9a0955970eb3900800000000000000
+      internalID: 665372181698488764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_81
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3ff4ad20f10ffb0800000000000000
+      internalID: -4616155520941689861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_82
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2543586a8840490d0800000000000000
+      internalID: -3417101232311552942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_83
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e71e44dc4404890800000000000000
+      internalID: -7475899733020410292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a981db27276dee30800000000000000
+      internalID: 4534393817768495525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_85
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92116eb580e404b30800000000000000
+      internalID: 4269498244555739433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_86
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e953ae56bd17dca0800000000000000
+      internalID: -5992288110084138521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edd342a3526f2450800000000000000
+      internalID: 6066175334435511781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_88
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0147e975e1ee8c0800000000000000
+      internalID: -3968200859997433636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882b9e580315c8e30800000000000000
+      internalID: 4507066595937989256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_90
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c900c941e4da84800800000000000000
+      internalID: 596917501491413148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_91
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fdc0927ebeb7330800000000000000
+      internalID: 3709818096128417572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_92
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115bd04627f27e450800000000000000
+      internalID: 6117910787157505297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_93
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1c8209275a132f0800000000000000
+      internalID: -994832131208724057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_94
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d703313385db9c80800000000000000
+      internalID: -8314817527566628907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_95
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d8a312458e5c380800000000000000
+      internalID: -8951493236296610419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_96
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79b98597587a8310800000000000000
+      internalID: 1408070151073020285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_97
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34b27aae4778e470800000000000000
+      internalID: 8424114282747311162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_98
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec558cd5166616b0800000000000000
+      internalID: -5325957265238958867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC FORMAL Revise_99
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182d7a641df14dde0800000000000000
+      internalID: -1309386607963942271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -770,6 +770,8 @@ MonoBehaviour:
   startMenuPanel: {fileID: 404072154079654291}
   btnPause: {fileID: 3755943572203560469}
   virtualController: {fileID: 2810248841530992260}
+  interactButton: {fileID: 38164903018418288}
+  coreGameObject: {fileID: 4672659209645551520}
 --- !u!114 &1949904069536598192
 MonoBehaviour:
   m_ObjectHideFlags: 0

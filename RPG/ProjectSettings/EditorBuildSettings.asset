@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 0e1b1619a542c3d4e9444fd7225f4b91
   - enabled: 1
+    path: Assets/Scenes/FINAL BINONDO.unity
+    guid: 9f50666221490cb4e92e997dbc76986a
+  - enabled: 1
     path: Assets/Scenes/Part1/A Part1.unity
     guid: 107f9c712d5609440bd45d9b20b40eec
+  - enabled: 1
+    path: Assets/Scenes/school cutscene.unity
+    guid: 22d313defac133840bd3ee309c817a0f
+  - enabled: 1
+    path: Assets/Scenes/FINAL BINONDO cutscene.unity
+    guid: aa157f3122b3070419e57eb9702814ad
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 47eba584741af1b4a9fe8020be9dafcc
@@ -29,9 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CITY.unity
     guid: 75b30bb33ceb37d479d5c96c6c339e62
-  - enabled: 1
-    path: Assets/Scenes/FINAL BINONDO.unity
-    guid: 9f50666221490cb4e92e997dbc76986a
   - enabled: 1
     path: Assets/Scenes/Connection Province and City.unity
     guid: 9bf81e00583548d45b07620cd242ee1b

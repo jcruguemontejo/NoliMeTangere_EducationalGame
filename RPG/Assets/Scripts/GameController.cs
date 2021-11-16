@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum GameState { Freeroam, Quizmode, Dialogue, Cutscene, Paused}
 
@@ -12,6 +13,8 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject btnPause;
 
     [SerializeField] GameObject virtualController;
+    [SerializeField] GameObject interactButton;
+    [SerializeField] GameObject coreGameObject;
 
     GameState gameState;
     GameState stateBeforePaused;
@@ -29,7 +32,19 @@ public class GameController : MonoBehaviour
     {
         Instance = this;
         pauseMenuControl = GetComponent<PauseMenuControl>();
-        gameState = GameState.Paused;
+
+        if (SceneManager.GetActiveScene().name != "A Part1")
+        {
+            gameState = GameState.Cutscene;
+            virtualController.SetActive(false);
+            interactButton.SetActive(false);
+        }
+        else
+        {
+            gameState = GameState.Freeroam;
+            virtualController.SetActive(true);
+            interactButton.SetActive(true);
+        }
     }
 
     private void Start()
@@ -46,8 +61,6 @@ public class GameController : MonoBehaviour
                 gameState = GameState.Freeroam;
             }
         };
-
-        virtualController.SetActive(false);
     }
 
     public void newGame()
@@ -55,7 +68,8 @@ public class GameController : MonoBehaviour
         startMenuPanel.SetActive(false);
         gameState = GameState.Freeroam;
         btnPause.SetActive(true);
-        virtualController.SetActive(true);
+        SceneManager.LoadScene("school cutscene", LoadSceneMode.Single);
+        Destroy(coreGameObject);
     }
 
     public void loadGame()
@@ -64,7 +78,6 @@ public class GameController : MonoBehaviour
         gameState = GameState.Freeroam;
         startMenuPanel.SetActive(false);
         btnPause.SetActive(true);
-        virtualController.SetActive(true);
     }
 
     public void pauseGame(bool pause)
