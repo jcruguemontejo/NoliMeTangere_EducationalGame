@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: -898040453
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2352705955097512697, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
+  m_Sprite: {fileID: 3667823297439219613, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 1.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100,18 +100,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0028223991, y: -0.06209743}
+  m_Offset: {x: -0.0034823418, y: 0.026168823}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1.8125}
-    newSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 1.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6895132, y: 1.0967634}
+  m_Size: {x: 0.87866116, y: 1.6347809}
   m_EdgeRadius: 0
 --- !u!50 &153799119434189342
 Rigidbody2D:
@@ -146,15 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8043873834ec4b419258d9e78b289f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Crisostomo Ibarra
+  name: 
   dialogue:
-    lines:
-    - Iho, parang nawawala ka ata, bago ka lang ba dito sa Binondo?
-    - Paumanhin ka na nakalimutan kong mag pa kilala. Ako nga pala si Crisostomo
-      Ibarra.
-  movePattern:
-  - {x: -3, y: 0}
-  - {x: 3, y: 0}
+    lines: []
+  movePattern: []
   timeBetweenPattern: 2
 --- !u!114 &153799119434189317
 MonoBehaviour:
@@ -182,25 +177,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
-  - {fileID: 2352705955097512697, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: -3241753547981362872, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: -6464935015481286390, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: 442709714017826617, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: -910526702496010401, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
+  - {fileID: 3667823297439219613, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -1306919208110088574, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -5667091259487833520, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -7347523626001015478, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 5860772390609781268, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
   walkUpSprites:
-  - {fileID: -6488334823254289053, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: 5993701962754017117, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: 2626793964168311902, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: -5926554823737873036, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
-  - {fileID: 6473338635696668475, guid: 3182042cb42b9fc4bb81cdb2317bb9d4, type: 3}
+  - {fileID: -3654972908312545150, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -8752259011668182816, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 589808818622236184, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -9096144470925058431, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -4075134600242365499, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
   walkRightSprites:
-  - {fileID: 2230936588577103941, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -9111473675286820144, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5627484699997550656, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5051899674784280284, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: 3842278547678496189, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -7361372730987054728, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 863581400035404094, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 8829134275328816772, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
   walkLeftSprites:
-  - {fileID: 4614894318121576524, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 7369579285134121275, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -1211714280344312584, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 6842672397523141539, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: -5271026615406261847, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 862434752444307234, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: 7744296183979015768, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
+  - {fileID: -6304053824908644772, guid: a128676eb68b31b4bad98152fb1d1041, type: 3}
   defualtFaceDirection: 1

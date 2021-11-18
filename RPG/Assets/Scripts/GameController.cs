@@ -32,18 +32,21 @@ public class GameController : MonoBehaviour
     {
         Instance = this;
         pauseMenuControl = GetComponent<PauseMenuControl>();
-
-        if (SceneManager.GetActiveScene().name != "A Part1")
+        
+        if (!SceneManager.GetActiveScene().name.Contains("A Part"))
         {
             gameState = GameState.Cutscene;
             virtualController.SetActive(false);
             interactButton.SetActive(false);
+            btnPause.SetActive(false);
         }
         else
         {
             gameState = GameState.Freeroam;
             virtualController.SetActive(true);
             interactButton.SetActive(true);
+            btnPause.SetActive(true);
+            startMenuPanel.SetActive(false);
         }
     }
 
@@ -68,8 +71,8 @@ public class GameController : MonoBehaviour
         startMenuPanel.SetActive(false);
         gameState = GameState.Freeroam;
         btnPause.SetActive(true);
-        SceneManager.LoadScene("school cutscene", LoadSceneMode.Single);
-        Destroy(coreGameObject);
+        SceneManager.LoadScene("1 school cutscene", LoadSceneMode.Single);
+        
     }
 
     public void loadGame()
@@ -95,9 +98,23 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if(gameState == GameState.Freeroam)
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (gameState == GameState.Freeroam)
         {
             playerController.HandleUpdate();
+        }
+        
+        if (SceneManager.GetActiveScene().name.Contains("A Part") || gameState == GameState.Freeroam)
+        {
+            virtualController.SetActive(true);
+            interactButton.SetActive(true);
+            btnPause.SetActive(true);
+            startMenuPanel.SetActive(false);
+            Debug.Log("Controls Active");
+        }
+        else
+        {
+            Destroy(coreGameObject);
         }
     }
 

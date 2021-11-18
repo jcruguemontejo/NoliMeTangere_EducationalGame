@@ -3119,6 +3119,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4912602839421343451}
     m_Modifications:
+    - target: {fileID: 1462728860200877006, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728860200877006, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728860200877006, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_Text
+      value: 'Name:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462728862156145407, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1462728862219431387, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3207,6 +3243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueBox
       objectReference: {fileID: 0}
+    - target: {fileID: 1462728862219431388, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ce3517b1ecd20344bbadfdd148f0226, type: 3}
 --- !u!114 &4912602840001613883 stripped
@@ -3252,6 +3292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2066593080754228229, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228232, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: quizScores
       value: 
@@ -3262,11 +3306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3278,15 +3322,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066593080754228235, guid: f2f5a68f9f2b4e545a49e6147aa0a0a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

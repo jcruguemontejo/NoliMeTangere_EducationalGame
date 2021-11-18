@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Part1/A Part1.1.unity
+- path: Assets/Scenes/Part1/Cutscenes/3 Kapitan Tiago firstfloor cutscene kabanata1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

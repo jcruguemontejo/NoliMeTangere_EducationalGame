@@ -12,14 +12,36 @@ EditorBuildSettings:
     path: Assets/Scenes/FINAL BINONDO.unity
     guid: 9f50666221490cb4e92e997dbc76986a
   - enabled: 1
-    path: Assets/Scenes/Part1/A Part1.1.unity
+    path: Assets/Scenes/Part1/A Part 1.1.unity
     guid: 107f9c712d5609440bd45d9b20b40eec
   - enabled: 1
-    path: Assets/Scenes/school cutscene.unity
-    guid: 22d313defac133840bd3ee309c817a0f
+    path: Assets/Scenes/Part1/A Part 1.2 With Indoor.unity
+    guid: fdc07d246b77e784eb447d87ec529d01
   - enabled: 1
-    path: Assets/Scenes/FINAL BINONDO cutscene.unity
-    guid: aa157f3122b3070419e57eb9702814ad
+    path: Assets/Scenes/Part1/Kapitan Tiago Firstfloor.unity
+    guid: 2d8f340866e49724f99f07eba3c4c615
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/1 school cutscene.unity
+    guid: 4125a23e544a45a49b57ea8e34d97a6d
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/2 FINAL BINONDO cutscene introduction.unity
+    guid: d4aa5dbb7de786444af7508ff295f21f
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/3 Kapitan Tiago firstfloor cutscene kabanata1.unity
+    guid: f727cec2168ff1948a785dc86ccb7ac9
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/4 Kapitan Tiago firstfloor cutscene kabanata2.unity
+    guid: 7c7af0cdbf7df9a49af34a8f5cc2c378
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/5 Kapitan Tiago firstfloor cutscene kabanata3.unity
+    guid: 6089ad95fc10b6e4b94bae15981f2592
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/6 BINONDO cutscene kabanata 4 and 5 OUTSIDE.unity
+    guid: 6798ae642eff6af42b7ac108ea61adb2
+  - enabled: 1
+    path: Assets/Scenes/Part1/Cutscenes/7 binondo inside 1st floor cutscene Kbnta
+      4 5.unity
+    guid: d3322c8a650771b47af36451bfd9c5a8
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 47eba584741af1b4a9fe8020be9dafcc
