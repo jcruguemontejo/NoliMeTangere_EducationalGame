@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 public class LoadCutscene : MonoBehaviour
 {
     [SerializeField] string sceneName;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        if (collision.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        }
+        
     }
 
 }

@@ -59,10 +59,13 @@ public class QuizMaster : MonoBehaviour, Interactable, ISavable
 
         yield return character.Move(moveDiff);
 
-        //show start dialog
-        yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
-        Debug.Log("Start Quiz");
-        GameController.Instance.startQuiz(quiz);
+        if (!isQuizFinish)
+        {
+            //show start dialog
+            yield return DialogueManager.Instance.ShowDialogue(dialogue, name);
+            Debug.Log("Start Quiz");
+            GameController.Instance.startQuiz(quiz);
+        }
         
     }
 

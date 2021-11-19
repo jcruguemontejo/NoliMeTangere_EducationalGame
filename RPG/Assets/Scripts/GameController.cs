@@ -32,13 +32,13 @@ public class GameController : MonoBehaviour
     {
         Instance = this;
         pauseMenuControl = GetComponent<PauseMenuControl>();
-        
         if (!SceneManager.GetActiveScene().name.Contains("A Part"))
         {
             gameState = GameState.Cutscene;
             virtualController.SetActive(false);
             interactButton.SetActive(false);
             btnPause.SetActive(false);
+            Destroy(coreGameObject);
         }
         else
         {
@@ -98,7 +98,21 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(SceneManager.GetActiveScene().name);
+        if (!SceneManager.GetActiveScene().name.Contains("A Part"))
+        {
+            virtualController.SetActive(false);
+            interactButton.SetActive(false);
+            btnPause.SetActive(false);
+            Destroy(coreGameObject);
+        }
+        else
+        {
+            virtualController.SetActive(true);
+            interactButton.SetActive(true);
+            btnPause.SetActive(true);
+            startMenuPanel.SetActive(false);
+        }
+
         if (gameState == GameState.Freeroam)
         {
             playerController.HandleUpdate();
@@ -110,11 +124,6 @@ public class GameController : MonoBehaviour
             interactButton.SetActive(true);
             btnPause.SetActive(true);
             startMenuPanel.SetActive(false);
-            Debug.Log("Controls Active");
-        }
-        else
-        {
-            Destroy(coreGameObject);
         }
     }
 

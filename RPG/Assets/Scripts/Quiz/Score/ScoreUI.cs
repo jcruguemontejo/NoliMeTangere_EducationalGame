@@ -13,9 +13,33 @@ public class ScoreUI : MonoBehaviour
 
     void Start()
     {
-        scoreManager.AddScore(new Score(90, 75));
-        scoreManager.AddScore(new Score(80, 90));
         scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        scoreManager.AddScore(new Score(100, 100));
+        //if (QuizScores.whatPart == "Part1")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+        //else if (QuizScores.whatPart == "Part2")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+        //else if (QuizScores.whatPart == "Part3")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+        //else if (QuizScores.whatPart == "Part4")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+        //else if (QuizScores.whatPart == "Part5")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+        //else if (QuizScores.whatPart == "Finale")
+        //{
+        //    scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
+        //}
+
 
 
         var scores = scoreManager.GetScores().ToArray();

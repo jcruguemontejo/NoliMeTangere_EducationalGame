@@ -8,6 +8,7 @@ public class QuizManager : MonoBehaviour
     public List<QnA> QnA;
     public GameObject[] choices;
     public bool isMiniQuiz = false;
+    public string whatPart;
 
     public int currQuestion;
 
@@ -24,6 +25,7 @@ public class QuizManager : MonoBehaviour
     public int score = 0;
 
     public QuizMaster quizMaster;
+    
 
     private void Awake()
     {
@@ -37,7 +39,7 @@ public class QuizManager : MonoBehaviour
     {
         GameController.Instance.endQuiz(QuizHolder);
         quizMasterFov.SetActive(false);
-        quizMaster.quizDone(true/*, score, totalItems*/);
+        quizMaster.quizDone(true);
         GameController.Instance.quizResult(isMiniQuiz, score, totalItems);
         GameController.Instance.saveGame();
     }
@@ -91,4 +93,9 @@ public class QuizManager : MonoBehaviour
         }
 
     }
+}
+
+public enum WhatPart
+{
+    Part1, Part2, Part3, Part4, Part5, Finale 
 }
