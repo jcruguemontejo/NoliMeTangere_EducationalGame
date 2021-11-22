@@ -101,6 +101,7 @@ public class QuizMaster : MonoBehaviour, Interactable, ISavable
 
     public void RestoreState(object state)
     {
+        Debug.Log("Loading Quiz Master Data");
         isQuizFinish = (bool)state;
         if (isQuizFinish)
         {

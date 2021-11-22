@@ -8,7 +8,6 @@ public class QuizManager : MonoBehaviour
     public List<QnA> QnA;
     public GameObject[] choices;
     public bool isMiniQuiz = false;
-    public string whatPart;
 
     public int currQuestion;
 
@@ -95,7 +94,3 @@ public class QuizManager : MonoBehaviour
     }
 }
 
-public enum WhatPart
-{
-    Part1, Part2, Part3, Part4, Part5, Finale 
-}

@@ -13,13 +13,25 @@ public class PlayerController : MonoBehaviour, ISavable
     int majorScore = 0;
     int miniTotalItems = 0;
     int majorTotalItems = 0;
-    //int scene = 0;
+    int scene = 0;
 
 
     private void Awake()
     {
         character = GetComponent<Character>();
-        //scene = SceneManager.GetActiveScene().buildIndex;
+        scene = SceneManager.GetActiveScene().buildIndex;
+        if (GameData.gameLoaded)
+        {
+            if (SceneManager.GetActiveScene().name.Contains("A Part"))
+            {
+                transform.position = new Vector3(GameData.playerPos[0], GameData.playerPos[1]);
+                miniScore = GameData.miniQuizScore;
+                miniTotalItems = GameData.miniQuizItems;
+                majorScore = GameData.majorQuizScore;
+                majorTotalItems = GameData.majorQuizItems;
+            }
+        }
+        
     }
 
     public void HandleUpdate()
@@ -110,14 +122,17 @@ public class PlayerController : MonoBehaviour, ISavable
             miniQuizItems = miniTotalItems,
             majorQuizScore = majorScore,
             majorQuizItems = majorTotalItems,
-            //sceneIndex = scene
+            sceneIndex = scene
         };
+
+        Debug.Log(scene);
 
         return saveData;
     }
 
     public void RestoreState(object state)
     {
+        Debug.Log("Loading PlayerData");
         var saveData = (ImportantSaveData)state;
 
         miniScore = saveData.miniQuizScore;
@@ -125,10 +140,15 @@ public class PlayerController : MonoBehaviour, ISavable
         majorScore = saveData.majorQuizScore;
         majorTotalItems = saveData.majorQuizItems;
         transform.position = new Vector3(saveData.position[0], saveData.position[1]);
-        //SceneManager.LoadSceneAsync(saveData.sceneIndex);
-
-        Debug.Log("Mini Quiz" + miniScore + " / " + miniTotalItems);
-        Debug.Log("Major Quiz" + majorScore + " / " + majorTotalItems);
+        
+        GameData.miniQuizScore = miniScore;
+        GameData.miniQuizItems = miniTotalItems;
+        GameData.majorQuizScore = majorScore;
+        GameData.majorQuizItems = majorTotalItems;
+        GameData.playerPos[0] = transform.position.x;
+        GameData.playerPos[1] = transform.position.y;
+        
+        SceneManager.LoadSceneAsync(saveData.sceneIndex);
     }
 
 
@@ -143,7 +163,7 @@ public class ImportantSaveData
     public int majorQuizScore = 0;
     public int miniQuizItems = 0;
     public int majorQuizItems = 0;
-    //public int sceneIndex;
+    public int sceneIndex;
     public float[] position;
 
 }

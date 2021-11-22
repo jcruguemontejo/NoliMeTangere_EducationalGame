@@ -150,7 +150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6487263522159671540
 RectTransform:
   m_ObjectHideFlags: 0
@@ -518,6 +518,7 @@ GameObject:
   - component: {fileID: 3423821902001533594}
   - component: {fileID: 1139739209185639716}
   - component: {fileID: 5702095635436924416}
+  - component: {fileID: 4430805399189233077}
   m_Layer: 5
   m_Name: btnSave
   m_TagString: Untagged
@@ -627,9 +628,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7341803457102283708}
-        m_TargetAssemblyTypeName: PauseMenuControl, Assembly-CSharp
-        m_MethodName: saveGame
+      - m_Target: {fileID: 4430805399189233077}
+        m_TargetAssemblyTypeName: SaveAndLoadData, Assembly-CSharp
+        m_MethodName: SaveGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -639,6 +640,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4430805399189233077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681850457656487182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436363bcc229e1f4985ddf70a0ff59b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1852780096009204214
 GameObject:
   m_ObjectHideFlags: 0
