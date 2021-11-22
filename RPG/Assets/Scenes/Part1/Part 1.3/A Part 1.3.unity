@@ -328,7 +328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 99488947792683189, guid: 0469620b2e474394584def019abeb16a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -99.8
+      value: -99.9
       objectReference: {fileID: 0}
     - target: {fileID: 99488947792683189, guid: 0469620b2e474394584def019abeb16a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: defualtFaceDirection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 99488948489994870, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4833391204933880275, guid: 0469620b2e474394584def019abeb16a, type: 3}
       propertyPath: uniqueId
       value: 3a7b32df-7870-4d0d-a816-8f233981863b
@@ -377,6 +381,90 @@ PrefabInstance:
     - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
       propertyPath: whatPart
       value: Part1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Question
+      value: Sino ang dating Kura ng San Diego?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].Question
+      value: 'Sino ang anak ni Don Rafael? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: 'Sino ang kura sa bayan ng binondo? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[0]
+      value: Padre Damaso
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[1]
+      value: Padre Sibilya
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[2]
+      value: Padre Salvi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[3]
+      value: Kapitan Tiago
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[0]
+      value: Laruja
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[1]
+      value: Tenyente
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[2]
+      value: Kapitan Tiago
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[3]
+      value: Crisostomo Ibarra
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: Kapitan Tiago
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: Padre Silbya
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: Padre Damaso
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 0469620b2e474394584def019abeb16a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: Tenyente
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0469620b2e474394584def019abeb16a, type: 3}
@@ -678,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4672659209645551526, guid: 84c63c10754173b4780cc7fe05d76462, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -99.8
+      value: -99.78
       objectReference: {fileID: 0}
     - target: {fileID: 4672659209645551526, guid: 84c63c10754173b4780cc7fe05d76462, type: 3}
       propertyPath: m_LocalPosition.z

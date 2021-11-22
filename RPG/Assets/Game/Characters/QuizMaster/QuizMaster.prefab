@@ -458,25 +458,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
-  - {fileID: -8922328891513336043, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 5527661196443274707, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -2495014906627460004, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 5610367206947713552, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: -3753109718540542490, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 6948384265761030277, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 7161429946821254801, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -5081799083405117390, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -1567185171630564791, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
   walkUpSprites:
-  - {fileID: 307091595780809877, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -2126968859773451732, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5535047699543943917, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -4526993761146232485, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: -2194015894246368383, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -1698109962325265130, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -2661339356935472690, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 4017454257902841742, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 3095886963457619870, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
   walkRightSprites:
-  - {fileID: 2230936588577103941, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -9111473675286820144, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5627484699997550656, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -5051899674784280284, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: -442483001840850391, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -7845824841140687622, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 8442064423025084232, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 1708169621219774666, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
   walkLeftSprites:
-  - {fileID: 4614894318121576524, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 7369579285134121275, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: -1211714280344312584, guid: db1aa43745b68524da82e860b89e7411, type: 3}
-  - {fileID: 6842672397523141539, guid: db1aa43745b68524da82e860b89e7411, type: 3}
+  - {fileID: -4762593052708872357, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -23479218521264270, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: 1427894378459430869, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
+  - {fileID: -834549036963629549, guid: 66eb450761ecf854e97d33dde56ecbd8, type: 3}
   defualtFaceDirection: 3
 --- !u!114 &99488947792683215
 MonoBehaviour:
@@ -2253,6 +2255,7 @@ MonoBehaviour:
   - {fileID: 5560554782547288109}
   - {fileID: 5560554784116785703}
   isMiniQuiz: 1
+  whatPart: 
   currQuestion: 0
   QText: {fileID: 5560554783992402341}
   scoreCounter: {fileID: 5560554782808809419}

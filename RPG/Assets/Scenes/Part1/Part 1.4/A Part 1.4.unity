@@ -154,7 +154,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: FINAL BINONDO 1.3
+      value: FINAL BINONDO 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -235,7 +235,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: Connection Province and City 1.3
+      value: Connection Province and City 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -320,7 +320,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: SEMENTERYO 1.3
+      value: SEMENTERYO 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -474,6 +474,261 @@ PrefabInstance:
       propertyPath: uniqueId
       value: 59ada91e-33d1-4bc1-ae16-93fda6d02eaf
       objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: isMiniQuiz
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].Question
+      value: ' Saan nag aral si Crisostomo Ibarra'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].Question
+      value: Ano ang naging dahilan ni Padre Damaso kaya may mga kalamidad sa bansa?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Question
+      value: Sino ang nag akusa kay Padre Damaso na pinatay niya daw ang kanyang
+        katulong?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Question
+      value: Ano ang paglalarawan ni Tenyente Kay Don Rafael?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Question
+      value: ' Ano ang Kinain ng mga bisita sa Hapag? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Question
+      value: ' Ano ang naging paratang o Dahilan bakit nakulong si Don Rafael sa
+        San Diego? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Question
+      value: Bakit lalong bumigat ang Kaso ni Don Rafael?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Question
+      value: 'Bakit hindi tinanggap ni Padre Damaso ang pakikipagkamay ni Crisostomo? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Question
+      value: Kaano-ano ni Don Rael si Padre Damaso, sapagkakaalam ni Crisosmoto?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].CorrectAnswer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[0]
+      value: Europa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[1]
+      value: Amerika
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[2]
+      value: Espanya
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[3]
+      value: Pilipinas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[0]
+      value: Indio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[1]
+      value: Mga Guwardiya Sibil
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[2]
+      value: Erehe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[1].Answers.Array.data[3]
+      value: Ang Simbahan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[0]
+      value: Crisostomo Ibarra
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[1]
+      value: Tenyente
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[2]
+      value: Kapitan Tiago
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[2].Answers.Array.data[3]
+      value: Padre Sibilya
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[0]
+      value: Walang Pakialam sa Ibang Tao
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[1]
+      value: Matulungin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[2]
+      value: Masungit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[3].Answers.Array.data[3]
+      value: Marangal at Mabait
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[0]
+      value: Tinolang Manok
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[1]
+      value: Sinigang
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[2]
+      value: Adobo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[4].Answers.Array.data[3]
+      value: Lechon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[0]
+      value: 'Napagkamalan siya na siya ang nag patay sa Kolektor. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[1]
+      value: Nagnakaw ng Pera sa Simbahan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[2]
+      value: Pumatay ng Pari
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[3]
+      value: Nanloko ng Guwardiya Sibil
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[0]
+      value: Ninakawan ni Don Raphael ang Simbahan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[1]
+      value: Nagkalat siya ng mga maling Impormasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[2]
+      value: 'Napagbintangan siya na nag babasa ng ipinagbabawal na basahin galing
+        madrid. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[3]
+      value: Nanloko si Don Raphael ng ibang Tao
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[0]
+      value: Hindi siya kilala ni Padre Damaso
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[1]
+      value: Maling tao ang nabanggit ni Crisostomo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[2]
+      value: 'Hindi sangayon si Damaso sa sinabi ni Crisostomo. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[3]
+      value: Hinid nakikipagkamay si Padre Damaso sa mga taong galing sa ibang bansa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Answers.Array.data[0]
+      value: Matalik na Kaibigan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Answers.Array.data[1]
+      value: Kaaway
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Answers.Array.data[2]
+      value: Kapatid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560554784289152925, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
+      propertyPath: QnA.Array.data[8].Answers.Array.data[3]
+      value: Hindi sila magkakilala ni Don Raphael
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01f059475fd914d419b66a03dc07538a, type: 3}
 --- !u!1001 &698283641
@@ -485,7 +740,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: Kapitan Tiago Firstfloor 1.2
+      value: Kapitan Tiago Firstfloor 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -582,7 +837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848373060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.25, y: -89.62, z: 0}
+  m_LocalPosition: {x: -30.07, y: -92.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -601,7 +856,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18111253, y: 4.817623}
+  m_Offset: {x: 0.57, y: 4.817623}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -612,7 +867,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9134712, y: 2.9969559}
+  m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &969809868 stripped
 MonoBehaviour:
@@ -719,7 +974,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: Province 1.3
+      value: Province 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -808,7 +1063,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: CITY 1.3
+      value: CITY 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -985,7 +1240,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: construction site 1.3
+      value: construction site 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
@@ -1070,7 +1325,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012420495149769984, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Name
-      value: FOREST 1.3
+      value: FOREST 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2012420495149769985, guid: 7278efc2e853ee84293b65bc7987c1a5, type: 3}
       propertyPath: m_Size.x
