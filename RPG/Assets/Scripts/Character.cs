@@ -85,15 +85,17 @@ public class Character : MonoBehaviour
         var xDiff = Mathf.Floor(targetPos.x) - Mathf.Floor(transform.position.x);
         var yDiff = Mathf.Floor(targetPos.y) - Mathf.Floor(transform.position.y);
 
-        if (xDiff == 0 || yDiff == 0)
-        {
-            animator.moveX = Mathf.Clamp(xDiff, -1f, 1f);
-            animator.moveY = Mathf.Clamp(yDiff, -1f, 1f);
-        }
-        else
-        {
-            Debug.LogError("Error look direction: Character cannot look DIAGONALLY!!");
-        }
+        //if (xDiff == 0 || yDiff == 0)
+        //{
+        //    animator.moveX = Mathf.Clamp(xDiff, -1f, 1f);
+        //    animator.moveY = Mathf.Clamp(yDiff, -1f, 1f);
+        //}
+        //else
+        //{
+        //    Debug.LogError("Error look direction: Character cannot look DIAGONALLY!!");
+        //}
+        animator.moveX = Mathf.Clamp(xDiff, -1f, 1f);
+        animator.moveY = Mathf.Clamp(yDiff, -1f, 1f);
     }
 
     public CharacterAnimator anim

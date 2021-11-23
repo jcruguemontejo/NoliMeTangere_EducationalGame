@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class GameData : MonoBehaviour
 {
-    public static float[] playerPos;
+    public static float playerPosX;
+    public static float playerPosY;
     public static int miniQuizScore;
     public static int miniQuizItems;
     public static int majorQuizScore;

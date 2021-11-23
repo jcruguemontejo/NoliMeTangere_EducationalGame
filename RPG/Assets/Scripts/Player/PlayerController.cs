@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour, ISavable
+public class PlayerController : MonoBehaviour
 {
     private Vector2 input;
     private Character character;
@@ -13,25 +13,28 @@ public class PlayerController : MonoBehaviour, ISavable
     int majorScore = 0;
     int miniTotalItems = 0;
     int majorTotalItems = 0;
-    int scene = 0;
 
 
     private void Awake()
     {
         character = GetComponent<Character>();
-        scene = SceneManager.GetActiveScene().buildIndex;
         if (GameData.gameLoaded)
         {
             if (SceneManager.GetActiveScene().name.Contains("A Part"))
             {
-                transform.position = new Vector3(GameData.playerPos[0], GameData.playerPos[1]);
-                miniScore = GameData.miniQuizScore;
-                miniTotalItems = GameData.miniQuizItems;
-                majorScore = GameData.majorQuizScore;
-                majorTotalItems = GameData.majorQuizItems;
+                transform.position = new Vector3(PlayerPrefs.GetFloat(key: "Save_Player_Postion_X"), PlayerPrefs.GetFloat(key: "Save_Player_Postion_Y"));
+                //miniScore = GameData.miniQuizScore;
+                //miniTotalItems = GameData.miniQuizItems;
+                //majorScore = GameData.majorQuizScore;
+                //majorTotalItems = GameData.majorQuizItems;
             }
         }
         
+    }
+    private void Update()
+    { 
+        GameData.playerPosX = transform.position.x;
+        GameData.playerPosY = transform.position.y;
     }
 
     public void HandleUpdate()
@@ -112,58 +115,6 @@ public class PlayerController : MonoBehaviour, ISavable
 
         QuizScores.majorQuizScore = majorScore;
     }
-
-    public object CaptureState()
-    {
-        var saveData = new ImportantSaveData()
-        {
-            position = new float[] { transform.position.x, transform.position.y },
-            miniQuizScore = miniScore,
-            miniQuizItems = miniTotalItems,
-            majorQuizScore = majorScore,
-            majorQuizItems = majorTotalItems,
-            sceneIndex = scene
-        };
-
-        Debug.Log(scene);
-
-        return saveData;
-    }
-
-    public void RestoreState(object state)
-    {
-        Debug.Log("Loading PlayerData");
-        var saveData = (ImportantSaveData)state;
-
-        miniScore = saveData.miniQuizScore;
-        miniTotalItems = saveData.miniQuizItems;
-        majorScore = saveData.majorQuizScore;
-        majorTotalItems = saveData.majorQuizItems;
-        transform.position = new Vector3(saveData.position[0], saveData.position[1]);
-        
-        GameData.miniQuizScore = miniScore;
-        GameData.miniQuizItems = miniTotalItems;
-        GameData.majorQuizScore = majorScore;
-        GameData.majorQuizItems = majorTotalItems;
-        GameData.playerPos[0] = transform.position.x;
-        GameData.playerPos[1] = transform.position.y;
-        
-        SceneManager.LoadSceneAsync(saveData.sceneIndex);
-    }
-
-
     public Character Char => character;
-
-}
-
-[Serializable]
-public class ImportantSaveData
-{
-    public int miniQuizScore = 0;
-    public int majorQuizScore = 0;
-    public int miniQuizItems = 0;
-    public int majorQuizItems = 0;
-    public int sceneIndex;
-    public float[] position;
 
 }
