@@ -13,7 +13,7 @@ public class LocationPortal : MonoBehaviour, PlayerTriggerable
     public void onPlayerTriggered(PlayerController player)
     {
         this.player = player;
-        StartCoroutine(switchScene());
+        StartCoroutine(Teleport());
     }
 
     Fader fader;
@@ -22,7 +22,7 @@ public class LocationPortal : MonoBehaviour, PlayerTriggerable
         fader = FindObjectOfType<Fader>();
     }
 
-    IEnumerator switchScene()
+    IEnumerator Teleport()
     {
         GameController.Instance.pauseGame(true);
 
@@ -30,8 +30,8 @@ public class LocationPortal : MonoBehaviour, PlayerTriggerable
         Debug.Log("Switching Scenes!");
 
         var desPortal = FindObjectsOfType<LocationPortal>().First(x => x != this && x.destPortal == this.destPortal);
-
         player.Char.setPositionAndSnapToTile(desPortal.SpawnPoint.position);
+        
         yield return fader.fadeOut(0.3f);
         GameController.Instance.pauseGame(false);
     }

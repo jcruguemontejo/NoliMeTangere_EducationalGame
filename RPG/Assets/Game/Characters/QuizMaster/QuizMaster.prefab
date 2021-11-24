@@ -201,9 +201,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 943451573
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: -898040453
+  m_SortingLayer: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 5955781087917997448, guid: 3ae12697ae504414bbf0797ea36dfddd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2201,6 +2201,7 @@ GameObject:
   - component: {fileID: 5560554784289152926}
   - component: {fileID: 5560554784289152925}
   - component: {fileID: 8004440896523438030}
+  - component: {fileID: 7489107953077528034}
   m_Layer: 0
   m_Name: QuizManager
   m_TagString: Untagged
@@ -2255,7 +2256,8 @@ MonoBehaviour:
   - {fileID: 5560554782547288109}
   - {fileID: 5560554784116785703}
   isMiniQuiz: 1
-  whatPart: 
+  part: 1
+  scoreManager: {fileID: 5560554784289152927}
   currQuestion: 0
   QText: {fileID: 5560554783992402341}
   scoreCounter: {fileID: 5560554782808809419}
@@ -2278,3 +2280,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueId: 
+--- !u!114 &7489107953077528034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5560554784289152927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89cb94d109c56ed4089ea06098bf43fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

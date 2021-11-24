@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &42358548 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4912602840189681432, guid: 84c63c10754173b4780cc7fe05d76462, type: 3}
-  m_PrefabInstance: {fileID: 435962698}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &51155875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +4257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06310acdbea82749a73c6cf74c4d64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playable: {fileID: 1527010191}
+  playable: {fileID: 0}
 --- !u!61 &880220846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4622,62 +4617,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1527010190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1527010192}
-  - component: {fileID: 1527010191}
-  m_Layer: 0
-  m_Name: InsideHouse Cutscene
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &1527010191
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527010190}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 566f68f50fd96e54387860c67be89307, type: 2}
-  m_InitialState: 0
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 2667650555820809503, guid: 47ead085145e0094189662e8086b5121, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 5601013406920731328, guid: 566f68f50fd96e54387860c67be89307, type: 2}
-    value: {fileID: 993666355}
-  - key: {fileID: 1857583029916712389, guid: 566f68f50fd96e54387860c67be89307, type: 2}
-    value: {fileID: 993666355}
-  - key: {fileID: -4834976338938630210, guid: 566f68f50fd96e54387860c67be89307, type: 2}
-    value: {fileID: 42358548}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &1527010192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527010190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.191174, y: 1.017137, z: -15.798991}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1553376386
 GameObject:
   m_ObjectHideFlags: 0

@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
         {
             foreach (var line in dialogue.Lines)
             {
-                yield return typeDialogue(line);
+                typeDialogue(line);
                 yield return new WaitUntil(() => isClicked);
                 isClicked = false;
             }
@@ -54,16 +54,16 @@ public class DialogueManager : MonoBehaviour
             isShowing = false;
             onCloseDialogue?.Invoke();
         }
-        yield return typeDialogue(dialogue.Lines[0]);
+        typeDialogue(dialogue.Lines[0]);
     }
 
-    public IEnumerator typeDialogue(string line)
+    public void /*IEnumerator*/ typeDialogue(string line)
     {
         dialogueText.text = line;
-        foreach (var letter in line.ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(1f / lettersPerSecond);
-        }
+        //foreach (var letter in line.ToCharArray())
+        //{
+        //    dialogueText.text += letter;
+        //    yield return new WaitForSeconds(1f / lettersPerSecond);
+        //}
     }
 }

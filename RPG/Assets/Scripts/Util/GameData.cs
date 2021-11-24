@@ -7,11 +7,9 @@ public class GameData : MonoBehaviour
 {
     public static float playerPosX;
     public static float playerPosY;
-    public static int miniQuizScore;
-    public static int miniQuizItems;
-    public static int majorQuizScore;
-    public static int majorQuizItems;
     public static bool quizDone;
     public static bool gameLoaded;
-
+    public static int part = 1;
+    public static int miniQuizScore = 0;
+    public static int majorQuizScore = 0;
 }

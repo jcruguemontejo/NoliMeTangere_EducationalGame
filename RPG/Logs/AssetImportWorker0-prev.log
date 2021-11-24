@@ -15,11 +15,11 @@ C:/Users/ASUS/Desktop/Capstone Project/NME_EG/RPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50378
+51526
 Successfully changed project path to: C:/Users/ASUS/Desktop/Capstone Project/NME_EG/RPG
 C:/Users/ASUS/Desktop/Capstone Project/NME_EG/RPG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 156.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 484.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,1846 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005496 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 255.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.761 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 214.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.488 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2761.
+Total: 3.866100 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.094300 ms MarkObjects: 3.294500 ms  DeleteObjects: 0.118900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Quiz/Score/QuizScores.cs
+  artifactKey: Guid(f041e5f7fbbb1154a8981c7f64d91e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz/Score/QuizScores.cs using Guid(f041e5f7fbbb1154a8981c7f64d91e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9006e044c463f33bb5cd6aad03d5bd8') in 0.930493 seconds 
+  Import took 0.955851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 738.814311 seconds.
+  path: Assets/Scenes/Part
+  artifactKey: Guid(0fbc2ab6f18dc184ba433e8b566b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part using Guid(0fbc2ab6f18dc184ba433e8b566b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2371c0f488cb9092de4fd44629d45a') in 0.011846 seconds 
+  Import took 0.019909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.261988 seconds.
+  path: Assets/Scenes/Part2
+  artifactKey: Guid(0fbc2ab6f18dc184ba433e8b566b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2 using Guid(0fbc2ab6f18dc184ba433e8b566b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359258fe771d3585f350985f5d3a5300') in 0.013005 seconds 
+  Import took 0.020379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.978457 seconds.
+  path: Assets/Scenes/Part2/Cutscenes
+  artifactKey: Guid(fc4e60f10a03c4440b61ce951702e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Cutscenes using Guid(fc4e60f10a03c4440b61ce951702e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46dacf158e83ee16bd37eb076ac0122') in 0.011047 seconds 
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.924794 seconds.
+  path: Assets/Scenes/Part2 1.)Kapitan Tiago's House Kbnta 7.unity
+  artifactKey: Guid(a7af41b0887cfe84cb9c663b4f1f5a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2 1.)Kapitan Tiago's House Kbnta 7.unity using Guid(a7af41b0887cfe84cb9c663b4f1f5a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b4e17395275291a9d8250333ea7db') in 0.083608 seconds 
+  Import took 0.151906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.979250 seconds.
+  path: Assets/Scenes/Part2/Part 2.2
+  artifactKey: Guid(ebdf25979bcede9439f31f55e8e6eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.2 using Guid(ebdf25979bcede9439f31f55e8e6eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f1eb63d4a58f96f9266c83ad588b57') in 0.084668 seconds 
+  Import took 0.181692 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.754 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2310 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 5.126900 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.107700 ms MarkObjects: 4.540000 ms  DeleteObjects: 0.040100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 3.499300 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.080400 ms MarkObjects: 3.053500 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 4.205600 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.587600 ms  DeleteObjects: 0.153200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 6.607100 ms (FindLiveObjects: 0.425400 ms CreateObjectMapping: 0.105600 ms MarkObjects: 6.041500 ms  DeleteObjects: 0.033100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2773.
+Total: 3.731100 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.101900 ms MarkObjects: 3.181300 ms  DeleteObjects: 0.044400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2777.
+Total: 4.310900 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.105000 ms MarkObjects: 3.744800 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.094602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2781.
+Total: 3.451200 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.070000 ms MarkObjects: 3.032600 ms  DeleteObjects: 0.042500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1378.866542 seconds.
+  path: Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity
+  artifactKey: Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity using Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9935c7512ff95d3ab450f2ad1fd2a196') in 1.006933 seconds 
+  Import took 1.043055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 596.788737 seconds.
+  path: Assets/Arts/NPCRevised-Jham/Revised/character 3.png
+  artifactKey: Guid(66eb450761ecf854e97d33dde56ecbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/NPCRevised-Jham/Revised/character 3.png using Guid(66eb450761ecf854e97d33dde56ecbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a111ce96ff5c314755f981e5fa37c3e') in 4.442957 seconds 
+  Import took 4.450353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Arts/NPCRevised-Jham/Revised/CHARACTER 4.png
+  artifactKey: Guid(4259edd3c88221841b48225af3803e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/NPCRevised-Jham/Revised/CHARACTER 4.png using Guid(4259edd3c88221841b48225af3803e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c61746031655724039e3b1ea6c8861b') in 0.535572 seconds 
+  Import took 0.542420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Arts/NPCRevised-Jham/Revised/tanan.png
+  artifactKey: Guid(fdbc6c6bd1221d94383b78138c4e9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/NPCRevised-Jham/Revised/tanan.png using Guid(fdbc6c6bd1221d94383b78138c4e9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53348b0643cd4fc9402f2e2ac7bf0b1') in 1.433663 seconds 
+  Import took 1.440667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.673928 seconds.
+  path: Assets/Game/Characters/Key Characters/NPC 1.prefab
+  artifactKey: Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Key Characters/NPC 1.prefab using Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9751a2e3223aab69be6e62a7bd013a62') in 0.229203 seconds 
+  Import took 0.236743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.894708 seconds.
+  path: Assets/Game/Characters/Key Characters/Sisa Crazy.prefab
+  artifactKey: Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Key Characters/Sisa Crazy.prefab using Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59881315e165b49d11b49db26e053ac') in 0.014755 seconds 
+  Import took 0.027659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.296656 seconds.
+  path: Assets/Scenes/Kapitan Tiago firstfloor.unity
+  artifactKey: Guid(ba3d12ed2f5aef840a8d32902f858e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kapitan Tiago firstfloor.unity using Guid(ba3d12ed2f5aef840a8d32902f858e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3325850783c7436763287455446b4a') in 0.010143 seconds 
+  Import took 0.017598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.051180 seconds.
+  path: Assets/Game/Characters/Key Characters/Sisa Crazy.prefab
+  artifactKey: Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Key Characters/Sisa Crazy.prefab using Guid(e05cab875f5a5ef4bad7cd9decef7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7ebedec8180f8476db7f5da5a6d636') in 0.601066 seconds 
+  Import took 0.609691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1956.171511 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5.anim
+  artifactKey: Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5.anim using Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db39557232123cfcb95784f919bcde5') in 0.009928 seconds 
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344536 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5.anim
+  artifactKey: Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5.anim using Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db39557232123cfcb95784f919bcde5') in 0.007523 seconds 
+  Import took 0.014365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.975578 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle.anim
+  artifactKey: Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle.anim using Guid(e4deb34a5f92b71478faef431d47203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da60f27e625ceb54945ba846f6df41') in 0.007540 seconds 
+  Import took 0.013387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.081904 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk.anim
+  artifactKey: Guid(9bd47466a3bacd44788ac60aef6a225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk.anim using Guid(9bd47466a3bacd44788ac60aef6a225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8125271b2fcd483666311a8359163dc4') in 0.007160 seconds 
+  Import took 0.014663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.353212 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Down.anim
+  artifactKey: Guid(9bd47466a3bacd44788ac60aef6a225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Down.anim using Guid(9bd47466a3bacd44788ac60aef6a225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b883c79aebba89fe8f252b35c55e808') in 0.007255 seconds 
+  Import took 0.013696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 521.027942 seconds.
+  path: Assets/Animations/Key Characters
+  artifactKey: Guid(1d5627665e18a9d41b28951af00ccf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters using Guid(1d5627665e18a9d41b28951af00ccf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ba2d044aea49ae2613dd9947d828c1') in 0.008629 seconds 
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.182925 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Right.anim
+  artifactKey: Guid(2d02bb92885e0c6408c8fd400c206350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Right.anim using Guid(2d02bb92885e0c6408c8fd400c206350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db41602238b547e9959c47bf2cf10506') in 0.009295 seconds 
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031634 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_right.anim
+  artifactKey: Guid(d549a47293279834c88627181940bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_right.anim using Guid(d549a47293279834c88627181940bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8294757a5fbae5fa62433c31dae922') in 0.005588 seconds 
+  Import took 0.010846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006036 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle_Right.anim
+  artifactKey: Guid(08d07d5bf2584464580243c8d0341ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle_Right.anim using Guid(08d07d5bf2584464580243c8d0341ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741f090177da3df053ad6b29409be466') in 0.005487 seconds 
+  Import took 0.011217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004434 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7
+  artifactKey: Guid(bb5b0c1acbd4b174e9fd9f90fedfba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7 using Guid(bb5b0c1acbd4b174e9fd9f90fedfba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf4a3ec510616adcac753d6501ed71d') in 0.004385 seconds 
+  Import took 0.009887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013283 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPC Padre 3.controller
+  artifactKey: Guid(1231f8b1396885045947673131bedfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPC Padre 3.controller using Guid(1231f8b1396885045947673131bedfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ffb9dc117017f651e4dc4356a9c4a') in 0.014574 seconds 
+  Import took 0.020166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093820 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Up.anim
+  artifactKey: Guid(1c67cb9c871980f48822d7294f521433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Up.anim using Guid(1c67cb9c871980f48822d7294f521433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb779ca97d709792b84a89a44e576ce') in 0.005649 seconds 
+  Import took 0.011642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028856 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Left.anim
+  artifactKey: Guid(42c1e04ceccda1742b7fb65af01054fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Left.anim using Guid(42c1e04ceccda1742b7fb65af01054fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8886c9ad562c70374e0e78097401d0c8') in 0.008237 seconds 
+  Import took 0.013830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049463 seconds.
+  path: Assets/Animations/Key Characters/Player/WalkUp.anim
+  artifactKey: Guid(3a79ccde2d09f2a4990986167c74267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/WalkUp.anim using Guid(3a79ccde2d09f2a4990986167c74267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbef34bfe471fc63606423643c81aa3c') in 0.007059 seconds 
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017370 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4
+  artifactKey: Guid(097b9b9e90c1f0d4886b957a4fb711e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4 using Guid(097b9b9e90c1f0d4886b957a4fb711e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc19a3bdfd1b3817558935edceea331') in 0.004379 seconds 
+  Import took 0.009310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085902 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Left.anim
+  artifactKey: Guid(a1944dab11864104eaa6f5210b3d4b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Left.anim using Guid(a1944dab11864104eaa6f5210b3d4b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fea560acf90f62996844be637b6a87') in 0.005596 seconds 
+  Import took 0.011292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022145 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Down.anim
+  artifactKey: Guid(28e7f7f9a0ddf1c4c81e7868969706e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Down.anim using Guid(28e7f7f9a0ddf1c4c81e7868969706e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352212757a9d0b2cee77ccd20a235b4d') in 0.005269 seconds 
+  Import took 0.010648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123212 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Left.anim
+  artifactKey: Guid(ac4123f3625d82645b6f7cc352e20bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Left.anim using Guid(ac4123f3625d82645b6f7cc352e20bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ad7cff2f08a3047efc83b0bb9e79be') in 0.005798 seconds 
+  Import took 0.011526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025633 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Right.anim
+  artifactKey: Guid(285cd4fb797366d4bbe263ca28973310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Right.anim using Guid(285cd4fb797366d4bbe263ca28973310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b170a4fe4077014df62a563ac9e3d7') in 0.005569 seconds 
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021286 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Left.anim
+  artifactKey: Guid(be003d60a7f99534286a8a3f6197ab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Left.anim using Guid(be003d60a7f99534286a8a3f6197ab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461f874d26310a8947aebc7185240fc2') in 0.005475 seconds 
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006154 seconds.
+  path: Assets/Animations/Key Characters/Player/WalkLeft.anim
+  artifactKey: Guid(07376855af8b2084eb6b840fb77ea510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/WalkLeft.anim using Guid(07376855af8b2084eb6b840fb77ea510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29e9fcd764e9602f5033c05326eb55e') in 0.006633 seconds 
+  Import took 0.012906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005227 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Right.anim
+  artifactKey: Guid(5f224182d62db8e41924837cdb501de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Right.anim using Guid(5f224182d62db8e41924837cdb501de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc732bf39c66ddf01b869cdf2aa2499') in 0.005650 seconds 
+  Import took 0.012196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055323 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/Sakristan Mayor.controller
+  artifactKey: Guid(fd0ca0449a03f844bb7be6a58040322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/Sakristan Mayor.controller using Guid(fd0ca0449a03f844bb7be6a58040322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b63a06c416d3f60346cf14d82a26b2') in 0.012225 seconds 
+  Import took 0.017951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218114 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Up.anim
+  artifactKey: Guid(ea01d60da09bda849ac8b9f9f3554c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Up.anim using Guid(ea01d60da09bda849ac8b9f9f3554c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0207c30f10a89cd8c278279b71de6397') in 0.008740 seconds 
+  Import took 0.019634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017234 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6
+  artifactKey: Guid(ba0ebe05d8bdf8443a4ed4a162764a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6 using Guid(ba0ebe05d8bdf8443a4ed4a162764a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec94ba29d03af020b30a6648a705f194') in 0.012028 seconds 
+  Import took 0.020502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005076 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPC Padre 6.controller
+  artifactKey: Guid(acdb7f11740798f4a8013463c327bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPC Padre 6.controller using Guid(acdb7f11740798f4a8013463c327bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f622007a0429f0ef6670b96a5d5782') in 0.024334 seconds 
+  Import took 0.032452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075594 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Left.anim
+  artifactKey: Guid(cd4d49f361af0ff49bdcb270d2371c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Left.anim using Guid(cd4d49f361af0ff49bdcb270d2371c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48083702037b35836326273bf4e91e52') in 0.012915 seconds 
+  Import took 0.024902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013872 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Left.anim
+  artifactKey: Guid(9cd440d6efff57c42aa10ca2dd02665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Left.anim using Guid(9cd440d6efff57c42aa10ca2dd02665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66644854c879096b49aab0c0b48a2151') in 0.009067 seconds 
+  Import took 0.016336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162996 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Down.anim
+  artifactKey: Guid(c89d2369c99903c47a0a2d1a4717f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Down.anim using Guid(c89d2369c99903c47a0a2d1a4717f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f20fc6a98e202e317f2583c9af5b8cb') in 0.005334 seconds 
+  Import took 0.010978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010286 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPC Padre 5.controller
+  artifactKey: Guid(e637a7fa49c60dd419acbbfd7d954d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPC Padre 5.controller using Guid(e637a7fa49c60dd419acbbfd7d954d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8836440ab911c2d987334fc073a212') in 0.008445 seconds 
+  Import took 0.013665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213561 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle.anim
+  artifactKey: Guid(f8e83aa150e345042a3b12896cd69232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle.anim using Guid(f8e83aa150e345042a3b12896cd69232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d362d0c99d630325c80d7b077620199') in 0.005123 seconds 
+  Import took 0.010118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005238 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Back.anim
+  artifactKey: Guid(87b05fb99200e7040b92d7170f657fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Back.anim using Guid(87b05fb99200e7040b92d7170f657fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1400a5ced590e3c4171e8e82548ffcd1') in 0.004906 seconds 
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005916 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPC Padre 7.controller
+  artifactKey: Guid(e3071ed607966fc4d80a73b318bd7ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPC Padre 7.controller using Guid(e3071ed607966fc4d80a73b318bd7ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c0d0c9e27bd888f54fb12070562d2') in 0.008454 seconds 
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054161 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPC Padre 2.controller
+  artifactKey: Guid(b4149a4ed38a21042a4593fa0bf84e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPC Padre 2.controller using Guid(b4149a4ed38a21042a4593fa0bf84e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a2116a73465a44cb466f3a7a2e54c9') in 0.014069 seconds 
+  Import took 0.019605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005743 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Left.anim
+  artifactKey: Guid(17eee1ecec1628c4d9d325843c679c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Left.anim using Guid(17eee1ecec1628c4d9d325843c679c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3ca0641fc74d92d45d3f8c92fe4e71') in 0.005634 seconds 
+  Import took 0.011751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252325 seconds.
+  path: Assets/Animations/Key Characters/Player/WalkDown.anim
+  artifactKey: Guid(6be19777a699e0d418f3f43c620f142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/WalkDown.anim using Guid(6be19777a699e0d418f3f43c620f142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fff6b1760f994bace6157c04d58aac') in 0.005265 seconds 
+  Import took 0.010237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165677 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Up.anim
+  artifactKey: Guid(f2b3e3288edf30140ba50a16c1449fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Up.anim using Guid(f2b3e3288edf30140ba50a16c1449fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4161166ea8986f5158012d5fadf9ee') in 0.005002 seconds 
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036948 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Left.anim
+  artifactKey: Guid(bc933a57eb6a7464cbb4b1fab3ab2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Left.anim using Guid(bc933a57eb6a7464cbb4b1fab3ab2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbad9cde340bd39316de8360dad4e22') in 0.006716 seconds 
+  Import took 0.011933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044852 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Right.anim
+  artifactKey: Guid(79e0f91716f7306418a1204edb0516c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Right.anim using Guid(79e0f91716f7306418a1204edb0516c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814cafb8a321e05f9884513abbc91b4a') in 0.042458 seconds 
+  Import took 0.048177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024325 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Right.anim
+  artifactKey: Guid(c4eb3926213d4034b8892034c8947442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Right.anim using Guid(c4eb3926213d4034b8892034c8947442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2eacde4066f3387d3208db2ace03fe') in 0.005313 seconds 
+  Import took 0.010417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028903 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Left.anim
+  artifactKey: Guid(b1307b284dae88047819c7c15aa1b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Left.anim using Guid(b1307b284dae88047819c7c15aa1b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b664150d80460f548717ddd25297e7') in 0.005463 seconds 
+  Import took 0.010745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013743 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Right.anim
+  artifactKey: Guid(85c5539f0e6b9c64ba8c64dad1d25b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle_Right.anim using Guid(85c5539f0e6b9c64ba8c64dad1d25b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646f3d8ceacf1eeb70261bdb9326366') in 0.005249 seconds 
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041294 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle_Left.anim
+  artifactKey: Guid(0e0e2eb68cb432c43993b97b226705e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Idle_Left.anim using Guid(0e0e2eb68cb432c43993b97b226705e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f4fa0b8a811325632605824bd1399c') in 0.005649 seconds 
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005278 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Left.anim
+  artifactKey: Guid(057339872980e1047a3711fbe5130ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Left.anim using Guid(057339872980e1047a3711fbe5130ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33ea942671ae2808ecefcb4ae0e459') in 0.038634 seconds 
+  Import took 0.044169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084228 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Down.anim
+  artifactKey: Guid(a2313b47beec5ad49960caa3ac332b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Down.anim using Guid(a2313b47beec5ad49960caa3ac332b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff63d5258e5ec32ad3a1aa4931668a0d') in 0.005156 seconds 
+  Import took 0.010767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038268 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Up.anim
+  artifactKey: Guid(96d819ec5f82eb642a99204028fb9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Up.anim using Guid(96d819ec5f82eb642a99204028fb9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26ca9241b7c4af41f3d489ceb04b9dc') in 0.035252 seconds 
+  Import took 0.041505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047950 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3
+  artifactKey: Guid(c2b9e5829fb1c39418135ae2c0969fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3 using Guid(c2b9e5829fb1c39418135ae2c0969fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eeae1719f1f4cb003d4b012abd3da5') in 0.004756 seconds 
+  Import took 0.009854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024401 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_Down.anim
+  artifactKey: Guid(2fe99df7d8739d34d8f5e34528293c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_Down.anim using Guid(2fe99df7d8739d34d8f5e34528293c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901dd12f688f950569ee4e30b5eac445') in 0.006745 seconds 
+  Import took 0.026264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043500 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPC Padre 4.controller
+  artifactKey: Guid(847c4fa5421b68744af8fd0a5df331ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPC Padre 4.controller using Guid(847c4fa5421b68744af8fd0a5df331ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4048af05615e7ebf38d74c91059d2722') in 0.010511 seconds 
+  Import took 0.016972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018158 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Right.anim
+  artifactKey: Guid(56f5e07d2943b284eb86d21d1c6abac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Right.anim using Guid(56f5e07d2943b284eb86d21d1c6abac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7384870249d60ce3a26f3f7fcfbb2cc') in 0.008266 seconds 
+  Import took 0.015316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031844 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Up.anim
+  artifactKey: Guid(8ceea8f03a1067542a3b8217122f9cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Up.anim using Guid(8ceea8f03a1067542a3b8217122f9cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a8a61a61171bb2a1a3979bc45929d6') in 0.008180 seconds 
+  Import took 0.014627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006718 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Up.anim
+  artifactKey: Guid(6ccb4d8279eef474d88c8aace69cf9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Up.anim using Guid(6ccb4d8279eef474d88c8aace69cf9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663918cc5e3ece79a5966d2163b6df0b') in 0.006746 seconds 
+  Import took 0.013957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130366 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPC Padre 1.controller
+  artifactKey: Guid(fdbe2ad2e64edcb4f8a441b595e07a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPC Padre 1.controller using Guid(fdbe2ad2e64edcb4f8a441b595e07a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b75a536cda145e6d639a653f3e1cc') in 0.009343 seconds 
+  Import took 0.015954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138059 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle.anim
+  artifactKey: Guid(8ffd29244094f44418dacf9dbd8be7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle.anim using Guid(8ffd29244094f44418dacf9dbd8be7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dec75de2cd3a0d84016dab6919d7864') in 0.005565 seconds 
+  Import took 0.011292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011015 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle.anim
+  artifactKey: Guid(ed858cdbd1d42714d8e481e0d1d2d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle.anim using Guid(ed858cdbd1d42714d8e481e0d1d2d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd97110163441254b7f1a03453898c3b') in 0.005617 seconds 
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041779 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Down.anim
+  artifactKey: Guid(bf060b540c8b21f44858f02bcc005a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Down.anim using Guid(bf060b540c8b21f44858f02bcc005a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed006c0adff5fab86080df0ef0b1fb6') in 0.007166 seconds 
+  Import took 0.013097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070784 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Up.anim
+  artifactKey: Guid(cf510600a71bbbb4ba228f543c37054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Walk_Up.anim using Guid(cf510600a71bbbb4ba228f543c37054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f876611ea5f0fdda66b1506e592774ad') in 0.005590 seconds 
+  Import took 0.011190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008901 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5
+  artifactKey: Guid(0cfe1e512d07b4a40bb3ab87ff2ffc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5 using Guid(0cfe1e512d07b4a40bb3ab87ff2ffc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b06ff3552786a9dea5fa5d1bf928ca') in 0.003959 seconds 
+  Import took 0.009047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134343 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Up.anim
+  artifactKey: Guid(dd1b5939cd478c242951d6807b89e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Up.anim using Guid(dd1b5939cd478c242951d6807b89e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01757e4677a7da1eb8a83e7ad39c6ef0') in 0.006410 seconds 
+  Import took 0.011458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015943 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Right.anim
+  artifactKey: Guid(f70d3e6a4db37bd4db996debcc739e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Right.anim using Guid(f70d3e6a4db37bd4db996debcc739e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d138218fd23b76a8ecb4594f2d116b1') in 0.005491 seconds 
+  Import took 0.010827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037855 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor
+  artifactKey: Guid(87ab2d5f011ecd842bce177f13dd600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor using Guid(87ab2d5f011ecd842bce177f13dd600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bfad3524fe73b7fe16d8cd3532d138') in 0.006540 seconds 
+  Import took 0.011323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005342 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_UP.anim
+  artifactKey: Guid(453eab18113d45642b257e45fe405a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_UP.anim using Guid(453eab18113d45642b257e45fe405a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52b60a8930b5a53e7882eb4871b2358') in 0.006616 seconds 
+  Import took 0.011603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007238 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_Left.anim
+  artifactKey: Guid(38a8bd202c6923d4c836cbf7439f6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Walk_Left.anim using Guid(38a8bd202c6923d4c836cbf7439f6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb60cf4206b411fea9d88927a87d20d0') in 0.005110 seconds 
+  Import took 0.010809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189521 seconds.
+  path: Assets/Animations/Key Characters/Player/WalkRight.anim
+  artifactKey: Guid(f4092442ad318ae4db3f5ec09e8c322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/WalkRight.anim using Guid(f4092442ad318ae4db3f5ec09e8c322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538a41b7f02b310db49342675069cc9a') in 0.009519 seconds 
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227544 seconds.
+  path: Assets/Animations/Key Characters/Player/IdleUp.anim
+  artifactKey: Guid(56149f6fc8ec0204a9e4b1da170a8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/IdleUp.anim using Guid(56149f6fc8ec0204a9e4b1da170a8ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e20a539b2bafc386cdf00a0ffbb9994') in 0.008244 seconds 
+  Import took 0.013718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023411 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/Sisa Crazy.controller
+  artifactKey: Guid(8ed299280d5b528489c64460e449cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/Sisa Crazy.controller using Guid(8ed299280d5b528489c64460e449cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd200cc633752a5b071b3365103ec99ad') in 0.008815 seconds 
+  Import took 0.014366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039160 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Down.anim
+  artifactKey: Guid(5748767261df8a84899db341fc514556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_Walk_Down.anim using Guid(5748767261df8a84899db341fc514556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd645a53efafd095ab283dbdc4ae0b11c') in 0.007478 seconds 
+  Import took 0.012927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003822 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy
+  artifactKey: Guid(8c6fe61cf20af304ba93554c72ee8200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy using Guid(8c6fe61cf20af304ba93554c72ee8200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bfb0a54efa0cf82e9feeb9f4a9b06c') in 0.004854 seconds 
+  Import took 0.010872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005292 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle.anim
+  artifactKey: Guid(4ee7b9ae00e1ed34390846e246a5e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Idle.anim using Guid(4ee7b9ae00e1ed34390846e246a5e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15a0d226a107c9703e3a9f9a26f5eeb') in 0.006408 seconds 
+  Import took 0.012511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005826 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Up.anim
+  artifactKey: Guid(a6b8c54efafc33f4eb7e1d60361a5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Up.anim using Guid(a6b8c54efafc33f4eb7e1d60361a5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d53a9a1985573c7c95ce2a080d209a') in 0.005974 seconds 
+  Import took 0.012084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053350 seconds.
+  path: Assets/Animations/Key Characters/Player/Player.controller
+  artifactKey: Guid(764ef9d67e508c244ae99ff7e4d8e86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/Player.controller using Guid(764ef9d67e508c244ae99ff7e4d8e86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec85c452676d09cb28121289d9edfc4') in 0.065107 seconds 
+  Import took 0.072018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011827 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Up.anim
+  artifactKey: Guid(79fa4157fd2a3704da3c9a023bde715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Up.anim using Guid(79fa4157fd2a3704da3c9a023bde715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359fee0c08460bfd410ca0ab37ce990a') in 0.010519 seconds 
+  Import took 0.020232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012470 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Up.anim
+  artifactKey: Guid(9fcb90d53d3f9314cbd95b5f289f2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Up.anim using Guid(9fcb90d53d3f9314cbd95b5f289f2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817e6170966efcffbb60884362182bc0') in 0.014456 seconds 
+  Import took 0.024764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010236 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Left.anim
+  artifactKey: Guid(472d12e5261491446817dbdba6d21d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Idle_Left.anim using Guid(472d12e5261491446817dbdba6d21d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27175669cc4b54f86d71b9ed7e088117') in 0.008361 seconds 
+  Import took 0.015497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031399 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Left.anim
+  artifactKey: Guid(a77aa432d86cbe44bb097ab2a1461ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Left.anim using Guid(a77aa432d86cbe44bb097ab2a1461ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059479068daf348e479616a60b818f93') in 0.016036 seconds 
+  Import took 0.024721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116160 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle.anim
+  artifactKey: Guid(31954a4c1be6bfd47b7ac11c5dfdc8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle.anim using Guid(31954a4c1be6bfd47b7ac11c5dfdc8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527545c8b27aeffa47ee6e4e684a33c9') in 0.009030 seconds 
+  Import took 0.016393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091685 seconds.
+  path: Assets/Animations/Key Characters/Player/IdleLeft.anim
+  artifactKey: Guid(cfa14905a8557e245a7d5229f16d2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/IdleLeft.anim using Guid(cfa14905a8557e245a7d5229f16d2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef7f2d796160c7eb2c3069fd0cc87b0') in 0.014713 seconds 
+  Import took 0.019850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105417 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_UP.anim
+  artifactKey: Guid(67b84383d9a0f074daf39c7b40e43790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_UP.anim using Guid(67b84383d9a0f074daf39c7b40e43790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e4995e52682f799e1e994a9ef652fc') in 0.006239 seconds 
+  Import took 0.011290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030487 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Down.anim
+  artifactKey: Guid(64488965135acc24db135ce5a7cf4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Down.anim using Guid(64488965135acc24db135ce5a7cf4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cfcd39e300a1592c092a850a5d6cc5') in 0.005144 seconds 
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045754 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle.anim
+  artifactKey: Guid(390b7e7e7b5900b45a6ce72f51bc3291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle.anim using Guid(390b7e7e7b5900b45a6ce72f51bc3291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba9d4adb6347270e37107b4ffbc12cf') in 0.005539 seconds 
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080233 seconds.
+  path: Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Left.anim
+  artifactKey: Guid(8daa5fcd6b66e3a4c9de48b43f11ac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 5/NPCPadre5_Walk_Left.anim using Guid(8daa5fcd6b66e3a4c9de48b43f11ac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f31bf28c6d211404e32b6171d6c19a') in 0.005395 seconds 
+  Import took 0.010987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.356412 seconds.
+  path: Assets/Animations/Key Characters/Player/IdleRight.anim
+  artifactKey: Guid(e3bc3059fedc9f948ba9212066b34597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Player/IdleRight.anim using Guid(e3bc3059fedc9f948ba9212066b34597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f955556afdf0d29e6282377f7534cfc5') in 0.037655 seconds 
+  Import took 0.043750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.298183 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Right.anim
+  artifactKey: Guid(bb537ee0eeb5dde4a8a8a979ae6ee538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Walk_Right.anim using Guid(bb537ee0eeb5dde4a8a8a979ae6ee538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2725b2bb855bf03c3b791ad454eeaed') in 0.016561 seconds 
+  Import took 0.024387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079838 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2
+  artifactKey: Guid(916fcb17ea6a7474c84f90aa608fc399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2 using Guid(916fcb17ea6a7474c84f90aa608fc399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9533f402b2efbc94e68a852339cc6d86') in 0.009725 seconds 
+  Import took 0.017244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023983 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_right.anim
+  artifactKey: Guid(347cb78816f4bd44daca2c54292caf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_right.anim using Guid(347cb78816f4bd44daca2c54292caf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a054d606097bf96ba68d8c865648207') in 0.008708 seconds 
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075813 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Left.anim
+  artifactKey: Guid(701817d6a4522db4d9cbf4f5d03f8312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Left.anim using Guid(701817d6a4522db4d9cbf4f5d03f8312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1eff8128b87fe043af851e4061e8fd') in 0.007684 seconds 
+  Import took 0.018195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095358 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Right.anim
+  artifactKey: Guid(c17aa2e1cdb16d547b287f892392b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle_Right.anim using Guid(c17aa2e1cdb16d547b287f892392b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95f3e998b29bafbc5872f9f7ceed64b') in 0.010346 seconds 
+  Import took 0.016289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209690 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1
+  artifactKey: Guid(81573c9103cf71f4dbaec03a3992d6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1 using Guid(81573c9103cf71f4dbaec03a3992d6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa105216449118241de4295f7c28a354') in 0.004390 seconds 
+  Import took 0.009676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018019 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Right.anim
+  artifactKey: Guid(42e7d184d47602242b9e7b91d5747b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Right.anim using Guid(42e7d184d47602242b9e7b91d5747b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec00596fe52fbb483a873d927cb93f0') in 0.005816 seconds 
+  Import took 0.011948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006151 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Up.anim
+  artifactKey: Guid(1930b54f38bde81418f4933899126e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Idle_Up.anim using Guid(1930b54f38bde81418f4933899126e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fcdf06f98c86c0c6b60725e1dc8b3f') in 0.005616 seconds 
+  Import took 0.010611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093450 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Left.anim
+  artifactKey: Guid(9290e20ed1533be40be5778c9b22727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle_Left.anim using Guid(9290e20ed1533be40be5778c9b22727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9ca4221f2cd2c5e9509d54d6809f37') in 0.005857 seconds 
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016284 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Right.anim
+  artifactKey: Guid(d65c5e8df400ba4448a9a8e907665874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Walk_Right.anim using Guid(d65c5e8df400ba4448a9a8e907665874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ddd49454770d8d4582c5826656962') in 0.007878 seconds 
+  Import took 0.013771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Right.anim
+  artifactKey: Guid(b0531cd4aaf58c143a2c76764ac0e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 3/NPCPadre3_Idle_Right.anim using Guid(b0531cd4aaf58c143a2c76764ac0e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75027ff1d7a0a15abd68f93bfc329e5f') in 0.004784 seconds 
+  Import took 0.010948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117164 seconds.
+  path: Assets/Animations/NPC/NPC Padre 4/NPCPadre4_IdleUp.anim
+  artifactKey: Guid(ec826dad4f552e64f996d42d0210b458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 4/NPCPadre4_IdleUp.anim using Guid(ec826dad4f552e64f996d42d0210b458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6901d3b2308b2a3263f0486a13973fba') in 0.009180 seconds 
+  Import took 0.017069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024957 seconds.
+  path: Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Up.anim
+  artifactKey: Guid(c3bfa855e3392a24987ed4f25668e785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 7/NPCPadre7_Walk_Up.anim using Guid(c3bfa855e3392a24987ed4f25668e785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf1a75ae7c95401d4524618b48e6ea3') in 0.013680 seconds 
+  Import took 0.021202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113381 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Left.anim
+  artifactKey: Guid(6d1fafaab0bd2f0438fbe404e13ffa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Left.anim using Guid(6d1fafaab0bd2f0438fbe404e13ffa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713fd8c265c49e1026ac8d780ea7c97f') in 0.012908 seconds 
+  Import took 0.019944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Up.anim
+  artifactKey: Guid(8ccd001bd35571b478822939048b7e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Walk_Up.anim using Guid(8ccd001bd35571b478822939048b7e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4d32d7ef849cdd1b6415c71f3246a2') in 0.104054 seconds 
+  Import took 0.116184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034637 seconds.
+  path: Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Down.anim
+  artifactKey: Guid(b4ddf65073081a14e8d3c70dda7f7ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 2/NPCPadre2_Walk_Down.anim using Guid(b4ddf65073081a14e8d3c70dda7f7ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5032053b98100ebb647f6f19f34c8f') in 0.021594 seconds 
+  Import took 0.039716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008471 seconds.
+  path: Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Right.anim
+  artifactKey: Guid(8f478b6091347664ca225987efa33d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 6/NPCPadre6_Idle_Right.anim using Guid(8f478b6091347664ca225987efa33d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3bb9efe3c3786fe828d3e93e823391') in 0.025906 seconds 
+  Import took 0.047422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052873 seconds.
+  path: Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle.anim
+  artifactKey: Guid(5728261c6d153f146a5293647bc84697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Key Characters/Sisa Crazy/SisaCrazy_Idle.anim using Guid(5728261c6d153f146a5293647bc84697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13402931691ae09047b0bac5c778248') in 0.041861 seconds 
+  Import took 0.076249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044567 seconds.
+  path: Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle.anim
+  artifactKey: Guid(4635e720c2f22a842a22fa96b15369e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Sakristan Mayor/SakristanMayor_Idle.anim using Guid(4635e720c2f22a842a22fa96b15369e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b56c3fac1a85108f1c357c06cf73a45') in 0.012313 seconds 
+  Import took 0.028798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038718 seconds.
+  path: Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Right.anim
+  artifactKey: Guid(f01f91205fed62d499c4a68bc9b3d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/NPC Padre 1/NPCPadre1_Idle_Right.anim using Guid(f01f91205fed62d499c4a68bc9b3d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdfb564c966d12e90ffb5d883114f26') in 0.008282 seconds 
+  Import took 0.016896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.115178 seconds.
+  path: Assets/Game/Characters/NPC Simbahan
+  artifactKey: Guid(578d658cb81b62f469bc63f95aac0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan using Guid(578d658cb81b62f469bc63f95aac0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93121dab6393b31a91a33324bc21c2d0') in 0.008183 seconds 
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.633351 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbea9652de421f1c5e7bf12e36d95a6b') in 0.022501 seconds 
+  Import took 0.028848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023336 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbea9652de421f1c5e7bf12e36d95a6b') in 0.008750 seconds 
+  Import took 0.017312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.849152 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce5f9fd61b4f5927405d4cd22b2bcbd') in 0.008560 seconds 
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031892 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce5f9fd61b4f5927405d4cd22b2bcbd') in 0.010065 seconds 
+  Import took 0.017012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 382.034077 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4d1fe178069127009ec66b87e45fdb') in 1.108654 seconds 
+  Import took 1.462579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.173586 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89105c3741c425d647ca21644bd98159') in 0.181868 seconds 
+  Import took 0.632923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.593961 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123780c0d9883a533ff8c548f9504d57') in 0.017941 seconds 
+  Import took 0.571784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.949474 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569768ea2ddb02b8bad00620a6c117fa') in 0.026052 seconds 
+  Import took 0.292258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827362 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5cd01a2c37f310cee12f1ae248cd4') in 0.016659 seconds 
+  Import took 0.321777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.167778 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a284642c1828c201f27b803b8a404108') in 0.065490 seconds 
+  Import took 0.150448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.212791 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6b7ad848b41ac3486baa189023aa8') in 0.018517 seconds 
+  Import took 0.024707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.862435 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7dade2924dc48c40118408f1d4d01f') in 0.017364 seconds 
+  Import took 0.024274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.604209 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7c40ec033c3c5e3770cf1a5e1c303') in 0.016603 seconds 
+  Import took 0.023351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.224426 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab
+  artifactKey: Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Sakristan Mayor.prefab using Guid(eea71446ca73c1a4280f84f73ada77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65703293474aa531cc9d8b9101dba11e') in 0.017678 seconds 
+  Import took 0.025318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.553022 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 1.prefab
+  artifactKey: Guid(946f41509c47c714c8a3b3080d89584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 1.prefab using Guid(946f41509c47c714c8a3b3080d89584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cc5be7c0a7df7658a903fcecd5a32e') in 0.015504 seconds 
+  Import took 0.024723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.329449 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb746ab6f446c9c1e556220324d4e711') in 0.009333 seconds 
+  Import took 0.015942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.858355 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 1.prefab
+  artifactKey: Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 1.prefab using Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a6e71cbb80b4b26a1d98016b1ff1a1') in 0.009096 seconds 
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.506026 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 1.prefab
+  artifactKey: Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 1.prefab using Guid(53c2e589287dadf4f86cb576b4415839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36d54205452ac4baec32765dbb24847') in 0.017639 seconds 
+  Import took 0.025071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.223321 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d135fe364a5b641c07c5d04e96b9b44') in 0.007451 seconds 
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003228 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d135fe364a5b641c07c5d04e96b9b44') in 0.008034 seconds 
+  Import took 0.015899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.481085 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 2.prefab
+  artifactKey: Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 2.prefab using Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd58c91c264f6d3c8bd64f340819c8') in 0.009361 seconds 
+  Import took 0.016665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026156 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 2.prefab
+  artifactKey: Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 2.prefab using Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd58c91c264f6d3c8bd64f340819c8') in 0.009571 seconds 
+  Import took 0.018296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.134801 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 2.prefab
+  artifactKey: Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 2.prefab using Guid(9803e28e684fe7440ab77cbfa0c199bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3a58babc177d51aafe1a3dd42edc69') in 0.039494 seconds 
+  Import took 0.053517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.027912 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e15de54abf3c0908772c5a61cc4366') in 0.016032 seconds 
+  Import took 0.028545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002032 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e15de54abf3c0908772c5a61cc4366') in 0.017532 seconds 
+  Import took 0.029550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.515570 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 3.prefab
+  artifactKey: Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 3.prefab using Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62734e34db1be84a912fb1a0e78458bb') in 0.018744 seconds 
+  Import took 0.030088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048799 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 3.prefab
+  artifactKey: Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 3.prefab using Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62734e34db1be84a912fb1a0e78458bb') in 0.021001 seconds 
+  Import took 0.032520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.619586 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 3.prefab
+  artifactKey: Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 3.prefab using Guid(643d469a3021ffc4e9c212cc26297971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac7cd33e3e6b7acf68b405680ebfd2') in 0.036264 seconds 
+  Import took 0.050395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.480232 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb33e8818e7bc5ab452c3b3d3c8f4d45') in 0.014921 seconds 
+  Import took 0.026208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002720 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb33e8818e7bc5ab452c3b3d3c8f4d45') in 0.018689 seconds 
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.847566 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 4.prefab
+  artifactKey: Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 4.prefab using Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfed0423ba81bc63c63d4dd20b1a171') in 0.018009 seconds 
+  Import took 0.030168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049904 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 4.prefab
+  artifactKey: Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 4.prefab using Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfed0423ba81bc63c63d4dd20b1a171') in 0.023404 seconds 
+  Import took 0.032866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.122905 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 4.prefab
+  artifactKey: Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 4.prefab using Guid(e0fec70839b3e3245a1e1580ab2724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fd9af2bc476e161d766ffa03a9ec81') in 0.035548 seconds 
+  Import took 0.048067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.421216 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa41f12e7085982dca9da2a94d2ca10') in 0.016671 seconds 
+  Import took 0.029281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015765 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa41f12e7085982dca9da2a94d2ca10') in 0.014941 seconds 
+  Import took 0.024952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.293051 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 5.prefab
+  artifactKey: Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 5.prefab using Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20418cd600b5a2ff9f9082e4af927a86') in 0.019301 seconds 
+  Import took 0.031784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047676 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 5.prefab
+  artifactKey: Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 5.prefab using Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20418cd600b5a2ff9f9082e4af927a86') in 0.020581 seconds 
+  Import took 0.032996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 426.168942 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 5.prefab
+  artifactKey: Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 5.prefab using Guid(9d8c5d83ffad7a64892a616175960f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abf18bc872935e2af7ce32526f8f7d') in 0.033190 seconds 
+  Import took 0.046328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.034602 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc70c0f30e5cb612e5d700c537795afa') in 0.021636 seconds 
+  Import took 0.035709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.125617 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 6.prefab
+  artifactKey: Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 6.prefab using Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb77b9cdfec0622a7b7f6a9d15615942') in 0.023729 seconds 
+  Import took 0.038791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.089167 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 6.prefab
+  artifactKey: Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 6.prefab using Guid(0638d95ed1761f5499c62534cd6bc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795bf36cb091e668d14d676cd1c5ac08') in 0.041000 seconds 
+  Import took 0.055127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.398886 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/NPC 1.prefab
+  artifactKey: Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/NPC 1.prefab using Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c62fd2e55e282c92231754d6240d2') in 0.018715 seconds 
+  Import took 0.030912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.368671 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 7.prefab
+  artifactKey: Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 7.prefab using Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cd801fea2514da6059a1a80d044afd') in 0.023781 seconds 
+  Import took 0.034437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1205.990858 seconds.
+  path: Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity
+  artifactKey: Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity using Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d5c614246059484d793c1151fc2ecc') in 0.014197 seconds 
+  Import took 0.027270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002130 seconds.
+  path: Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity
+  artifactKey: Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity using Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d5c614246059484d793c1151fc2ecc') in 0.013726 seconds 
+  Import took 0.026653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.083960 seconds.
+  path: Assets/Game/Characters/NPC Simbahan/Padre 7.prefab
+  artifactKey: Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/NPC Simbahan/Padre 7.prefab using Guid(2dd16b5b841d53c49b40998b76e86171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c74db6ed7c9e5475c9c552e3ff6d0') in 0.063839 seconds 
+  Import took 0.076998 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.078680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.441 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 50.482400 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.085900 ms MarkObjects: 49.933400 ms  DeleteObjects: 0.037500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2420.761436 seconds.
+  path: Assets/Scenes/Part1/Cutscenes/5 Kapitan Tiago firstfloor cutscene kabanata3.unity
+  artifactKey: Guid(6089ad95fc10b6e4b94bae15981f2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Cutscenes/5 Kapitan Tiago firstfloor cutscene kabanata3.unity using Guid(6089ad95fc10b6e4b94bae15981f2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e686fc45e87de787f20d44685a8fe6f') in 0.115282 seconds 
+  Import took 0.122665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.176496 seconds.
+  path: Assets/Scenes/Part1/Cutscenes/6 BINONDO cutscene kabanata 4 and 5 OUTSIDE.unity
+  artifactKey: Guid(6798ae642eff6af42b7ac108ea61adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Cutscenes/6 BINONDO cutscene kabanata 4 and 5 OUTSIDE.unity using Guid(6798ae642eff6af42b7ac108ea61adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5286dae3f78b2ad586a73712836faa8') in 0.012940 seconds 
+  Import took 0.021284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.071237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 110.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2830.
+Total: 3.282100 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.824300 ms  DeleteObjects: 0.028800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1447.682384 seconds.
+  path: Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity
+  artifactKey: Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity using Guid(2d662302572567345b8b0ed607de8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed47c1b16bc7f1bb16e1c7a52097712c') in 0.142618 seconds 
+  Import took 0.150266 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.450 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 21.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 110.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 12.545000 ms (FindLiveObjects: 0.819500 ms CreateObjectMapping: 1.703900 ms MarkObjects: 9.980800 ms  DeleteObjects: 0.037600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 798.062095 seconds.
+  path: Assets/Scenes/Part2/Cutscenes/Part2 2.)Binondo Kbnta 8.unity
+  artifactKey: Guid(bd84a435774f8da4588e18cbef0cc49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Cutscenes/Part2 2.)Binondo Kbnta 8.unity using Guid(bd84a435774f8da4588e18cbef0cc49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1deea0b4b387496b3ea4e2d46435f161') in 0.066679 seconds 
+  Import took 0.075105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 431.290262 seconds.
+  path: Assets/Scenes/Part1/Part 2.4
+  artifactKey: Guid(80ffc957be182e44985a4aebce0ed5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part1/Part 2.4 using Guid(80ffc957be182e44985a4aebce0ed5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f28404c624169778854bf1a63d61b20') in 0.014212 seconds 
+  Import took 0.022416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.284826 seconds.
+  path: Assets/Scenes/Part2/Part 2.1
+  artifactKey: Guid(80ffc957be182e44985a4aebce0ed5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1 using Guid(80ffc957be182e44985a4aebce0ed5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba709c1f30107f191c38e65fb9c09e') in 0.006527 seconds 
+  Import took 0.013155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050833 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/A Part 1.4.unity
+  artifactKey: Guid(c4757d05344dd0b4c866dfa9dc2b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/A Part 1.4.unity using Guid(c4757d05344dd0b4c866dfa9dc2b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd5a9c62dda736485510c7f97620104') in 0.096491 seconds 
+  Import took 0.103123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.905205 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/A Part 2.1.unity
+  artifactKey: Guid(c4757d05344dd0b4c866dfa9dc2b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/A Part 2.1.unity using Guid(c4757d05344dd0b4c866dfa9dc2b2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327d69e14964b4e1dc031dc9b7bd8bcc') in 0.008832 seconds 
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.649996 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/CITY 1.4.unity
+  artifactKey: Guid(d841bba0c2c18e04d93417f57b3f64c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/CITY 1.4.unity using Guid(d841bba0c2c18e04d93417f57b3f64c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5518a035141f2dcf55c159c94d6ccbd') in 0.006955 seconds 
+  Import took 0.012989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.335978 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/CITY 2.1.unity
+  artifactKey: Guid(d841bba0c2c18e04d93417f57b3f64c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/CITY 2.1.unity using Guid(d841bba0c2c18e04d93417f57b3f64c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f53b02b4e96dd3eb1dcc8c637d66bd') in 0.008215 seconds 
+  Import took 0.014279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539490 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/Connection Province and City 1.4.unity
+  artifactKey: Guid(c9a19e7c2d4da774c9db54d90857ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/Connection Province and City 1.4.unity using Guid(c9a19e7c2d4da774c9db54d90857ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ab121b2ddbf5aabd7a2044499bd80e') in 0.006250 seconds 
+  Import took 0.014156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.666959 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/Connection Province and City 2.1.unity
+  artifactKey: Guid(c9a19e7c2d4da774c9db54d90857ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/Connection Province and City 2.1.unity using Guid(c9a19e7c2d4da774c9db54d90857ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89b7aa7b5ff02062a31895faf4aad67') in 0.008509 seconds 
+  Import took 0.015034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.695653 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/construction site 1.4.unity
+  artifactKey: Guid(2c8c985c87207de498556edbdd9fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/construction site 1.4.unity using Guid(2c8c985c87207de498556edbdd9fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a19bf7824fe60cd478d46c925065bfb') in 0.007499 seconds 
+  Import took 0.040054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.318571 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/construction site 2.1.unity
+  artifactKey: Guid(2c8c985c87207de498556edbdd9fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/construction site 2.1.unity using Guid(2c8c985c87207de498556edbdd9fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99917cf92e527376ea7f4b67ada1d7f') in 0.009992 seconds 
+  Import took 0.016042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.597577 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/FINAL BINONDO 1.4.unity
+  artifactKey: Guid(c4b24e387919d714a8a777116260f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/FINAL BINONDO 1.4.unity using Guid(c4b24e387919d714a8a777116260f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c921e96200289c7734f7e35564d57a') in 0.008075 seconds 
+  Import took 0.015430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.594471 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/FINAL BINONDO 2.1.unity
+  artifactKey: Guid(c4b24e387919d714a8a777116260f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/FINAL BINONDO 2.1.unity using Guid(c4b24e387919d714a8a777116260f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0b937c7d2d2707f626b40c48da2800') in 0.009861 seconds 
+  Import took 0.015910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.243111 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/FOREST 1.4.unity
+  artifactKey: Guid(0a2dfa21fabc8c34bbd4fca48fb53455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/FOREST 1.4.unity using Guid(0a2dfa21fabc8c34bbd4fca48fb53455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa92dabad8236eee0ad1deebfa8e90c9') in 0.008082 seconds 
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.088169 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/FOREST 2.1.unity
+  artifactKey: Guid(0a2dfa21fabc8c34bbd4fca48fb53455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/FOREST 2.1.unity using Guid(0a2dfa21fabc8c34bbd4fca48fb53455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61ecab418c7a61e510e1d7c965d4b0') in 0.009466 seconds 
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.855938 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/SEMENTERYO 1.4.unity
+  artifactKey: Guid(eed921e8639f9dc42a97d2dd32f14b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/SEMENTERYO 1.4.unity using Guid(eed921e8639f9dc42a97d2dd32f14b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971dda286606932604f68781cb42d49c') in 0.006855 seconds 
+  Import took 0.014842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.120846 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/SEMENTERYO 2.1.unity
+  artifactKey: Guid(eed921e8639f9dc42a97d2dd32f14b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/SEMENTERYO 2.1.unity using Guid(eed921e8639f9dc42a97d2dd32f14b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc17edde25412faf36a66217af36a87') in 0.014406 seconds 
+  Import took 0.019930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036839 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/Province 1.4.unity
+  artifactKey: Guid(094581483111af14b8f2b69ee87a9d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/Province 1.4.unity using Guid(094581483111af14b8f2b69ee87a9d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01947a4a021ac7c784dda6070d3c7df0') in 0.007087 seconds 
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.082052 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/Kapitan Tiago Firstfloor 1.4.unity
+  artifactKey: Guid(467063fe33513694bb347b1f37dac30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/Kapitan Tiago Firstfloor 1.4.unity using Guid(467063fe33513694bb347b1f37dac30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382879a77affaacb2544d80a3cc0d83c') in 0.006504 seconds 
+  Import took 0.015642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.001749 seconds.
+  path: Assets/Scenes/Part2/Part 2.1/Kapitan Tiago Firstfloor 2.1.unity
+  artifactKey: Guid(467063fe33513694bb347b1f37dac30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2/Part 2.1/Kapitan Tiago Firstfloor 2.1.unity using Guid(467063fe33513694bb347b1f37dac30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59562029a9b3162a491eba98828b292') in 0.009365 seconds 
+  Import took 0.015631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.092455 seconds.
+  path: Assets/Arts/NPCRevised-Jham/Revised/tanan.png
+  artifactKey: Guid(fdbc6c6bd1221d94383b78138c4e9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/NPCRevised-Jham/Revised/tanan.png using Guid(fdbc6c6bd1221d94383b78138c4e9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a30462b30ef9f78c6a690a8b15a349') in 0.705625 seconds 
+  Import took 0.712133 seconds .
+

@@ -92840,6 +92840,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 153799119434189314, guid: 5a1c5103c256ffc47bcb303f397150e3, type: 3}
+      propertyPath: name
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 5a1c5103c256ffc47bcb303f397150e3, type: 3}
+      propertyPath: dialogue.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 153799119434189314, guid: 5a1c5103c256ffc47bcb303f397150e3, type: 3}
+      propertyPath: dialogue.lines.Array.data[0]
+      value: Pinalaki si Maria Clara ng kanyang Tiya Isabel at pangagalaga ng kanyang
+        Ama at Amahin na si Padre Damaso.
+      objectReference: {fileID: 0}
     - target: {fileID: 153799119434189315, guid: 5a1c5103c256ffc47bcb303f397150e3, type: 3}
       propertyPath: m_RootOrder
       value: 13

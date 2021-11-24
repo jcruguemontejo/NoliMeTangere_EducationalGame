@@ -8,22 +8,17 @@ public class ScoreUI : MonoBehaviour
     public RowUI rowUi;
     public ScoreManager scoreManager;
 
-    public static int miniQuizScoreAverage = 0;
-    public static int majorQuizScoreAverage = 0;
-
     void Start()
     {
-        scoreManager.AddScore(new Score(QuizScores.miniQuizScore, QuizScores.majorQuizScore));
-        
-        var scores = scoreManager.GetScores().ToArray();
-        for (int i = 0; i < scores.Length; i++)
+        var scores = scoreManager.GetScores();
+
+        for (int i = 0; i < scores.Count(); i++)
         {
-            var row = Instantiate(rowUi, transform).GetComponent<RowUI>();
-            row.part.text = (i + 1).ToString();
-            row.miniQuizScore.text = scores[i].miniQuizScore.ToString();
-            row.majorQuizScore.text = scores[i].majorQuizScore.ToString();
+            var row = Instantiate(rowUi, transform);
+            row.rowName.text = "Part " + scores.ElementAt(i).id.ToString();
+            row.miniQuiz.text = scores.ElementAt(i).miniQuiz.ToString();
+            row.majorQuiz.text = scores.ElementAt(i).majorQuiz.ToString();
         }
-        scoreManager.AddScore(new Score(miniQuizScoreAverage, majorQuizScoreAverage));
     }
 
 }

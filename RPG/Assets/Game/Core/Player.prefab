@@ -114,11 +114,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
+  - {fileID: -1347275333185956541, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: 512413992926136813, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: -3497614105582243819, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: -2719876401351504009, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: 4321318540761423421, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   walkUpSprites:
+  - {fileID: -5128023217950234116, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: 3301571562404178357, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: 2111136842738410273, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}
   - {fileID: -7737008929516952226, guid: 068b66a2fdb5691489f96ab488b700d7, type: 3}

@@ -249,9 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3067f1423e88934bac558e588c62c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  part: {fileID: 6717523219401257274}
-  miniQuizScore: {fileID: 7874506842263990281}
-  majorQuizScore: {fileID: 2493940420075673495}
+  rowName: {fileID: 6717523219401257274}
+  miniQuiz: {fileID: 7874506842263990281}
+  majorQuiz: {fileID: 2493940420075673495}
 --- !u!1 &7669583229854287785
 GameObject:
   m_ObjectHideFlags: 0

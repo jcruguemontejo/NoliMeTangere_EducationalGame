@@ -364,6 +364,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260695291}
   m_CullTransparentMesh: 1
+--- !u!1 &272991392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272991393}
+  - component: {fileID: 272991394}
+  m_Layer: 0
+  m_Name: Next Scene Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &272991393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272991392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -112.17089, y: -103.69307, z: -2.0750327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272991394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272991392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a590a50e55d634ab77e713ba5ddb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: A Part 2.2
 --- !u!1 &298226441
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +700,7 @@ GameObject:
   - component: {fileID: 416761334}
   - component: {fileID: 416761333}
   - component: {fileID: 416761335}
+  - component: {fileID: 416761336}
   m_Layer: 0
   m_Name: GREEN_1
   m_TagString: Untagged
@@ -747,6 +792,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &416761336
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416761332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.006626129, y: -0.09939957}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 1.9375}
+    newSize: {x: 1.25, y: 1.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.86566925, y: 1.3411179}
+  m_EdgeRadius: 0
 --- !u!1 &472026496
 GameObject:
   m_ObjectHideFlags: 0
@@ -23281,6 +23352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1389441277}
   - component: {fileID: 1389441276}
+  - component: {fileID: 1389441278}
   m_Layer: 0
   m_Name: horse-1_0
   m_TagString: Untagged
@@ -23353,6 +23425,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1389441278
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389441275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.062610626, y: 0.21915436}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.875, y: 2.25}
+    newSize: {x: 4.875, y: 2.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.998375, y: 1.8116913}
+  m_EdgeRadius: 0
 --- !u!1 &1435362540
 GameObject:
   m_ObjectHideFlags: 0
@@ -34707,6 +34805,8 @@ PlayableDirector:
     value: {fileID: 52694487}
   - key: {fileID: -4616319961664993246, guid: 1945974d70cf49f41ad8ff60ccb2a79f, type: 2}
     value: {fileID: 838391143}
+  - key: {fileID: 2840948466503171976, guid: 1945974d70cf49f41ad8ff60ccb2a79f, type: 2}
+    value: {fileID: 272991392}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1913111021

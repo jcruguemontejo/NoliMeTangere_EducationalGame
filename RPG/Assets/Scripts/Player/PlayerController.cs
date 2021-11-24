@@ -9,12 +9,6 @@ public class PlayerController : MonoBehaviour
     private Vector2 input;
     private Character character;
 
-    int miniScore = 0;
-    int majorScore = 0;
-    int miniTotalItems = 0;
-    int majorTotalItems = 0;
-
-
     private void Awake()
     {
         character = GetComponent<Character>();
@@ -94,27 +88,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void quizResultScore(bool isMiniQuiz, int score, int items)
-    {
-        if (isMiniQuiz)
-        {
-            miniScore += score;
-            miniTotalItems += items;
-            QuizScores.miniQuizScore = miniScore;
-            QuizScores.miniQuizItems = miniTotalItems;
-            Debug.Log("Mini Quiz Score: " + miniScore + " / " + miniTotalItems);
-        }
-        else
-        {
-            majorScore = score;
-            majorTotalItems = items;
-            QuizScores.majorQuizScore = majorScore;
-            QuizScores.majorQuizItems = majorTotalItems;
-            Debug.Log("Major Quiz Score: " + majorScore + " / " + majorTotalItems);
-        }
+    //public void quizResultScore(bool isMiniQuiz, int score, int items, int part)
+    //{
+    //    if (isMiniQuiz)
+    //    {
+            
+    //        miniScore += score;
+    //        miniTotalItems += items;
+    //        QuizScores.miniQuizScore = miniScore;
+    //        QuizScores.miniQuizItems = miniTotalItems;
+    //        QuizScores.part = part;
+    //        Debug.Log("Mini Quiz Score: " + miniScore + " / " + miniTotalItems);
+    //    }
+    //    else
+    //    {
+    //        majorScore = score;
+    //        majorTotalItems = items;
+    //        QuizScores.majorQuizScore = majorScore;
+    //        QuizScores.majorQuizItems = majorTotalItems;
+    //        QuizScores.part = part;
+    //        Debug.Log("Major Quiz Score: " + majorScore + " / " + majorTotalItems);
+    //    }
 
-        QuizScores.majorQuizScore = majorScore;
-    }
+    //    QuizScores.majorQuizScore = majorScore;
+    //}
     public Character Char => character;
 
 }

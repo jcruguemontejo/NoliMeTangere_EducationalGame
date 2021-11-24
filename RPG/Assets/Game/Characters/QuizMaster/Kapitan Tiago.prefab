@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 99488947792683214}
   - component: {fileID: 99488947792683215}
   - component: {fileID: 4833391204933880275}
+  - component: {fileID: -8371894850957415052}
   m_Layer: 7
   m_Name: Kapitan Tiago
   m_TagString: Untagged
@@ -516,6 +517,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueId: 
+--- !u!114 &-8371894850957415052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99488947792683212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89cb94d109c56ed4089ea06098bf43fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &99488948489994868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,6 +2268,7 @@ MonoBehaviour:
   - {fileID: 5560554782547288109}
   - {fileID: 5560554784116785703}
   isMiniQuiz: 1
+  part: 1
   currQuestion: 0
   QText: {fileID: 5560554783992402341}
   scoreCounter: {fileID: 5560554782808809419}

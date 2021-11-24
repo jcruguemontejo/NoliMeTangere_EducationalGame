@@ -177,4 +177,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part2/Part 2.1/SEMENTERYO 2.1.unity
     guid: eed921e8639f9dc42a97d2dd32f14b7c
+  - enabled: 1
+    path: Assets/Scenes/A Part Gameplay.unity
+    guid: 47eba584741af1b4a9fe8020be9dafcc
+  - enabled: 1
+    path: Assets/Scenes/Binondo.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/San Diego.unity
+    guid: a903e776460c780439350e84ebf55360
+  - enabled: 1
+    path: Assets/Scenes/InsideHouse.unity
+    guid: 72709a453bf13e447a0c375bae3e4bbb
+  - enabled: 1
+    path: Assets/Scenes/Town 2.unity
+    guid: 994d8a58e8ce15b4bac776c9782ec970
   m_configObjects: {}

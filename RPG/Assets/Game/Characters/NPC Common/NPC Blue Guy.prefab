@@ -146,15 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8043873834ec4b419258d9e78b289f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Crisostomo Ibarra
+  name: 
   dialogue:
-    lines:
-    - Iho, parang nawawala ka ata, bago ka lang ba dito sa Binondo?
-    - Paumanhin ka na nakalimutan kong mag pa kilala. Ako nga pala si Crisostomo
-      Ibarra.
-  movePattern:
-  - {x: -3, y: 0}
-  - {x: 3, y: 0}
+    lines: []
+  movePattern: []
   timeBetweenPattern: 2
 --- !u!114 &153799119434189317
 MonoBehaviour:

@@ -164,10 +164,9 @@ public class GameController : MonoBehaviour
         currentScene = curScene;
     }
 
-    public void quizResult(bool isMiniQuiz, int score, int totalItems)
-    {
-        Debug.Log("Game Controller Test");
-        Debug.Log(isMiniQuiz+" "+score+" / "+totalItems);
-        playerController.quizResultScore(isMiniQuiz, score, totalItems);
-    }
+    //public void quizResult(bool isMiniQuiz, int score, int totalItems, int part)
+    //{
+    //    Debug.Log(isMiniQuiz+" "+score+" / "+totalItems);
+    //    playerController.quizResultScore(isMiniQuiz, score, totalItems, part);
+    //}
 }

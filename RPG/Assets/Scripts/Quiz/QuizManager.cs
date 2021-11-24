@@ -8,6 +8,7 @@ public class QuizManager : MonoBehaviour
     public List<QnA> QnA;
     public GameObject[] choices;
     public bool isMiniQuiz = false;
+    public int part = 1;
 
     public int currQuestion;
 
@@ -36,18 +37,30 @@ public class QuizManager : MonoBehaviour
 
     public void doneButton()
     {
+        if (isMiniQuiz)
+        {
+            ScoreManager.Instance.sd = new ScoreData();
+            GameData.part = part;
+            GameData.miniQuizScore = score;
+            ScoreManager.Instance.scoreToScoreboard();
+        }
+        else
+        {
+            ScoreManager.Instance.sd = new ScoreData();
+            GameData.part = part;
+            GameData.majorQuizScore = score;
+            ScoreManager.Instance.scoreToScoreboard();
+        }
         GameController.Instance.endQuiz(QuizHolder);
         quizMasterFov.SetActive(false);
-        quizMaster.quizDone(true);
-        GameController.Instance.quizResult(isMiniQuiz, score, totalItems);
-        GameController.Instance.saveGame();
     }
 
     void quizOver()
     {
         QuizPanel.SetActive(false);
         QuizOver.SetActive(true);
-        scoreCounter.text = score + " / " + totalItems;
+        score = score / totalItems;
+        scoreCounter.text = score.ToString();
     }
 
     public void correctAnswer()
