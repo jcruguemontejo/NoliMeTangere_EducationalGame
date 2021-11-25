@@ -1,0 +1,1452 @@
+fileFormatVersion: 2
+guid: 21be85eabe42fd34f875f417e2a41bac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4673875235400460119
+    second: Kampana final_0
+  - first:
+      213: 5985188363686923063
+    second: Kampana final_1
+  - first:
+      213: 1603306370767594825
+    second: Kampana final_2
+  - first:
+      213: -4544656309392592058
+    second: Kampana final_3
+  - first:
+      213: 2469201125595412252
+    second: Kampana final_4
+  - first:
+      213: 3657313375566233243
+    second: Kampana final_5
+  - first:
+      213: 5019035676706964948
+    second: Kampana final_6
+  - first:
+      213: -6201324828704007654
+    second: Kampana final_7
+  - first:
+      213: 4632681042470529595
+    second: Kampana final_8
+  - first:
+      213: 2912462480982163445
+    second: Kampana final_9
+  - first:
+      213: -3512219668544894252
+    second: Kampana final_10
+  - first:
+      213: 6041963723098075304
+    second: Kampana final_11
+  - first:
+      213: 3176938011732628948
+    second: Kampana final_12
+  - first:
+      213: 4467178651985784202
+    second: Kampana final_13
+  - first:
+      213: 1494538363730821995
+    second: Kampana final_14
+  - first:
+      213: 7023053310299152598
+    second: Kampana final_15
+  - first:
+      213: 5554553297522092602
+    second: Kampana final_16
+  - first:
+      213: -4773826909371453805
+    second: Kampana final_17
+  - first:
+      213: -5575372209196184467
+    second: Kampana final_18
+  - first:
+      213: 4119968283327403794
+    second: Kampana final_19
+  - first:
+      213: -3846580718630874289
+    second: Kampana final_20
+  - first:
+      213: -3169306618010485821
+    second: Kampana final_21
+  - first:
+      213: -4595649117913812121
+    second: Kampana final_22
+  - first:
+      213: -4531986163226203299
+    second: Kampana final_23
+  - first:
+      213: 2298655610535481821
+    second: Kampana final_24
+  - first:
+      213: -3709681598254233259
+    second: Kampana final_25
+  - first:
+      213: -4125474532418403413
+    second: Kampana final_26
+  - first:
+      213: 3408814547754272907
+    second: Kampana final_27
+  - first:
+      213: 800318421152554851
+    second: Kampana final_28
+  - first:
+      213: -5878937408875033065
+    second: Kampana final_29
+  - first:
+      213: 8322526616688113067
+    second: Kampana final_30
+  - first:
+      213: 8789277642547198691
+    second: Kampana final_31
+  - first:
+      213: 80533449789099977
+    second: Kampana final_32
+  - first:
+      213: -6095432190423307546
+    second: Kampana final_33
+  - first:
+      213: -2013507883774201370
+    second: Kampana final_34
+  - first:
+      213: 3515113610847853796
+    second: Kampana final_35
+  - first:
+      213: 4219240112267813650
+    second: Kampana final_36
+  - first:
+      213: 7512736096346442238
+    second: Kampana final_37
+  - first:
+      213: -3115123946157401943
+    second: Kampana final_38
+  - first:
+      213: -5651305723687980006
+    second: Kampana final_39
+  - first:
+      213: 319925810998345348
+    second: Kampana final_40
+  - first:
+      213: 6706254126199373627
+    second: Kampana final_41
+  - first:
+      213: 649551672805300397
+    second: Kampana final_42
+  - first:
+      213: 9222040377941466127
+    second: Kampana final_43
+  - first:
+      213: 4513492875173233593
+    second: Kampana final_44
+  - first:
+      213: 4830721124795470783
+    second: Kampana final_45
+  - first:
+      213: 5090845556675859107
+    second: Kampana final_46
+  - first:
+      213: -6043773994226940490
+    second: Kampana final_47
+  - first:
+      213: -8160847172501483029
+    second: Kampana final_48
+  - first:
+      213: -1713735686251970785
+    second: Kampana final_49
+  - first:
+      213: 5750856085644008748
+    second: Kampana final_50
+  - first:
+      213: 147567468558474466
+    second: Kampana final_51
+  - first:
+      213: 8070713440791389369
+    second: Kampana final_52
+  - first:
+      213: 5701942832203242849
+    second: Kampana final_53
+  - first:
+      213: 7111487312887367331
+    second: Kampana final_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kampana final_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572a8a63c0fcd040800000000000000
+      internalID: 4673875235400460119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b4c5b1b19af0350800000000000000
+      internalID: 5985188363686923063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94529b746a6104610800000000000000
+      internalID: 1603306370767594825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643ba6c4a232ee0c0800000000000000
+      internalID: -4544656309392592058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17fb12675d544220800000000000000
+      internalID: 2469201125595412252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef8e6432361c230800000000000000
+      internalID: 3657313375566233243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d581212b5237a540800000000000000
+      internalID: 5019035676706964948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a9940ace770f9a0800000000000000
+      internalID: -6201324828704007654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a6426fcd69a4040800000000000000
+      internalID: 4632681042470529595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff389012352b6820800000000000000
+      internalID: 2912462480982163445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacd3be1d6124fc0800000000000000
+      internalID: -3512219668544894252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0be059efd59d350800000000000000
+      internalID: 6041963723098075304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d552ce1a40c61c20800000000000000
+      internalID: 3176938011732628948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d22dbd05b9efd30800000000000000
+      internalID: 4467178651985784202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638e5139baadb410800000000000000
+      internalID: 1494538363730821995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d02307a6c5e67160800000000000000
+      internalID: 7023053310299152598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a67c87bccb51d40800000000000000
+      internalID: 5554553297522092602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ea6bff7b5ffbdb0800000000000000
+      internalID: -4773826909371453805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cc64ce38c40a2b0800000000000000
+      internalID: -5575372209196184467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2171b9d33511d2930800000000000000
+      internalID: 4119968283327403794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43d32a67333e9ac0800000000000000
+      internalID: -3846580718630874289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbb0313c6c5404d0800000000000000
+      internalID: -3169306618010485821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f86ed979f830c0800000000000000
+      internalID: -4595649117913812121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5baae598962b11c0800000000000000
+      internalID: -4531986163226203299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd11de6591776ef10800000000000000
+      internalID: 2298655610535481821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559c04abd30948cc0800000000000000
+      internalID: -3709681598254233259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3c74d35ce5fb6c0800000000000000
+      internalID: -4125474532418403413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c31045ca8e4f20800000000000000
+      internalID: 3408814547754272907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fdfff1d5d4b1b00800000000000000
+      internalID: 800318421152554851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e8f371391d96ea0800000000000000
+      internalID: -5878937408875033065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5bd6dfcdd8f7370800000000000000
+      internalID: 8322526616688113067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eafe44c279c9f970800000000000000
+      internalID: 8789277642547198691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf4733febc1e1100800000000000000
+      internalID: 80533449789099977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6651c7bca86ba0800000000000000
+      internalID: -6095432190423307546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1b03b6f359e04e0800000000000000
+      internalID: -2013507883774201370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1ab7843138c030800000000000000
+      internalID: 3515113610847853796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2136dc11780cd8a30800000000000000
+      internalID: 4219240112267813650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef90cf9eca9924860800000000000000
+      internalID: 7512736096346442238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_38
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a899fd864bd4c4d0800000000000000
+      internalID: -3115123946157401943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14327ed2678291b0800000000000000
+      internalID: -5651305723687980006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef80f74da907400800000000000000
+      internalID: 319925810998345348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f7c95b896611d50800000000000000
+      internalID: 6706254126199373627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_42
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da812d01ecba30900800000000000000
+      internalID: 649551672805300397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c928ffcd44bff70800000000000000
+      internalID: 9222040377941466127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b305f04bd523ae30800000000000000
+      internalID: 4513492875173233593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_45
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3d86cc44b2a0340800000000000000
+      internalID: 4830721124795470783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25a04bf0156a640800000000000000
+      internalID: 5090845556675859107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b50c53d293302ca0800000000000000
+      internalID: -6043773994226940490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be15cc01cb8debe80800000000000000
+      internalID: -8160847172501483029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f7a0e19769738e0800000000000000
+      internalID: -1713735686251970785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d543bf3252fcf40800000000000000
+      internalID: 5750856085644008748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd4dfa4d34c0200800000000000000
+      internalID: 147567468558474466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4675a2d1fe00070800000000000000
+      internalID: 8070713440791389369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d1f03bbce512f40800000000000000
+      internalID: 5701942832203242849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kampana final_54
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a64955680411b260800000000000000
+      internalID: 7111487312887367331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

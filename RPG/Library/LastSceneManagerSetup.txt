@@ -1,5 +1,37 @@
 sceneSetups:
-- path: Assets/Scenes/MainMenu.unity
+- path: Assets/Scenes/Part1/Part 1.4/A Part 1.4.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/Province 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/SEMENTERYO 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/Connection Province and City 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/CITY 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/FINAL BINONDO 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/FOREST 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/Kapitan Tiago Firstfloor 1.4.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Part1/Part 1.4/construction site 1.4.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0

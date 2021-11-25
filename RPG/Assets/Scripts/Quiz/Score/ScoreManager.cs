@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
+
         sd = new ScoreData();
         Debug.Log(PlayerPrefs.HasKey("scores") ? "ScoreManager: Found scores in PlayerPrefs" : "ScoreManager: No scores found in PlayerPrefs");
         if (PlayerPrefs.HasKey("scores"))
